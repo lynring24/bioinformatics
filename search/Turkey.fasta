@@ -1,0 +1,1611 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  china.hmm
+# target sequence database:        ./covid19/Turkey.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       china  [M=29863]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence   Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------   -----------
+          0 40238.3 1007.7          0 40238.2 1007.6    1.0  1  MT327745.1  |Severe acute respiratory syndrome coronavirus 2 
+
+
+Domain annotation for each sequence (and alignments):
+>> MT327745.1  |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/TUR/ERAGEM-001/2020| complete g
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 40238.2 1007.6         0         0       2   29822 ..      12   29832 .]      11   29832 .] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 40238.2 bits;  conditional E-value: 0
+       china     2 cttcccaggtaacaaaccaaccaactttcgatctcttgtagatctgttctctaaacgaactttaaaatctgtgtggctgtcactcggctgcatgc 96   
+                   cttcccaggtaacaaaccaaccaactttcgatctcttgtagatctgttctctaaacgaactttaaaatctgtgtggctgtcactcggctgcatgc
+  MT327745.1    12 CTTCCCAGGTAACAAACCAACCAACTTTCGATCTCTTGTAGATCTGTTCTCTAAACGAACTTTAAAATCTGTGTGGCTGTCACTCGGCTGCATGC 106  
+                   7899******************************************************************************************* PP
+
+       china    97 ttagtgcactcacgcagtataattaataactaattactgtcgttgacaggacacgagtaactcgtctatcttctgcaggctgcttacggtttcgt 191  
+                   ttagtgcactcacgcagtataattaataactaattactgtcgttgacaggacacgagtaactcgtctatcttctgcaggctgcttacggtttcgt
+  MT327745.1   107 TTAGTGCACTCACGCAGTATAATTAATAACTAATTACTGTCGTTGACAGGACACGAGTAACTCGTCTATCTTCTGCAGGCTGCTTACGGTTTCGT 201  
+                   *********************************************************************************************** PP
+
+       china   192 ccgtgttgcagccgatcatcagcacatctaggtttcgtccgggtgtgaccgaaaggtaagatggagagccttgtccctggtttcaacgagaaaac 286  
+                   ccgtgttgcagccgatcatcagcacatctaggtttcgtccgggtgtgaccgaaaggtaagatggagagccttgtccctggtttcaacgagaaaac
+  MT327745.1   202 CCGTGTTGCAGCCGATCATCAGCACATCTAGGTTTCGTCCGGGTGTGACCGAAAGGTAAGATGGAGAGCCTTGTCCCTGGTTTCAACGAGAAAAC 296  
+                   *********************************************************************************************** PP
+
+       china   287 acacgtccaactcagtttgcctgttttacaggttcgcgacgtgctcgtacgtggctttggagactccgtggaggaggtcttatcagaggcacgtc 381  
+                   acacgtccaactcagtttgcctgttttacaggttcgcgacgtgctcgtacgtggctttggagactccgtggaggaggtcttatcagaggcacgtc
+  MT327745.1   297 ACACGTCCAACTCAGTTTGCCTGTTTTACAGGTTCGCGACGTGCTCGTACGTGGCTTTGGAGACTCCGTGGAGGAGGTCTTATCAGAGGCACGTC 391  
+                   *********************************************************************************************** PP
+
+       china   382 aacatcttaaagatggcacttgtggcttagtagaagttgaaaaaggcgttttgcctcaacttgaacagccctatgtgttcatcaaacgttcggat 476  
+                   aacatcttaaagatggcacttgtggcttagtagaagttgaaaaaggcgttttgcctcaacttgaacagccctatgtgttcatcaaacgttcggat
+  MT327745.1   392 AACATCTTAAAGATGGCACTTGTGGCTTAGTAGAAGTTGAAAAAGGCGTTTTGCCTCAACTTGAACAGCCCTATGTGTTCATCAAACGTTCGGAT 486  
+                   *********************************************************************************************** PP
+
+       china   477 gctcgaactgcacctcatggtcatgttatggttgagctggtagcagaactcgaaggcattcagtacggtcgtagtggtgagacacttggtgtcct 571  
+                   gctcgaactgcacctcatggtcatgttatggttgagctggtagcagaactcgaaggcattcagtacggtcgtagtggtgagacacttggtgtcct
+  MT327745.1   487 GCTCGAACTGCACCTCATGGTCATGTTATGGTTGAGCTGGTAGCAGAACTCGAAGGCATTCAGTACGGTCGTAGTGGTGAGACACTTGGTGTCCT 581  
+                   *********************************************************************************************** PP
+
+       china   572 tgtccctcatgtgggcgaaataccagtggcttaccgcaaggttcttcttcgtaagaacggtaataaaggagctggtggccatagttacggcgccg 666  
+                   tgtccctcatgtgggcgaaataccagtggcttaccgcaaggttcttcttcgtaagaacggtaataaaggagctggtggccatagttacggcgccg
+  MT327745.1   582 TGTCCCTCATGTGGGCGAAATACCAGTGGCTTACCGCAAGGTTCTTCTTCGTAAGAACGGTAATAAAGGAGCTGGTGGCCATAGTTACGGCGCCG 676  
+                   *********************************************************************************************** PP
+
+       china   667 atctaaagtcatttgacttaggcgacgagcttggcactgatccttatgaagattttcaagaaaactggaacactaaacatagcagtggtgttacc 761  
+                   atctaaagtcatttgacttaggcgacgagcttggcactgatccttatgaagattttcaagaaaactggaacactaaacatagcagtggtgttacc
+  MT327745.1   677 ATCTAAAGTCATTTGACTTAGGCGACGAGCTTGGCACTGATCCTTATGAAGATTTTCAAGAAAACTGGAACACTAAACATAGCAGTGGTGTTACC 771  
+                   *********************************************************************************************** PP
+
+       china   762 cgtgaactcatgcgtgagcttaacggaggggcatacactcgctatgtcgataacaacttctgtggccctgatggctaccctcttgagtgcattaa 856  
+                   cgtgaactcatgcgtgagcttaacggaggggcatacactcgctatgtcgataacaacttctgtggccctgatggctaccctcttgagtgcattaa
+  MT327745.1   772 CGTGAACTCATGCGTGAGCTTAACGGAGGGGCATACACTCGCTATGTCGATAACAACTTCTGTGGCCCTGATGGCTACCCTCTTGAGTGCATTAA 866  
+                   *********************************************************************************************** PP
+
+       china   857 agaccttctagcacgtgctggtaaagcttcatgcactttgtccgaacaactggactttattgacactaagaggggtgtatactgctgccgtgaac 951  
+                   agaccttctagcacgtgctggtaaagcttcatgcactttgtccgaacaactggactttattgacactaagaggggtgtatactgctgccgtgaac
+  MT327745.1   867 AGACCTTCTAGCACGTGCTGGTAAAGCTTCATGCACTTTGTCCGAACAACTGGACTTTATTGACACTAAGAGGGGTGTATACTGCTGCCGTGAAC 961  
+                   *********************************************************************************************** PP
+
+       china   952 atgagcatgaaattgcttggtacacggaacgttctgaaaagagctatgaattgcagacaccttttgaaattaaattggcaaagaaatttgacacc 1046 
+                   atgagcatgaaattgcttggtacacggaacgttctgaaaagagctatgaattgcagacaccttttgaaattaaattggcaaagaaatttgacacc
+  MT327745.1   962 ATGAGCATGAAATTGCTTGGTACACGGAACGTTCTGAAAAGAGCTATGAATTGCAGACACCTTTTGAAATTAAATTGGCAAAGAAATTTGACACC 1056 
+                   *********************************************************************************************** PP
+
+       china  1047 ttcaatggggaatgtccaaattttgtatttcccttaaattccataatcaagactattcaaccaagggttgaaaagaaaaagcttgatggctttat 1141 
+                   ttcaatggggaatgtccaaattttgtatttcccttaaattccataatcaagactattcaaccaagggttgaaaagaaaaagcttgatggctttat
+  MT327745.1  1057 TTCAATGGGGAATGTCCAAATTTTGTATTTCCCTTAAATTCCATAATCAAGACTATTCAACCAAGGGTTGAAAAGAAAAAGCTTGATGGCTTTAT 1151 
+                   *********************************************************************************************** PP
+
+       china  1142 gggtagaattcgatctgtctatccagttgcgtcaccaaatgaatgcaaccaaatgtgcctttcaactctcatgaagtgtgatcattgtggtgaaa 1236 
+                   gggtagaattcgatctgtctatccagttgcgtcaccaaatgaatgcaaccaaatgtgcctttcaactctcatgaagtgtgatcattgtggtgaaa
+  MT327745.1  1152 GGGTAGAATTCGATCTGTCTATCCAGTTGCGTCACCAAATGAATGCAACCAAATGTGCCTTTCAACTCTCATGAAGTGTGATCATTGTGGTGAAA 1246 
+                   *********************************************************************************************** PP
+
+       china  1237 cttcatggcagacgggcgattttgttaaagccacttgcgaattttgtggcactgagaatttgactaaagaaggtgccactacttgtggttactta 1331 
+                   cttcatggcagacgggcgattttgttaaagccacttgcgaattttgtggcactgagaatttgactaaagaaggtgccactacttgtggttactta
+  MT327745.1  1247 CTTCATGGCAGACGGGCGATTTTGTTAAAGCCACTTGCGAATTTTGTGGCACTGAGAATTTGACTAAAGAAGGTGCCACTACTTGTGGTTACTTA 1341 
+                   *********************************************************************************************** PP
+
+       china  1332 ccccaaaatgctgttgttaaaatttattgtccagcatgtcacaattcagaagtaggacctgagcatagtcttgccgaataccataatgaatctgg 1426 
+                   ccccaaaatgctgttgttaaaatttattgtccagcatgtcacaattcagaa taggacctgagcatagtcttgccgaataccataatgaatctgg
+  MT327745.1  1342 CCCCAAAATGCTGTTGTTAAAATTTATTGTCCAGCATGTCACAATTCAGAAATAGGACCTGAGCATAGTCTTGCCGAATACCATAATGAATCTGG 1436 
+                   *********************************************************************************************** PP
+
+       china  1427 cttgaaaaccattcttcgtaagggtggtcgcactattgcctttggaggctgtgtgttctcttatgttggttgccataacaagtgtgcctattggg 1521 
+                   cttgaaaaccattcttcgtaagggtggtcgcactattgcctttggaggctgtgtgttctcttatgttggttgccataacaagtgtgcctattggg
+  MT327745.1  1437 CTTGAAAACCATTCTTCGTAAGGGTGGTCGCACTATTGCCTTTGGAGGCTGTGTGTTCTCTTATGTTGGTTGCCATAACAAGTGTGCCTATTGGG 1531 
+                   *********************************************************************************************** PP
+
+       china  1522 ttccacgtgctagcgctaacataggttgtaaccatacaggtgttgttggagaaggttccgaaggtcttaatgacaaccttcttgaaatactccaa 1616 
+                   ttccacgtgctagcgctaacataggttgtaaccatacaggtgttgttggagaaggttccgaaggtcttaatgacaaccttcttgaaatactccaa
+  MT327745.1  1532 TTCCACGTGCTAGCGCTAACATAGGTTGTAACCATACAGGTGTTGTTGGAGAAGGTTCCGAAGGTCTTAATGACAACCTTCTTGAAATACTCCAA 1626 
+                   *********************************************************************************************** PP
+
+       china  1617 aaagagaaagtcaacatcaatattgttggtgactttaaacttaatgaagagatcgccattattttggcatctttttctgcttccacaagtgcttt 1711 
+                   aaagagaaagtcaacatcaatattgttggtgactttaaacttaatgaagagatcgccattattttggcatctttttctgcttccacaagtgcttt
+  MT327745.1  1627 AAAGAGAAAGTCAACATCAATATTGTTGGTGACTTTAAACTTAATGAAGAGATCGCCATTATTTTGGCATCTTTTTCTGCTTCCACAAGTGCTTT 1721 
+                   *********************************************************************************************** PP
+
+       china  1712 tgtggaaactgtgaaaggtttggattataaagcattcaaacaaattgttgaatcctgtggtaattttaaagttacaaaaggaaaagctaaaaaag 1806 
+                   tgtggaaactgtgaaaggtttggattataaagcattcaaacaaattgttgaatcctgtggtaattttaaagttacaaaaggaaaagctaaaaaag
+  MT327745.1  1722 TGTGGAAACTGTGAAAGGTTTGGATTATAAAGCATTCAAACAAATTGTTGAATCCTGTGGTAATTTTAAAGTTACAAAAGGAAAAGCTAAAAAAG 1816 
+                   *********************************************************************************************** PP
+
+       china  1807 gtgcctggaatattggtgaacagaaatcaatactgagtcctctttatgcatttgcatcagaggctgctcgtgttgtacgatcaattttctcccgc 1901 
+                   gtgcctggaatattggtgaacagaaatcaatactgagtcctctttatgcatttgcatcagaggctgctcgtgttgtacgatcaattttctcccgc
+  MT327745.1  1817 GTGCCTGGAATATTGGTGAACAGAAATCAATACTGAGTCCTCTTTATGCATTTGCATCAGAGGCTGCTCGTGTTGTACGATCAATTTTCTCCCGC 1911 
+                   *********************************************************************************************** PP
+
+       china  1902 actcttgaaactgctcaaaattctgtgcgtgttttacagaaggccgctataacaatactagatggaatttcacagtattcactgagactcattga 1996 
+                   actcttgaaactgctcaaaattctgtgcgtgttttacagaaggccgctataacaatactagatggaatttcacagtattcactgagactcattga
+  MT327745.1  1912 ACTCTTGAAACTGCTCAAAATTCTGTGCGTGTTTTACAGAAGGCCGCTATAACAATACTAGATGGAATTTCACAGTATTCACTGAGACTCATTGA 2006 
+                   *********************************************************************************************** PP
+
+       china  1997 tgctatgatgttcacatctgatttggctactaacaatctagttgtaatggcctacattacaggtggtgttgttcagttgacttcgcagtggctaa 2091 
+                   tgctatgatgttcacatctgatttggctactaacaatctagttgtaatggcctacattacaggtggtgttgttcagttgacttcgcagtggctaa
+  MT327745.1  2007 TGCTATGATGTTCACATCTGATTTGGCTACTAACAATCTAGTTGTAATGGCCTACATTACAGGTGGTGTTGTTCAGTTGACTTCGCAGTGGCTAA 2101 
+                   *********************************************************************************************** PP
+
+       china  2092 ctaacatctttggcactgtttatgaaaaactcaaacccgtccttgattggcttgaagagaagtttaaggaaggtgtagagtttcttagagacggt 2186 
+                   ctaacatctttggcactgtttatgaaaaactcaaacccgtccttgattggcttgaagagaagtttaaggaaggtgtagagtttcttagagacggt
+  MT327745.1  2102 CTAACATCTTTGGCACTGTTTATGAAAAACTCAAACCCGTCCTTGATTGGCTTGAAGAGAAGTTTAAGGAAGGTGTAGAGTTTCTTAGAGACGGT 2196 
+                   *********************************************************************************************** PP
+
+       china  2187 tgggaaattgttaaatttatctcaacctgtgcttgtgaaattgtcggtggacaaattgtcacctgtgcaaaggaaattaaggagagtgttcagac 2281 
+                   tgggaaattgttaaatttatctcaacctgtgcttgtgaaattgtcggtggacaaattgtcacctgtgcaaaggaaattaaggagagtgttcagac
+  MT327745.1  2197 TGGGAAATTGTTAAATTTATCTCAACCTGTGCTTGTGAAATTGTCGGTGGACAAATTGTCACCTGTGCAAAGGAAATTAAGGAGAGTGTTCAGAC 2291 
+                   *********************************************************************************************** PP
+
+       china  2282 attctttaagcttgtaaataaatttttggctttgtgtgctgactctatcattattggtggagctaaacttaaagccttgaatttaggtgaaacat 2376 
+                   attctttaagcttgtaaataaatttttggctttgtgtgctgactctatcattattggtggagctaaacttaaagccttgaatttaggtgaaacat
+  MT327745.1  2292 ATTCTTTAAGCTTGTAAATAAATTTTTGGCTTTGTGTGCTGACTCTATCATTATTGGTGGAGCTAAACTTAAAGCCTTGAATTTAGGTGAAACAT 2386 
+                   *********************************************************************************************** PP
+
+       china  2377 ttgtcacgcactcaaagggattgtacagaaagtgtgttaaatccagagaagaaactggcctactcatgcctctaaaagccccaaaagaaattatc 2471 
+                   ttgtcacgcactcaaagggattgtacagaaagtgtgttaaatccagagaagaaactggcctactcatgcctctaaaagccccaaaagaaattatc
+  MT327745.1  2387 TTGTCACGCACTCAAAGGGATTGTACAGAAAGTGTGTTAAATCCAGAGAAGAAACTGGCCTACTCATGCCTCTAAAAGCCCCAAAAGAAATTATC 2481 
+                   *********************************************************************************************** PP
+
+       china  2472 ttcttagagggagaaacacttcccacagaagtgttaacagaggaagttgtcttgaaaactggtgatttacaaccattagaacaacctactagtga 2566 
+                   ttcttagagggagaaacacttcccacagaagtgttaacagaggaagttgtcttgaaaactggtgatttacaaccattagaacaacctactagtga
+  MT327745.1  2482 TTCTTAGAGGGAGAAACACTTCCCACAGAAGTGTTAACAGAGGAAGTTGTCTTGAAAACTGGTGATTTACAACCATTAGAACAACCTACTAGTGA 2576 
+                   *********************************************************************************************** PP
+
+       china  2567 agctgttgaagctccattggttggtacaccagtttgtattaacgggcttatgttgctcgaaatcaaagacacagaaaagtactgtgcccttgcac 2661 
+                   agctgttgaagctccattggttggtacaccagtttgtattaacgggcttatgttgctcgaaatcaaagacacagaaaagtactgtgcccttgcac
+  MT327745.1  2577 AGCTGTTGAAGCTCCATTGGTTGGTACACCAGTTTGTATTAACGGGCTTATGTTGCTCGAAATCAAAGACACAGAAAAGTACTGTGCCCTTGCAC 2671 
+                   *********************************************************************************************** PP
+
+       china  2662 ctaatatgatggtaacaaacaataccttcacactcaaaggcggtgcaccaacaaaggttacttttggtgatgacactgtgatagaagtgcaaggt 2756 
+                   ctaatatgatggtaacaaacaataccttcacactcaaaggcggtgcaccaacaaaggttacttttggtgatgacactgtgatagaagtgcaaggt
+  MT327745.1  2672 CTAATATGATGGTAACAAACAATACCTTCACACTCAAAGGCGGTGCACCAACAAAGGTTACTTTTGGTGATGACACTGTGATAGAAGTGCAAGGT 2766 
+                   *********************************************************************************************** PP
+
+       china  2757 tacaagagtgtgaatatcacttttgaacttgatgaaaggattgataaagtacttaatgagaagtgctctgcctatacagttgaactcggtacaga 2851 
+                   tacaagagtgtgaatatcacttttgaacttgatgaaaggattgataaagtacttaatgagaagtgctctgcctatacagttgaactcggtacaga
+  MT327745.1  2767 TACAAGAGTGTGAATATCACTTTTGAACTTGATGAAAGGATTGATAAAGTACTTAATGAGAAGTGCTCTGCCTATACAGTTGAACTCGGTACAGA 2861 
+                   *********************************************************************************************** PP
+
+       china  2852 agtaaatgagttcgcctgtgttgtggcagatgctgtcataaaaactttgcaaccagtatctgaattacttacaccactgggcattgatttagatg 2946 
+                   agtaaatgagttcgcctgtgttgtggcagatgctgtcataaaaactttgcaaccagtatctgaattacttacaccactgggcattgatttagatg
+  MT327745.1  2862 AGTAAATGAGTTCGCCTGTGTTGTGGCAGATGCTGTCATAAAAACTTTGCAACCAGTATCTGAATTACTTACACCACTGGGCATTGATTTAGATG 2956 
+                   *********************************************************************************************** PP
+
+       china  2947 agtggagtatggctacatactacttatttgatgagtctggtgagtttaaattggcttcacatatgtattgttctttctaccctccagatgaggat 3041 
+                   agtggagtatggctacatactacttatttgatgagtctggtgagtttaaattggcttcacatatgtattgttctttctaccctccagatgaggat
+  MT327745.1  2957 AGTGGAGTATGGCTACATACTACTTATTTGATGAGTCTGGTGAGTTTAAATTGGCTTCACATATGTATTGTTCTTTCTACCCTCCAGATGAGGAT 3051 
+                   *********************************************************************************************** PP
+
+       china  3042 gaagaagaaggtgattgtgaagaagaagagtttgagccatcaactcaatatgagtatggtactgaagatgattaccaaggtaaacctttggaatt 3136 
+                   gaagaagaaggtgattgtgaagaagaagagtttgagccatcaactcaatatgagtatggtactgaagatgattaccaaggtaaacctttggaatt
+  MT327745.1  3052 GAAGAAGAAGGTGATTGTGAAGAAGAAGAGTTTGAGCCATCAACTCAATATGAGTATGGTACTGAAGATGATTACCAAGGTAAACCTTTGGAATT 3146 
+                   *********************************************************************************************** PP
+
+       china  3137 tggtgccacttctgctgctcttcaacctgaagaagagcaagaagaagattggttagatgatgatagtcaacaaactgttggtcaacaagacggca 3231 
+                   tggtgccacttctgctgctcttcaacctgaagaagagcaagaagaagattggttagatgatgatagtcaacaaactgttggtcaacaagacggca
+  MT327745.1  3147 TGGTGCCACTTCTGCTGCTCTTCAACCTGAAGAAGAGCAAGAAGAAGATTGGTTAGATGATGATAGTCAACAAACTGTTGGTCAACAAGACGGCA 3241 
+                   *********************************************************************************************** PP
+
+       china  3232 gtgaggacaatcagacaactactattcaaacaattgttgaggttcaacctcaattagagatggaacttacaccagttgttcagactattgaagtg 3326 
+                   gtgaggacaatcagacaactactattcaaacaattgttgaggttcaacctcaattagagatggaacttacaccagttgttcagactattgaagtg
+  MT327745.1  3242 GTGAGGACAATCAGACAACTACTATTCAAACAATTGTTGAGGTTCAACCTCAATTAGAGATGGAACTTACACCAGTTGTTCAGACTATTGAAGTG 3336 
+                   *********************************************************************************************** PP
+
+       china  3327 aatagttttagtggttatttaaaacttactgacaatgtatacattaaaaatgcagacattgtggaagaagctaaaaaggtaaaaccaacagtggt 3421 
+                   aatagttttagtggttatttaaaacttactgacaatgtatacattaaaaatgcagacattgtggaagaagctaaaaaggtaaaaccaacagtggt
+  MT327745.1  3337 AATAGTTTTAGTGGTTATTTAAAACTTACTGACAATGTATACATTAAAAATGCAGACATTGTGGAAGAAGCTAAAAAGGTAAAACCAACAGTGGT 3431 
+                   *********************************************************************************************** PP
+
+       china  3422 tgttaatgcagccaatgtttaccttaaacatggaggaggtgttgcaggagccttaaataaggctactaacaatgccatgcaagttgaatctgatg 3516 
+                   tgttaatgcagccaatgtttaccttaaacatggaggaggtgttgcaggagccttaaataaggctactaacaatgccatgcaagttgaatctgatg
+  MT327745.1  3432 TGTTAATGCAGCCAATGTTTACCTTAAACATGGAGGAGGTGTTGCAGGAGCCTTAAATAAGGCTACTAACAATGCCATGCAAGTTGAATCTGATG 3526 
+                   *********************************************************************************************** PP
+
+       china  3517 attacatagctactaatggaccacttaaagtgggtggtagttgtgttttaagcggacacaatcttgctaaacactgtcttcatgttgtcggccca 3611 
+                   attacatagctactaatggaccacttaaagtgggtggtagttgtgttttaagcggacacaatcttgctaaacactgtcttcatgttgtcggccca
+  MT327745.1  3527 ATTACATAGCTACTAATGGACCACTTAAAGTGGGTGGTAGTTGTGTTTTAAGCGGACACAATCTTGCTAAACACTGTCTTCATGTTGTCGGCCCA 3621 
+                   *********************************************************************************************** PP
+
+       china  3612 aatgttaacaaaggtgaagacattcaacttcttaagagtgcttatgaaaattttaatcagcacgaagttctacttgcaccattattatcagctgg 3706 
+                   aatgttaacaaaggtgaagacattcaacttcttaagagtgcttatgaaaattttaatcagcacgaagttctacttgcaccattattatcagctgg
+  MT327745.1  3622 AATGTTAACAAAGGTGAAGACATTCAACTTCTTAAGAGTGCTTATGAAAATTTTAATCAGCACGAAGTTCTACTTGCACCATTATTATCAGCTGG 3716 
+                   *********************************************************************************************** PP
+
+       china  3707 tatttttggtgctgaccctatacattctttaagagtttgtgtagatactgttcgcacaaatgtctacttagctgtctttgataaaaatctctatg 3801 
+                   tatttttggtgctgaccctatacattctttaagagtttgtgtagatactgttcgcacaaatgtctacttagctgtctttgataaaaatctctatg
+  MT327745.1  3717 TATTTTTGGTGCTGACCCTATACATTCTTTAAGAGTTTGTGTAGATACTGTTCGCACAAATGTCTACTTAGCTGTCTTTGATAAAAATCTCTATG 3811 
+                   *********************************************************************************************** PP
+
+       china  3802 acaaacttgtttcaagctttttggaaatgaagagtgaaaagcaagttgaacaaaagatcgctgagattcctaaagaggaagttaagccatttata 3896 
+                   acaaacttgtttcaagctttttggaaatgaagagtgaaaagcaagttgaacaaaagatcgctgagattcctaaagaggaagttaagccatttata
+  MT327745.1  3812 ACAAACTTGTTTCAAGCTTTTTGGAAATGAAGAGTGAAAAGCAAGTTGAACAAAAGATCGCTGAGATTCCTAAAGAGGAAGTTAAGCCATTTATA 3906 
+                   *********************************************************************************************** PP
+
+       china  3897 actgaaagtaaaccttcagttgaacagagaaaacaagatgataagaaaatcaaagcttgtgttgaagaagttacaacaactctggaagaaactaa 3991 
+                   actgaaagtaaaccttcagttgaacagagaaaacaagatgataagaaaatcaaagcttgtgttgaagaagttacaacaactctggaagaaactaa
+  MT327745.1  3907 ACTGAAAGTAAACCTTCAGTTGAACAGAGAAAACAAGATGATAAGAAAATCAAAGCTTGTGTTGAAGAAGTTACAACAACTCTGGAAGAAACTAA 4001 
+                   *********************************************************************************************** PP
+
+       china  3992 gttcctcacagaaaacttgttactttatattgacattaatggcaatcttcatccagattctgccactcttgttagtgacattgacatcactttct 4086 
+                   gttcctcacagaaaacttgttactttatattgacattaatggcaatcttcatccagattctgccactcttgttagtgacattgacatcactttct
+  MT327745.1  4002 GTTCCTCACAGAAAACTTGTTACTTTATATTGACATTAATGGCAATCTTCATCCAGATTCTGCCACTCTTGTTAGTGACATTGACATCACTTTCT 4096 
+                   *********************************************************************************************** PP
+
+       china  4087 taaagaaagatgctccatatatagtgggtgatgttgttcaagagggtgttttaactgctgtggttatacctactaaaaaggctggtggcactact 4181 
+                   taaagaaagatgctccatatatagtgggtgatgttgttcaagagggtgttttaactgctgtggttatacctactaaaaaggctggtggcactact
+  MT327745.1  4097 TAAAGAAAGATGCTCCATATATAGTGGGTGATGTTGTTCAAGAGGGTGTTTTAACTGCTGTGGTTATACCTACTAAAAAGGCTGGTGGCACTACT 4191 
+                   *********************************************************************************************** PP
+
+       china  4182 gaaatgctagcgaaagctttgagaaaagtgccaacagacaattatataaccacttacccgggtcagggtttaaatggttacactgtagaggaggc 4276 
+                   gaaatgctagcgaaagctttgagaaaagtgccaacagacaattatataaccacttacccgggtcagggtttaaatggttacactgtagaggaggc
+  MT327745.1  4192 GAAATGCTAGCGAAAGCTTTGAGAAAAGTGCCAACAGACAATTATATAACCACTTACCCGGGTCAGGGTTTAAATGGTTACACTGTAGAGGAGGC 4286 
+                   *********************************************************************************************** PP
+
+       china  4277 aaagacagtgcttaaaaagtgtaaaagtgccttttacattctaccatctattatctctaatgagaagcaagaaattcttggaactgtttcttgga 4371 
+                   aaagacagtgcttaaaaagtgtaaaagtgccttttacattctaccatctattatctctaatgagaagcaagaaattcttggaactgtttcttgga
+  MT327745.1  4287 AAAGACAGTGCTTAAAAAGTGTAAAAGTGCCTTTTACATTCTACCATCTATTATCTCTAATGAGAAGCAAGAAATTCTTGGAACTGTTTCTTGGA 4381 
+                   *********************************************************************************************** PP
+
+       china  4372 atttgcgagaaatgcttgcacatgcagaagaaacacgcaaattaatgcctgtctgtgtggaaactaaagccatagtttcaactatacagcgtaaa 4466 
+                   atttgcgagaaatgcttgcacatgcagaagaaacacgcaaattaatgcctgtctgtgtggaaactaaagccatagtttcaactatacagcgtaaa
+  MT327745.1  4382 ATTTGCGAGAAATGCTTGCACATGCAGAAGAAACACGCAAATTAATGCCTGTCTGTGTGGAAACTAAAGCCATAGTTTCAACTATACAGCGTAAA 4476 
+                   *********************************************************************************************** PP
+
+       china  4467 tataagggtattaaaatacaagagggtgtggttgattatggtgctagattttacttttacaccagtaaaacaactgtagcgtcacttatcaacac 4561 
+                   tataagggtattaaaatacaagagggtgtggttgattatggtgctagattttacttttacaccagtaaaacaactgtagcgtcacttatcaacac
+  MT327745.1  4477 TATAAGGGTATTAAAATACAAGAGGGTGTGGTTGATTATGGTGCTAGATTTTACTTTTACACCAGTAAAACAACTGTAGCGTCACTTATCAACAC 4571 
+                   *********************************************************************************************** PP
+
+       china  4562 acttaacgatctaaatgaaactcttgttacaatgccacttggctatgtaacacatggcttaaatttggaagaagctgctcggtatatgagatctc 4656 
+                   acttaacgatctaaatgaaactcttgttacaatgccacttggctatgtaacacatggcttaaatttggaagaagctgctcggtatatgagatctc
+  MT327745.1  4572 ACTTAACGATCTAAATGAAACTCTTGTTACAATGCCACTTGGCTATGTAACACATGGCTTAAATTTGGAAGAAGCTGCTCGGTATATGAGATCTC 4666 
+                   *********************************************************************************************** PP
+
+       china  4657 tcaaagtgccagctacagtttctgtttcttcacctgatgctgttacagcgtataatggttatcttacttcttcttctaaaacacctgaagaacat 4751 
+                   tcaaagtgccagctacagtttctgtttcttcacctgatgctgttacagcgtataatggttatcttacttcttcttctaaaacacctgaagaacat
+  MT327745.1  4667 TCAAAGTGCCAGCTACAGTTTCTGTTTCTTCACCTGATGCTGTTACAGCGTATAATGGTTATCTTACTTCTTCTTCTAAAACACCTGAAGAACAT 4761 
+                   *********************************************************************************************** PP
+
+       china  4752 tttattgaaaccatctcacttgctggttcctataaagattggtcctattctggacaatctacacaactaggtatagaatttcttaagagaggtga 4846 
+                   tttattgaaaccatctcacttgctggttcctataaagattggtcctattctggacaatctacacaactaggtatagaatttcttaagagaggtga
+  MT327745.1  4762 TTTATTGAAACCATCTCACTTGCTGGTTCCTATAAAGATTGGTCCTATTCTGGACAATCTACACAACTAGGTATAGAATTTCTTAAGAGAGGTGA 4856 
+                   *********************************************************************************************** PP
+
+       china  4847 taaaagtgtatattacactagtaatcctaccacattccacctagatggtgaagttatcacctttgacaatcttaagacacttctttctttgagag 4941 
+                   taaaagtgtatattacactagtaatcctaccacattccacctagatggtgaagttatcacctttgacaatcttaagacacttctttctttgagag
+  MT327745.1  4857 TAAAAGTGTATATTACACTAGTAATCCTACCACATTCCACCTAGATGGTGAAGTTATCACCTTTGACAATCTTAAGACACTTCTTTCTTTGAGAG 4951 
+                   *********************************************************************************************** PP
+
+       china  4942 aagtgaggactattaaggtgtttacaacagtagacaacattaacctccacacgcaagttgtggacatgtcaatgacatatggacaacagtttggt 5036 
+                   aagtgaggactattaaggtgtttacaacagtagacaacattaacctccacacgcaagttgtggacatgtcaatgacatatggacaacagtttggt
+  MT327745.1  4952 AAGTGAGGACTATTAAGGTGTTTACAACAGTAGACAACATTAACCTCCACACGCAAGTTGTGGACATGTCAATGACATATGGACAACAGTTTGGT 5046 
+                   *********************************************************************************************** PP
+
+       china  5037 ccaacttatttggatggagctgatgttactaaaataaaacctcataattcacatgaaggtaaaacattttatgttttacctaatgatgacactct 5131 
+                   ccaacttatttggatggagctgatgttactaaaataaaacctcataattcacatgaaggtaaaacattttatgttttacctaatgatgacactct
+  MT327745.1  5047 CCAACTTATTTGGATGGAGCTGATGTTACTAAAATAAAACCTCATAATTCACATGAAGGTAAAACATTTTATGTTTTACCTAATGATGACACTCT 5141 
+                   *********************************************************************************************** PP
+
+       china  5132 acgtgttgaggcttttgagtactaccacacaactgatcctagttttctgggtaggtacatgtcagcattaaatcacactaaaaagtggaaatacc 5226 
+                   acgtgttgaggcttttgagtactaccacacaactgatcctagttttctgggtaggtacatgtcagcattaaatcacactaaaaagtggaaatacc
+  MT327745.1  5142 ACGTGTTGAGGCTTTTGAGTACTACCACACAACTGATCCTAGTTTTCTGGGTAGGTACATGTCAGCATTAAATCACACTAAAAAGTGGAAATACC 5236 
+                   *********************************************************************************************** PP
+
+       china  5227 cacaagttaatggtttaacttctattaaatgggcagataacaactgttatcttgccactgcattgttaacactccaacaaatagagttgaagttt 5321 
+                   cacaagttaatggtttaacttctattaaatgggcagataacaactgttatcttgccactgcattgttaacactccaacaaatagagttgaagttt
+  MT327745.1  5237 CACAAGTTAATGGTTTAACTTCTATTAAATGGGCAGATAACAACTGTTATCTTGCCACTGCATTGTTAACACTCCAACAAATAGAGTTGAAGTTT 5331 
+                   *********************************************************************************************** PP
+
+       china  5322 aatccacctgctctacaagatgcttattacagagcaagggctggtgaagctgctaacttttgtgcacttatcttagcctactgtaataagacagt 5416 
+                   aatccacctgctctacaagatgcttattacagagcaagggctggtgaagctgctaacttttgtgcacttatcttagcctactgtaataagacagt
+  MT327745.1  5332 AATCCACCTGCTCTACAAGATGCTTATTACAGAGCAAGGGCTGGTGAAGCTGCTAACTTTTGTGCACTTATCTTAGCCTACTGTAATAAGACAGT 5426 
+                   *********************************************************************************************** PP
+
+       china  5417 aggtgagttaggtgatgttagagaaacaatgagttacttgtttcaacatgccaatttagattcttgcaaaagagtcttgaacgtggtgtgtaaaa 5511 
+                   aggtgagttaggtgatgttagagaaacaatgagttacttgtttcaacatgccaatttagattcttgcaaaagagtcttgaacgtggtgtgtaaaa
+  MT327745.1  5427 AGGTGAGTTAGGTGATGTTAGAGAAACAATGAGTTACTTGTTTCAACATGCCAATTTAGATTCTTGCAAAAGAGTCTTGAACGTGGTGTGTAAAA 5521 
+                   *********************************************************************************************** PP
+
+       china  5512 cttgtggacaacagcagacaacccttaagggtgtagaagctgttatgtacatgggcacactttcttatgaacaatttaagaaaggtgttcagata 5606 
+                   cttgtggacaacagcagacaacccttaagggtgtagaagctgttatgtacatgggcacactttcttatgaacaatttaagaaaggtgttcagata
+  MT327745.1  5522 CTTGTGGACAACAGCAGACAACCCTTAAGGGTGTAGAAGCTGTTATGTACATGGGCACACTTTCTTATGAACAATTTAAGAAAGGTGTTCAGATA 5616 
+                   *********************************************************************************************** PP
+
+       china  5607 ccttgtacgtgtggtaaacaagctacaaaatatctagtacaacaggagtcaccttttgttatgatgtcagcaccacctgctcagtatgaacttaa 5701 
+                   ccttgtacgtgtggtaaacaagctacaaaatatctagtacaacaggagtcaccttttgttatgatgtcagcaccacctgctcagtatgaacttaa
+  MT327745.1  5617 CCTTGTACGTGTGGTAAACAAGCTACAAAATATCTAGTACAACAGGAGTCACCTTTTGTTATGATGTCAGCACCACCTGCTCAGTATGAACTTAA 5711 
+                   *********************************************************************************************** PP
+
+       china  5702 gcatggtacatttacttgtgctagtgagtacactggtaattaccagtgtggtcactataaacatataacttctaaagaaactttgtattgcatag 5796 
+                   gcatggtacatttacttgtgctagtgagtacactggtaattaccagtgtggtcactataaacatataacttctaaagaaactttgtattgcatag
+  MT327745.1  5712 GCATGGTACATTTACTTGTGCTAGTGAGTACACTGGTAATTACCAGTGTGGTCACTATAAACATATAACTTCTAAAGAAACTTTGTATTGCATAG 5806 
+                   *********************************************************************************************** PP
+
+       china  5797 acggtgctttacttacaaagtcctcagaatacaaaggtcctattacggatgttttctacaaagaaaacagttacacaacaaccataaaaccagtt 5891 
+                   acggtgctttacttacaaagtcctcagaatacaaaggtcctattacggatgttttctacaaagaaaacagttacacaacaaccataaaaccagtt
+  MT327745.1  5807 ACGGTGCTTTACTTACAAAGTCCTCAGAATACAAAGGTCCTATTACGGATGTTTTCTACAAAGAAAACAGTTACACAACAACCATAAAACCAGTT 5901 
+                   *********************************************************************************************** PP
+
+       china  5892 acttataaattggatggtgttgtttgtacagaaattgaccctaagttggacaattattataagaaagacaattcttatttcacagagcaaccaat 5986 
+                   acttataaattggatggtgttgtttgtacagaaattgaccctaagttggacaattattataagaaagacaattcttatttcacagagcaaccaat
+  MT327745.1  5902 ACTTATAAATTGGATGGTGTTGTTTGTACAGAAATTGACCCTAAGTTGGACAATTATTATAAGAAAGACAATTCTTATTTCACAGAGCAACCAAT 5996 
+                   *********************************************************************************************** PP
+
+       china  5987 tgatcttgtaccaaaccaaccatatccaaacgcaagcttcgataattttaagtttgtatgtgataatatcaaatttgctgatgatttaaaccagt 6081 
+                   tgatcttgtaccaaaccaaccatatccaaacgcaagcttcgataattttaagtttgtatgtgataatatcaaatttgctgatgatttaaaccagt
+  MT327745.1  5997 TGATCTTGTACCAAACCAACCATATCCAAACGCAAGCTTCGATAATTTTAAGTTTGTATGTGATAATATCAAATTTGCTGATGATTTAAACCAGT 6091 
+                   *********************************************************************************************** PP
+
+       china  6082 taactggttataagaaacctgcttcaagagagcttaaagttacatttttccctgacttaaatggtgatgtggtggctattgattataaacactac 6176 
+                   taactggttataagaaacctgcttcaagagagcttaaagttacatttttccctgacttaaatggtgatgtggtggctattgattataaacactac
+  MT327745.1  6092 TAACTGGTTATAAGAAACCTGCTTCAAGAGAGCTTAAAGTTACATTTTTCCCTGACTTAAATGGTGATGTGGTGGCTATTGATTATAAACACTAC 6186 
+                   *********************************************************************************************** PP
+
+       china  6177 acaccctcttttaagaaaggagctaaattgttacataaacctattgtttggcatgttaacaatgcaactaataaagccacgtataaaccaaatac 6271 
+                   acaccctcttttaagaaaggagctaaattgttacataaacctattgtttggcatgttaacaatgcaactaataaagccacgtataaaccaaatac
+  MT327745.1  6187 ACACCCTCTTTTAAGAAAGGAGCTAAATTGTTACATAAACCTATTGTTTGGCATGTTAACAATGCAACTAATAAAGCCACGTATAAACCAAATAC 6281 
+                   *********************************************************************************************** PP
+
+       china  6272 ctggtgtatacgttgtctttggagcacaaaaccagttgaaacatcaaattcgtttgatgtactgaagtcagaggacgcgcagggaatggataatc 6366 
+                   ctggtgtatacgttgtctttggagcacaaaaccagttgaaacatcaaattcgtttgatgtactgaagtcagaggacgcgcagggaatggataatc
+  MT327745.1  6282 CTGGTGTATACGTTGTCTTTGGAGCACAAAACCAGTTGAAACATCAAATTCGTTTGATGTACTGAAGTCAGAGGACGCGCAGGGAATGGATAATC 6376 
+                   *********************************************************************************************** PP
+
+       china  6367 ttgcctgcgaagatctaaaaccagtctctgaagaagtagtggaaaatcctaccatacagaaagacgttcttgagtgtaatgtgaaaactaccgaa 6461 
+                   ttgcctgcgaagatctaaaaccagtctctgaagaagtagtggaaaatcctaccatacagaaagacgttcttgagtgtaatgtgaaaactaccgaa
+  MT327745.1  6377 TTGCCTGCGAAGATCTAAAACCAGTCTCTGAAGAAGTAGTGGAAAATCCTACCATACAGAAAGACGTTCTTGAGTGTAATGTGAAAACTACCGAA 6471 
+                   *********************************************************************************************** PP
+
+       china  6462 gttgtaggagacattatacttaaaccagcaaataatagtttaaaaattacagaagaggttggccacacagatctaatggctgcttatgtagacaa 6556 
+                   gttgtaggagacattatacttaaaccagcaaataatagtttaaaaattacagaagaggttggccacacagatctaatggctgcttatgtagacaa
+  MT327745.1  6472 GTTGTAGGAGACATTATACTTAAACCAGCAAATAATAGTTTAAAAATTACAGAAGAGGTTGGCCACACAGATCTAATGGCTGCTTATGTAGACAA 6566 
+                   *********************************************************************************************** PP
+
+       china  6557 ttctagtcttactattaagaaacctaatgaattatctagagtattaggtttgaaaacccttgctactcatggtttagctgctgttaatagtgtcc 6651 
+                   ttctagtcttactattaagaaacctaatgaattatctagagtattaggtttgaaaacccttgctactcatggtttagctgctgttaatagtgtcc
+  MT327745.1  6567 TTCTAGTCTTACTATTAAGAAACCTAATGAATTATCTAGAGTATTAGGTTTGAAAACCCTTGCTACTCATGGTTTAGCTGCTGTTAATAGTGTCC 6661 
+                   *********************************************************************************************** PP
+
+       china  6652 cttgggatactatagctaattatgctaagccttttcttaacaaagttgttagtacaactactaacatagttacacggtgtttaaaccgtgtttgt 6746 
+                   cttgggatactatagctaattatgctaagccttttcttaacaaagttgttagtacaactactaacatagttacacggtgtttaaaccgtgtttgt
+  MT327745.1  6662 CTTGGGATACTATAGCTAATTATGCTAAGCCTTTTCTTAACAAAGTTGTTAGTACAACTACTAACATAGTTACACGGTGTTTAAACCGTGTTTGT 6756 
+                   *********************************************************************************************** PP
+
+       china  6747 actaattatatgccttatttctttactttattgctacaattgtgtacttttactagaagtacaaattctagaattaaagcatctatgccgactac 6841 
+                   actaattatatgccttatttctttactttattgctacaattgtgtacttttactagaagtacaaattctagaattaaagcatctatgccgactac
+  MT327745.1  6757 ACTAATTATATGCCTTATTTCTTTACTTTATTGCTACAATTGTGTACTTTTACTAGAAGTACAAATTCTAGAATTAAAGCATCTATGCCGACTAC 6851 
+                   *********************************************************************************************** PP
+
+       china  6842 tatagcaaagaatactgttaagagtgtcggtaaattttgtctagaggcttcatttaattatttgaagtcacctaatttttctaaactgataaata 6936 
+                   tatagcaaagaatactgttaagagtgtcggtaaattttgtctagaggcttcatttaattatttgaagtcacctaatttttctaaactgataaata
+  MT327745.1  6852 TATAGCAAAGAATACTGTTAAGAGTGTCGGTAAATTTTGTCTAGAGGCTTCATTTAATTATTTGAAGTCACCTAATTTTTCTAAACTGATAAATA 6946 
+                   *********************************************************************************************** PP
+
+       china  6937 ttataatttggtttttactattaagtgtttgcctaggttctttaatctactcaaccgctgctttaggtgttttaatgtctaatttaggcatgcct 7031 
+                   ttataatttggtttttactattaagtgtttgcctaggttctttaatctactcaaccgctgctttaggtgttttaatgtctaatttaggcatgcct
+  MT327745.1  6947 TTATAATTTGGTTTTTACTATTAAGTGTTTGCCTAGGTTCTTTAATCTACTCAACCGCTGCTTTAGGTGTTTTAATGTCTAATTTAGGCATGCCT 7041 
+                   *********************************************************************************************** PP
+
+       china  7032 tcttactgtactggttacagagaaggctatttgaactctactaatgtcactattgcaacctactgtactggttctataccttgtagtgtttgtct 7126 
+                   tcttactgtactggttacagagaaggctatttgaactctactaatgtcactattgcaacctactgtactggttctataccttgtagtgtttgtct
+  MT327745.1  7042 TCTTACTGTACTGGTTACAGAGAAGGCTATTTGAACTCTACTAATGTCACTATTGCAACCTACTGTACTGGTTCTATACCTTGTAGTGTTTGTCT 7136 
+                   *********************************************************************************************** PP
+
+       china  7127 tagtggtttagattctttagacacctatccttctttagaaactatacaaattaccatttcatcttttaaatgggatttaactgcttttggcttag 7221 
+                   tagtggtttagattctttagacacctatccttctttagaaactatacaaattaccatttcatcttttaaatgggatttaactgcttttggcttag
+  MT327745.1  7137 TAGTGGTTTAGATTCTTTAGACACCTATCCTTCTTTAGAAACTATACAAATTACCATTTCATCTTTTAAATGGGATTTAACTGCTTTTGGCTTAG 7231 
+                   *********************************************************************************************** PP
+
+       china  7222 ttgcagagtggtttttggcatatattcttttcactaggtttttctatgtacttggattggctgcaatcatgcaattgtttttcagctattttgca 7316 
+                   ttgcagagtggtttttggcatatattcttttcactaggtttttctatgtacttggattggctgcaatcatgcaattgtttttcagctattttgca
+  MT327745.1  7232 TTGCAGAGTGGTTTTTGGCATATATTCTTTTCACTAGGTTTTTCTATGTACTTGGATTGGCTGCAATCATGCAATTGTTTTTCAGCTATTTTGCA 7326 
+                   *********************************************************************************************** PP
+
+       china  7317 gtacattttattagtaattcttggcttatgtggttaataattaatcttgtacaaatggccccgatttcagctatggttagaatgtacatcttctt 7411 
+                   gtacattttattagtaattcttggcttatgtggttaataattaatcttgtacaaatggccccgatttcagctatggttagaatgtacatcttctt
+  MT327745.1  7327 GTACATTTTATTAGTAATTCTTGGCTTATGTGGTTAATAATTAATCTTGTACAAATGGCCCCGATTTCAGCTATGGTTAGAATGTACATCTTCTT 7421 
+                   *********************************************************************************************** PP
+
+       china  7412 tgcatcattttattatgtatggaaaagttatgtgcatgttgtagacggttgtaattcatcaacttgtatgatgtgttacaaacgtaatagagcaa 7506 
+                   tgcatcattttattatgtatggaaaagttatgtgcatgttgtagacggttgtaattcatcaacttgtatgatgtgttacaaacgtaatagagcaa
+  MT327745.1  7422 TGCATCATTTTATTATGTATGGAAAAGTTATGTGCATGTTGTAGACGGTTGTAATTCATCAACTTGTATGATGTGTTACAAACGTAATAGAGCAA 7516 
+                   *********************************************************************************************** PP
+
+       china  7507 caagagtcgaatgtacaactattgttaatggtgttagaaggtccttttatgtctatgctaatggaggtaaaggcttttgcaaactacacaattgg 7601 
+                   caagagtcgaatgtacaactattgttaatggtgttagaaggtccttttatgtctatgctaatggaggtaaaggcttttgcaaactacacaattgg
+  MT327745.1  7517 CAAGAGTCGAATGTACAACTATTGTTAATGGTGTTAGAAGGTCCTTTTATGTCTATGCTAATGGAGGTAAAGGCTTTTGCAAACTACACAATTGG 7611 
+                   *********************************************************************************************** PP
+
+       china  7602 aattgtgttaattgtgatacattctgtgctggtagtacatttattagtgatgaagttgcgagagacttgtcactacagtttaaaagaccaataaa 7696 
+                   aattgtgttaattgtgatacattctgtgctggtagtacatttattagtgatgaagttgcgagagacttgtcactacagtttaaaagaccaataaa
+  MT327745.1  7612 AATTGTGTTAATTGTGATACATTCTGTGCTGGTAGTACATTTATTAGTGATGAAGTTGCGAGAGACTTGTCACTACAGTTTAAAAGACCAATAAA 7706 
+                   *********************************************************************************************** PP
+
+       china  7697 tcctactgaccagtcttcttacatcgttgatagtgttacagtgaagaatggttccatccatctttactttgataaagctggtcaaaagacttatg 7791 
+                   tcctactgaccagtcttcttacatcgttgatagtgttacagtgaagaatggttccatccatctttactttgataaagctggtcaaaagacttatg
+  MT327745.1  7707 TCCTACTGACCAGTCTTCTTACATCGTTGATAGTGTTACAGTGAAGAATGGTTCCATCCATCTTTACTTTGATAAAGCTGGTCAAAAGACTTATG 7801 
+                   *********************************************************************************************** PP
+
+       china  7792 aaagacattctctctctcattttgttaacttagacaacctgagagctaataacactaaaggttcattgcctattaatgttatagtttttgatggt 7886 
+                   aaagacattctctctctcattttgttaacttagacaacctgagagctaataacactaaaggttcattgcctattaatgttatagtttttgatggt
+  MT327745.1  7802 AAAGACATTCTCTCTCTCATTTTGTTAACTTAGACAACCTGAGAGCTAATAACACTAAAGGTTCATTGCCTATTAATGTTATAGTTTTTGATGGT 7896 
+                   *********************************************************************************************** PP
+
+       china  7887 aaatcaaaatgtgaagaatcatctgcaaaatcagcgtctgtttactacagtcagcttatgtgtcaacctatactgttactagatcaggcattagt 7981 
+                   aaatcaaaatgtgaagaatcatctgcaaaatcagcgtctgtttactacagtcagcttatgtgtcaacctatactgttactagatcaggcattagt
+  MT327745.1  7897 AAATCAAAATGTGAAGAATCATCTGCAAAATCAGCGTCTGTTTACTACAGTCAGCTTATGTGTCAACCTATACTGTTACTAGATCAGGCATTAGT 7991 
+                   *********************************************************************************************** PP
+
+       china  7982 gtctgatgttggtgatagtgcggaagttgcagttaaaatgtttgatgcttacgttaatacgttttcatcaacttttaacgtaccaatggaaaaac 8076 
+                   gtctgatgttggtgatagtgcggaagttgcagttaaaatgtttgatgcttacgttaatacgttttcatcaacttttaacgtaccaatggaaaaac
+  MT327745.1  7992 GTCTGATGTTGGTGATAGTGCGGAAGTTGCAGTTAAAATGTTTGATGCTTACGTTAATACGTTTTCATCAACTTTTAACGTACCAATGGAAAAAC 8086 
+                   *********************************************************************************************** PP
+
+       china  8077 tcaaaacactagttgcaactgcagaagctgaacttgcaaagaatgtgtccttagacaatgtcttatctacttttatttcagcagctcggcaaggg 8171 
+                   tcaaaacactagttgcaactgcagaagctgaacttgcaaagaatgtgtccttagacaatgtcttatctacttttatttcagcagctcggcaaggg
+  MT327745.1  8087 TCAAAACACTAGTTGCAACTGCAGAAGCTGAACTTGCAAAGAATGTGTCCTTAGACAATGTCTTATCTACTTTTATTTCAGCAGCTCGGCAAGGG 8181 
+                   *********************************************************************************************** PP
+
+       china  8172 tttgttgattcagatgtagaaactaaagatgttgttgaatgtcttaaattgtcacatcaatctgacatagaagttactggcgatagttgtaataa 8266 
+                   tttgttgattcagatgtagaaactaaagatgttgttgaatgtcttaaattgtcacatcaatctgacatagaagttactggcgatagttgtaataa
+  MT327745.1  8182 TTTGTTGATTCAGATGTAGAAACTAAAGATGTTGTTGAATGTCTTAAATTGTCACATCAATCTGACATAGAAGTTACTGGCGATAGTTGTAATAA 8276 
+                   *********************************************************************************************** PP
+
+       china  8267 ctatatgctcacctataacaaagttgaaaacatgacaccccgtgaccttggtgcttgtattgactgtagtgcgcgtcatattaatgcgcaggtag 8361 
+                   ctatatgctcacctataacaaagttgaaaacatgacaccccgtgaccttggtgcttgtattgactgtagtgcgcgtcatattaatgcgcaggtag
+  MT327745.1  8277 CTATATGCTCACCTATAACAAAGTTGAAAACATGACACCCCGTGACCTTGGTGCTTGTATTGACTGTAGTGCGCGTCATATTAATGCGCAGGTAG 8371 
+                   *********************************************************************************************** PP
+
+       china  8362 caaaaagtcacaacattgctttgatatggaacgttaaagatttcatgtcattgtctgaacaactacgaaaacaaatacgtagtgctgctaaaaag 8456 
+                   caaaaagtcacaacattgctttgatatggaacgttaaagatttcatgtcattgtctgaacaactacgaaaacaaatacgtagtgctgctaaaaag
+  MT327745.1  8372 CAAAAAGTCACAACATTGCTTTGATATGGAACGTTAAAGATTTCATGTCATTGTCTGAACAACTACGAAAACAAATACGTAGTGCTGCTAAAAAG 8466 
+                   *********************************************************************************************** PP
+
+       china  8457 aataacttaccttttaagttgacatgtgcaactactagacaagttgttaatgttgtaacaacaaagatagcacttaagggtggtaaaattgttaa 8551 
+                   aataacttaccttttaagttgacatgtgcaactactagacaagttgttaatgttgtaacaacaaagatagcacttaagggtggtaaaattgttaa
+  MT327745.1  8467 AATAACTTACCTTTTAAGTTGACATGTGCAACTACTAGACAAGTTGTTAATGTTGTAACAACAAAGATAGCACTTAAGGGTGGTAAAATTGTTAA 8561 
+                   *********************************************************************************************** PP
+
+       china  8552 taattggttgaagcagttaattaaagttacacttgtgttcctttttgttgctgctattttctatttaataacacctgttcatgtcatgtctaaac 8646 
+                   taattggttgaagcagttaattaaagttacacttgtgttcctttttgttgctgctattttctatttaataacacctgttcatgtcatgtctaaac
+  MT327745.1  8562 TAATTGGTTGAAGCAGTTAATTAAAGTTACACTTGTGTTCCTTTTTGTTGCTGCTATTTTCTATTTAATAACACCTGTTCATGTCATGTCTAAAC 8656 
+                   *********************************************************************************************** PP
+
+       china  8647 atactgacttttcaagtgaaatcataggatacaaggctattgatggtggtgtcactcgtgacatagcatctacagatacttgttttgctaacaaa 8741 
+                   atactgacttttcaagtgaaatcataggatacaaggctattgatggtggtgtcactcgtgacatagcatctacagatacttgttttgctaacaaa
+  MT327745.1  8657 ATACTGACTTTTCAAGTGAAATCATAGGATACAAGGCTATTGATGGTGGTGTCACTCGTGACATAGCATCTACAGATACTTGTTTTGCTAACAAA 8751 
+                   *********************************************************************************************** PP
+
+       china  8742 catgctgattttgacacatggtttagccagcgtggtggtagttatactaatgacaaagcttgcccattgattgctgcagtcataacaagagaagt 8836 
+                   catgctgattttgacacatggtttagccagcgtggtggtagttatactaatgacaaagcttgcccattgattgctgcagtcataacaagagaagt
+  MT327745.1  8752 CATGCTGATTTTGACACATGGTTTAGCCAGCGTGGTGGTAGTTATACTAATGACAAAGCTTGCCCATTGATTGCTGCAGTCATAACAAGAGAAGT 8846 
+                   *********************************************************************************************** PP
+
+       china  8837 gggttttgtcgtgcctggtttgcctggcacgatattacgcacaactaatggtgactttttgcatttcttacctagagtttttagtgcagttggta 8931 
+                   gggttttgtcgtgcctggtttgcctggcacgatattacgcacaactaatggtgactttttgcatttcttacctagagtttttagtgcagttggta
+  MT327745.1  8847 GGGTTTTGTCGTGCCTGGTTTGCCTGGCACGATATTACGCACAACTAATGGTGACTTTTTGCATTTCTTACCTAGAGTTTTTAGTGCAGTTGGTA 8941 
+                   *********************************************************************************************** PP
+
+       china  8932 acatctgttacacaccatcaaaacttatagagtacactgactttgcaacatcagcttgtgttttggctgctgaatgtacaatttttaaagatgct 9026 
+                   acatctgttacacaccatcaaaacttatagagtacactgactttgcaacatcagcttgtgttttggctgctgaatgtacaatttttaaagatgct
+  MT327745.1  8942 ACATCTGTTACACACCATCAAAACTTATAGAGTACACTGACTTTGCAACATCAGCTTGTGTTTTGGCTGCTGAATGTACAATTTTTAAAGATGCT 9036 
+                   *********************************************************************************************** PP
+
+       china  9027 tctggtaagccagtaccatattgttatgataccaatgtactagaaggttctgttgcttatgaaagtttacgccctgacacacgttatgtgctcat 9121 
+                   tctggtaagccagtaccatattgttatgataccaatgtactagaaggttctgttgcttatgaaagtttacgccctgacacacgttatgtgctcat
+  MT327745.1  9037 TCTGGTAAGCCAGTACCATATTGTTATGATACCAATGTACTAGAAGGTTCTGTTGCTTATGAAAGTTTACGCCCTGACACACGTTATGTGCTCAT 9131 
+                   *********************************************************************************************** PP
+
+       china  9122 ggatggctctattattcaatttcctaacacctaccttgaaggttctgttagagtggtaacaacttttgattctgagtactgtaggcacggcactt 9216 
+                   ggatggctctattattcaatttcctaacacctaccttgaaggttctgttagagtggtaacaacttttgattctgagtactgtaggcacggcactt
+  MT327745.1  9132 GGATGGCTCTATTATTCAATTTCCTAACACCTACCTTGAAGGTTCTGTTAGAGTGGTAACAACTTTTGATTCTGAGTACTGTAGGCACGGCACTT 9226 
+                   *********************************************************************************************** PP
+
+       china  9217 gtgaaagatcagaagctggtgtttgtgtatctactagtggtagatgggtacttaacaatgattattacagatctttaccaggagttttctgtggt 9311 
+                   gtgaaagatcagaagctggtgtttgtgtatctactagtggtagatgggtacttaacaatgattattacagatctttaccaggagttttctgtggt
+  MT327745.1  9227 GTGAAAGATCAGAAGCTGGTGTTTGTGTATCTACTAGTGGTAGATGGGTACTTAACAATGATTATTACAGATCTTTACCAGGAGTTTTCTGTGGT 9321 
+                   *********************************************************************************************** PP
+
+       china  9312 gtagatgctgtaaatttacttactaatatgtttacaccactaattcaacctattggtgctttggacatatcagcatctatagtagctggtggtat 9406 
+                   gtagatgctgtaaatttacttactaatatgtttacaccactaattcaacctattggtgctttggacatatcagcatctatagtagctggtggtat
+  MT327745.1  9322 GTAGATGCTGTAAATTTACTTACTAATATGTTTACACCACTAATTCAACCTATTGGTGCTTTGGACATATCAGCATCTATAGTAGCTGGTGGTAT 9416 
+                   *********************************************************************************************** PP
+
+       china  9407 tgtagctatcgtagtaacatgccttgcctactattttatgaggtttagaagagcttttggtgaatacagtcatgtagttgcctttaatactttac 9501 
+                   tgtagctatcgtagtaacatgccttgcctactattttatgaggtttagaagagcttttggtgaatacagtcatgtagttgcctttaatactttac
+  MT327745.1  9417 TGTAGCTATCGTAGTAACATGCCTTGCCTACTATTTTATGAGGTTTAGAAGAGCTTTTGGTGAATACAGTCATGTAGTTGCCTTTAATACTTTAC 9511 
+                   *********************************************************************************************** PP
+
+       china  9502 tattccttatgtcattcactgtactctgtttaacaccagtttactcattcttacctggtgtttattctgttatttacttgtacttgacattttat 9596 
+                   tattccttatgtcattcactgtactctgtttaacaccagtttactcattcttacctggtgtttattctgttatttacttgtacttgacattttat
+  MT327745.1  9512 TATTCCTTATGTCATTCACTGTACTCTGTTTAACACCAGTTTACTCATTCTTACCTGGTGTTTATTCTGTTATTTACTTGTACTTGACATTTTAT 9606 
+                   *********************************************************************************************** PP
+
+       china  9597 cttactaatgatgtttcttttttagcacatattcagtggatggttatgttcacacctttagtacctttctggataacaattgcttatatcatttg 9691 
+                   cttactaatgatgtttcttttttagcacatattcagtggatggttatgttcacacctttagtacctttctggataacaattgcttatatcatttg
+  MT327745.1  9607 CTTACTAATGATGTTTCTTTTTTAGCACATATTCAGTGGATGGTTATGTTCACACCTTTAGTACCTTTCTGGATAACAATTGCTTATATCATTTG 9701 
+                   *********************************************************************************************** PP
+
+       china  9692 tatttccacaaagcatttctattggttctttagtaattacctaaagagacgtgtagtctttaatggtgtttcctttagtacttttgaagaagctg 9786 
+                   tatttccacaaagcatttctattggttctttagtaattacctaaagagacgtgtagtctttaatggtgtttcctttagtacttttgaagaagctg
+  MT327745.1  9702 TATTTCCACAAAGCATTTCTATTGGTTCTTTAGTAATTACCTAAAGAGACGTGTAGTCTTTAATGGTGTTTCCTTTAGTACTTTTGAAGAAGCTG 9796 
+                   *********************************************************************************************** PP
+
+       china  9787 cgctgtgcacctttttgttaaataaagaaatgtatctaaagttgcgtagtgatgtgctattacctcttacgcaatataatagatacttagctctt 9881 
+                   cgctgtgcacctttttgttaaataaagaaatgtatctaaagttgcgtagtgatgtgctattacctcttacgcaatataatagatacttagctctt
+  MT327745.1  9797 CGCTGTGCACCTTTTTGTTAAATAAAGAAATGTATCTAAAGTTGCGTAGTGATGTGCTATTACCTCTTACGCAATATAATAGATACTTAGCTCTT 9891 
+                   *********************************************************************************************** PP
+
+       china  9882 tataataagtacaagtattttagtggagcaatggatacaactagctacagagaagctgcttgttgtcatctcgcaaaggctctcaatgacttcag 9976 
+                   tataataagtacaagtattttagtggagcaatggatacaactagctacagagaagctgcttgttgtcatctcgcaaaggctctcaatgacttcag
+  MT327745.1  9892 TATAATAAGTACAAGTATTTTAGTGGAGCAATGGATACAACTAGCTACAGAGAAGCTGCTTGTTGTCATCTCGCAAAGGCTCTCAATGACTTCAG 9986 
+                   *********************************************************************************************** PP
+
+       china  9977 taactcaggttctgatgttctttaccaaccaccacaaacctctatcacctcagctgttttgcagagtggttttagaaaaatggcattcccatctg 10071
+                   taactcaggttctgatgttctttaccaaccaccacaaacctctatcacctcagctgttttgcagagtggttttagaaaaatggcattcccatctg
+  MT327745.1  9987 TAACTCAGGTTCTGATGTTCTTTACCAACCACCACAAACCTCTATCACCTCAGCTGTTTTGCAGAGTGGTTTTAGAAAAATGGCATTCCCATCTG 10081
+                   *********************************************************************************************** PP
+
+       china 10072 gtaaagttgagggttgtatggtacaagtaacttgtggtacaactacacttaacggtctttggcttgatgacgtagtttactgtccaagacatgtg 10166
+                   gtaaagttgagggttgtatggtacaagtaacttgtggtacaactacacttaacggtctttggcttgatgacgtagtttactgtccaagacatgtg
+  MT327745.1 10082 GTAAAGTTGAGGGTTGTATGGTACAAGTAACTTGTGGTACAACTACACTTAACGGTCTTTGGCTTGATGACGTAGTTTACTGTCCAAGACATGTG 10176
+                   *********************************************************************************************** PP
+
+       china 10167 atctgcacctctgaagacatgcttaaccctaattatgaagatttactcattcgtaagtctaatcataatttcttggtacaggctggtaatgttca 10261
+                   atctgcacctctgaagacatgcttaaccctaattatgaagatttactcattcgtaagtctaatcataatttcttggtacaggctggtaatgttca
+  MT327745.1 10177 ATCTGCACCTCTGAAGACATGCTTAACCCTAATTATGAAGATTTACTCATTCGTAAGTCTAATCATAATTTCTTGGTACAGGCTGGTAATGTTCA 10271
+                   *********************************************************************************************** PP
+
+       china 10262 actcagggttattggacattctatgcaaaattgtgtacttaagcttaaggttgatacagccaatcctaagacacctaagtataagtttgttcgca 10356
+                   actcagggttattggacattctatgcaaaattgtgtacttaagcttaaggttgatacagccaatcctaagacacctaagtataagtttgttcgca
+  MT327745.1 10272 ACTCAGGGTTATTGGACATTCTATGCAAAATTGTGTACTTAAGCTTAAGGTTGATACAGCCAATCCTAAGACACCTAAGTATAAGTTTGTTCGCA 10366
+                   *********************************************************************************************** PP
+
+       china 10357 ttcaaccaggacagactttttcagtgttagcttgttacaatggttcaccatctggtgtttaccaatgtgctatgaggcccaatttcactattaag 10451
+                   ttcaaccaggacagactttttcagtgttagcttgttacaatggttcaccatctggtgtttaccaatgtgctatgaggcccaatttcactattaag
+  MT327745.1 10367 TTCAACCAGGACAGACTTTTTCAGTGTTAGCTTGTTACAATGGTTCACCATCTGGTGTTTACCAATGTGCTATGAGGCCCAATTTCACTATTAAG 10461
+                   *********************************************************************************************** PP
+
+       china 10452 ggttcattccttaatggttcatgtggtagtgttggttttaacatagattatgactgtgtctctttttgttacatgcaccatatggaattaccaac 10546
+                   ggttcattccttaatggttcatgtggtagtgttggttttaacatagattatgactgtgtctctttttgttacatgcaccatatggaattaccaac
+  MT327745.1 10462 GGTTCATTCCTTAATGGTTCATGTGGTAGTGTTGGTTTTAACATAGATTATGACTGTGTCTCTTTTTGTTACATGCACCATATGGAATTACCAAC 10556
+                   *********************************************************************************************** PP
+
+       china 10547 tggagttcatgctggcacagacttagaaggtaacttttatggaccttttgttgacaggcaaacagcacaagcagctggtacggacacaactatta 10641
+                   tggagttcatgctggcacagacttagaaggtaacttttatggaccttttgttgacaggcaaacagcacaagcagctggtacggacacaactatta
+  MT327745.1 10557 TGGAGTTCATGCTGGCACAGACTTAGAAGGTAACTTTTATGGACCTTTTGTTGACAGGCAAACAGCACAAGCAGCTGGTACGGACACAACTATTA 10651
+                   *********************************************************************************************** PP
+
+       china 10642 cagttaatgttttagcttggttgtacgctgctgttataaatggagacaggtggtttctcaatcgatttaccacaactcttaatgactttaacctt 10736
+                   cagttaatgttttagcttggttgtacgctgctgttataaatggagacaggtggtttctcaatcgatttaccacaactcttaatgactttaacctt
+  MT327745.1 10652 CAGTTAATGTTTTAGCTTGGTTGTACGCTGCTGTTATAAATGGAGACAGGTGGTTTCTCAATCGATTTACCACAACTCTTAATGACTTTAACCTT 10746
+                   *********************************************************************************************** PP
+
+       china 10737 gtggctatgaagtacaattatgaacctctaacacaagaccatgttgacatactaggacctctttctgctcaaactggaattgccgttttagatat 10831
+                   gtggctatgaagtacaattatgaacctctaacacaagaccatgttgacatactaggacctctttctgctcaaactggaattgccgttttagatat
+  MT327745.1 10747 GTGGCTATGAAGTACAATTATGAACCTCTAACACAAGACCATGTTGACATACTAGGACCTCTTTCTGCTCAAACTGGAATTGCCGTTTTAGATAT 10841
+                   *********************************************************************************************** PP
+
+       china 10832 gtgtgcttcattaaaagaattactgcaaaatggtatgaatggacgtaccatattgggtagtgctttattagaagatgaatttacaccttttgatg 10926
+                   gtgtgcttcattaaaagaattactgcaaaatggtatgaatggacgtaccatattgggtagtgctttattagaagatgaatttacaccttttgatg
+  MT327745.1 10842 GTGTGCTTCATTAAAAGAATTACTGCAAAATGGTATGAATGGACGTACCATATTGGGTAGTGCTTTATTAGAAGATGAATTTACACCTTTTGATG 10936
+                   *********************************************************************************************** PP
+
+       china 10927 ttgttagacaatgctcaggtgttactttccaaagtgcagtgaaaagaacaatcaagggtacacaccactggttgttactcacaattttgacttca 11021
+                   ttgttagacaatgctcaggtgttactttccaaagtgcagtgaaaagaacaatcaagggtacacaccactggttgttactcacaattttgacttca
+  MT327745.1 10937 TTGTTAGACAATGCTCAGGTGTTACTTTCCAAAGTGCAGTGAAAAGAACAATCAAGGGTACACACCACTGGTTGTTACTCACAATTTTGACTTCA 11031
+                   *********************************************************************************************** PP
+
+       china 11022 cttttagttttagtccagagtactcaatggtctttgttcttttttttgtatgaaaatgcctttttaccttttgctatgggtattattgctatgtc 11116
+                   cttttagttttagtccagagtactcaatggtctttgttctttttttt tatgaaaatgcctttttaccttttgctatgggtattattgctatgtc
+  MT327745.1 11032 CTTTTAGTTTTAGTCCAGAGTACTCAATGGTCTTTGTTCTTTTTTTTTTATGAAAATGCCTTTTTACCTTTTGCTATGGGTATTATTGCTATGTC 11126
+                   *********************************************************************************************** PP
+
+       china 11117 tgcttttgcaatgatgtttgtcaaacataagcatgcatttctctgtttgtttttgttaccttctcttgccactgtagcttattttaatatggtct 11211
+                   tgcttttgcaatgatgtttgtcaaacataagcatgcatttctctgtttgtttttgttaccttctcttgccactgtagcttattttaatatggtct
+  MT327745.1 11127 TGCTTTTGCAATGATGTTTGTCAAACATAAGCATGCATTTCTCTGTTTGTTTTTGTTACCTTCTCTTGCCACTGTAGCTTATTTTAATATGGTCT 11221
+                   *********************************************************************************************** PP
+
+       china 11212 atatgcctgctagttgggtgatgcgtattatgacatggttggatatggttgatactagtttgtctggttttaagctaaaagactgtgttatgtat 11306
+                   atatgcctgctagttgggtgatgcgtattatgacatggttggatatggttgatactagtttgtctggttttaagctaaaagactgtgttatgtat
+  MT327745.1 11222 ATATGCCTGCTAGTTGGGTGATGCGTATTATGACATGGTTGGATATGGTTGATACTAGTTTGTCTGGTTTTAAGCTAAAAGACTGTGTTATGTAT 11316
+                   *********************************************************************************************** PP
+
+       china 11307 gcatcagctgtagtgttactaatccttatgacagcaagaactgtgtatgatgatggtgctaggagagtgtggacacttatgaatgtcttgacact 11401
+                   gcatcagctgtagtgttactaatccttatgacagcaagaactgtgtatgatgatggtgctaggagagtgtggacacttatgaatgtcttgacact
+  MT327745.1 11317 GCATCAGCTGTAGTGTTACTAATCCTTATGACAGCAAGAACTGTGTATGATGATGGTGCTAGGAGAGTGTGGACACTTATGAATGTCTTGACACT 11411
+                   *********************************************************************************************** PP
+
+       china 11402 cgtttataaagtttattatggtaatgctttagatcaagccatttccatgtgggctcttataatctctgttacttctaactactcaggtgtagtta 11496
+                   cgtttataaagtttattatggtaatgctttagatcaagccatttccatgtgggctcttataatctctgttacttctaactactcaggtgtagtta
+  MT327745.1 11412 CGTTTATAAAGTTTATTATGGTAATGCTTTAGATCAAGCCATTTCCATGTGGGCTCTTATAATCTCTGTTACTTCTAACTACTCAGGTGTAGTTA 11506
+                   *********************************************************************************************** PP
+
+       china 11497 caactgtcatgtttttggccagaggtattgtttttatgtgtgttgagtattgccctattttcttcataactggtaatacacttcagtgtataatg 11591
+                   caactgtcatgtttttggccagaggtattgtttttatgtgtgttgagtattgccctattttcttcataactggtaatacacttcagtgtataatg
+  MT327745.1 11507 CAACTGTCATGTTTTTGGCCAGAGGTATTGTTTTTATGTGTGTTGAGTATTGCCCTATTTTCTTCATAACTGGTAATACACTTCAGTGTATAATG 11601
+                   *********************************************************************************************** PP
+
+       china 11592 ctagtttattgtttcttaggctatttttgtacttgttactttggcctcttttgtttactcaaccgctactttagactgactcttggtgtttatga 11686
+                   ctagtttattgtttcttaggctatttttgtacttgttactttggcctcttttgtttactcaaccgctactttagactgactcttggtgtttatga
+  MT327745.1 11602 CTAGTTTATTGTTTCTTAGGCTATTTTTGTACTTGTTACTTTGGCCTCTTTTGTTTACTCAACCGCTACTTTAGACTGACTCTTGGTGTTTATGA 11696
+                   *********************************************************************************************** PP
+
+       china 11687 ttacttagtttctacacaggagtttagatatatgaattcacagggactactcccacccaagaatagcatagatgccttcaaactcaacattaaat 11781
+                   ttacttagtttctacacaggagtttagatatatgaattcacagggactactcccacccaagaatagcatagatgccttcaaactcaacattaaat
+  MT327745.1 11697 TTACTTAGTTTCTACACAGGAGTTTAGATATATGAATTCACAGGGACTACTCCCACCCAAGAATAGCATAGATGCCTTCAAACTCAACATTAAAT 11791
+                   *********************************************************************************************** PP
+
+       china 11782 tgttgggtgttggtggcaaaccttgtatcaaagtagccactgtacagtctaaaatgtcagatgtaaagtgcacatcagtagtcttactctcagtt 11876
+                   tgttgggtgttggtggcaaaccttgtatcaaagtagccactgtacagtctaaaatgtcagatgtaaagtgcacatcagtagtcttactctcagtt
+  MT327745.1 11792 TGTTGGGTGTTGGTGGCAAACCTTGTATCAAAGTAGCCACTGTACAGTCTAAAATGTCAGATGTAAAGTGCACATCAGTAGTCTTACTCTCAGTT 11886
+                   *********************************************************************************************** PP
+
+       china 11877 ttgcaacaactcagagtagaatcatcatctaaattgtgggctcaatgtgtccagttacacaatgacattctcttagctaaagatactactgaagc 11971
+                   ttgcaacaactcagagtagaatcatcatctaaattgtgggctcaatgtgtccagttacacaatgacattctcttagctaaagatactactgaagc
+  MT327745.1 11887 TTGCAACAACTCAGAGTAGAATCATCATCTAAATTGTGGGCTCAATGTGTCCAGTTACACAATGACATTCTCTTAGCTAAAGATACTACTGAAGC 11981
+                   *********************************************************************************************** PP
+
+       china 11972 ctttgaaaaaatggtttcactactttctgttttgctttccatgcagggtgctgtagacataaacaagctttgtgaagaaatgctggacaacaggg 12066
+                   ctttgaaaaaatggtttcactactttctgttttgctttccatgcagggtgctgtagacataaacaagctttgtgaagaaatgctggacaacaggg
+  MT327745.1 11982 CTTTGAAAAAATGGTTTCACTACTTTCTGTTTTGCTTTCCATGCAGGGTGCTGTAGACATAAACAAGCTTTGTGAAGAAATGCTGGACAACAGGG 12076
+                   *********************************************************************************************** PP
+
+       china 12067 caaccttacaagctatagcctcagagtttagttcccttccatcatatgcagcttttgctactgctcaagaagcttatgagcaggctgttgctaat 12161
+                   caaccttacaagctatagcctcagagtttagttcccttccatcatatgcagcttttgctactgctcaagaagcttatgagcaggctgttgctaat
+  MT327745.1 12077 CAACCTTACAAGCTATAGCCTCAGAGTTTAGTTCCCTTCCATCATATGCAGCTTTTGCTACTGCTCAAGAAGCTTATGAGCAGGCTGTTGCTAAT 12171
+                   *********************************************************************************************** PP
+
+       china 12162 ggtgattctgaagttgttcttaaaaagttgaagaagtctttgaatgtggctaaatctgaatttgaccgtgatgcagccatgcaacgtaagttgga 12256
+                   ggtgattctgaagttgttcttaaaaagttgaagaagtctttgaatgtggctaaatctgaatttgaccgtgatgcagccatgcaacgtaagttgga
+  MT327745.1 12172 GGTGATTCTGAAGTTGTTCTTAAAAAGTTGAAGAAGTCTTTGAATGTGGCTAAATCTGAATTTGACCGTGATGCAGCCATGCAACGTAAGTTGGA 12266
+                   *********************************************************************************************** PP
+
+       china 12257 aaagatggctgatcaagctatgacccaaatgtataaacaggctagatctgaggacaagagggcaaaagttactagtgctatgcagacaatgcttt 12351
+                   aaagatggctgatcaagctatgacccaaatgtataaacaggctagatctgaggacaagagggcaaaagttactagtgctatgcagacaatgcttt
+  MT327745.1 12267 AAAGATGGCTGATCAAGCTATGACCCAAATGTATAAACAGGCTAGATCTGAGGACAAGAGGGCAAAAGTTACTAGTGCTATGCAGACAATGCTTT 12361
+                   *********************************************************************************************** PP
+
+       china 12352 tcactatgcttagaaagttggataatgatgcactcaacaacattatcaacaatgcaagagatggttgtgttcccttgaacataatacctcttaca 12446
+                   tcactatgcttagaaagttggataatgatgcactcaacaacattatcaacaatgcaagagatggttgtgttcccttgaacataatacctcttaca
+  MT327745.1 12362 TCACTATGCTTAGAAAGTTGGATAATGATGCACTCAACAACATTATCAACAATGCAAGAGATGGTTGTGTTCCCTTGAACATAATACCTCTTACA 12456
+                   *********************************************************************************************** PP
+
+       china 12447 acagcagccaaactaatggttgtcataccagactataacacatataaaaatacgtgtgatggtacaacatttacttatgcatcagcattgtggga 12541
+                   acagcagccaaactaatggttgtcataccagactataacacatataaaaatacgtgtgatggtacaacatttacttatgcatcagcattgtggga
+  MT327745.1 12457 ACAGCAGCCAAACTAATGGTTGTCATACCAGACTATAACACATATAAAAATACGTGTGATGGTACAACATTTACTTATGCATCAGCATTGTGGGA 12551
+                   *********************************************************************************************** PP
+
+       china 12542 aatccaacaggttgtagatgcagatagtaaaattgttcaacttagtgaaattagtatggacaattcacctaatttagcatggcctcttattgtaa 12636
+                   aatccaacaggttgtagatgcagatagtaaaattgttcaacttagtgaaattagtatggacaattcacctaatttagcatggcctcttattgtaa
+  MT327745.1 12552 AATCCAACAGGTTGTAGATGCAGATAGTAAAATTGTTCAACTTAGTGAAATTAGTATGGACAATTCACCTAATTTAGCATGGCCTCTTATTGTAA 12646
+                   *********************************************************************************************** PP
+
+       china 12637 cagctttaagggccaattctgctgtcaaattacagaataatgagcttagtcctgttgcactacgacagatgtcttgtgctgccggtactacacaa 12731
+                   cagctttaagggccaattctgctgtcaaattacagaataatgagcttagtcctgttgcactacgacagatgtcttgtgctgccggtactacacaa
+  MT327745.1 12647 CAGCTTTAAGGGCCAATTCTGCTGTCAAATTACAGAATAATGAGCTTAGTCCTGTTGCACTACGACAGATGTCTTGTGCTGCCGGTACTACACAA 12741
+                   *********************************************************************************************** PP
+
+       china 12732 actgcttgcactgatgacaatgcgttagcttactacaacacaacaaagggaggtaggtttgtacttgcactgttatccgatttacaggatttgaa 12826
+                   actgcttgcactgatgacaatgcgttagcttactacaacacaacaaagggaggtaggtttgtacttgcactgttatccgatttacaggatttgaa
+  MT327745.1 12742 ACTGCTTGCACTGATGACAATGCGTTAGCTTACTACAACACAACAAAGGGAGGTAGGTTTGTACTTGCACTGTTATCCGATTTACAGGATTTGAA 12836
+                   *********************************************************************************************** PP
+
+       china 12827 atgggctagattccctaagagtgatggaactggtactatctatacagaactggaaccaccttgtaggtttgttacagacacacctaaaggtccta 12921
+                   atgggctagattccctaagagtgatggaactggtactatctatacagaactggaaccaccttgtaggtttgttacagacacacctaaaggtccta
+  MT327745.1 12837 ATGGGCTAGATTCCCTAAGAGTGATGGAACTGGTACTATCTATACAGAACTGGAACCACCTTGTAGGTTTGTTACAGACACACCTAAAGGTCCTA 12931
+                   *********************************************************************************************** PP
+
+       china 12922 aagtgaagtatttatactttattaaaggattaaacaacctaaatagaggtatggtacttggtagtttagctgccacagtacgtctacaagctggt 13016
+                   aagtgaagtatttatactttattaaaggattaaacaacctaaatagaggtatggtacttggtagtttagctgccacagtacgtctacaagctggt
+  MT327745.1 12932 AAGTGAAGTATTTATACTTTATTAAAGGATTAAACAACCTAAATAGAGGTATGGTACTTGGTAGTTTAGCTGCCACAGTACGTCTACAAGCTGGT 13026
+                   *********************************************************************************************** PP
+
+       china 13017 aatgcaacagaagtgcctgccaattcaactgtattatctttctgtgcttttgctgtagatgctgctaaagcttacaaagattatctagctagtgg 13111
+                   aatgcaacagaagtgcctgccaattcaactgtattatctttctgtgcttttgctgtagatgctgctaaagcttacaaagattatctagctagtgg
+  MT327745.1 13027 AATGCAACAGAAGTGCCTGCCAATTCAACTGTATTATCTTTCTGTGCTTTTGCTGTAGATGCTGCTAAAGCTTACAAAGATTATCTAGCTAGTGG 13121
+                   *********************************************************************************************** PP
+
+       china 13112 gggacaaccaatcactaattgtgttaagatgttgtgtacacacactggtactggtcaggcaataacagttacaccggaagccaatatggatcaag 13206
+                   gggacaaccaatcactaattgtgttaagatgttgtgtacacacactggtactggtcaggcaataacagttacaccggaagccaatatggatcaag
+  MT327745.1 13122 GGGACAACCAATCACTAATTGTGTTAAGATGTTGTGTACACACACTGGTACTGGTCAGGCAATAACAGTTACACCGGAAGCCAATATGGATCAAG 13216
+                   *********************************************************************************************** PP
+
+       china 13207 aatcctttggtggtgcatcgtgttgtctgtactgccgttgccacatagatcatccaaatcctaaaggattttgtgacttaaaaggtaagtatgta 13301
+                   aatcctttggtggtgcatcgtgttgtctgtactgccgttgccacatagatcatccaaatcctaaaggattttgtgacttaaaaggtaagtatgta
+  MT327745.1 13217 AATCCTTTGGTGGTGCATCGTGTTGTCTGTACTGCCGTTGCCACATAGATCATCCAAATCCTAAAGGATTTTGTGACTTAAAAGGTAAGTATGTA 13311
+                   *********************************************************************************************** PP
+
+       china 13302 caaatacctacaacttgtgctaatgaccctgtgggttttacacttaaaaacacagtctgtaccgtctgcggtatgtggaaaggttatggctgtag 13396
+                   caaatacctacaacttgtgctaatgaccctgtgggttttacacttaaaaacacagtctgtaccgtctgcggtatgtggaaaggttatggctgtag
+  MT327745.1 13312 CAAATACCTACAACTTGTGCTAATGACCCTGTGGGTTTTACACTTAAAAACACAGTCTGTACCGTCTGCGGTATGTGGAAAGGTTATGGCTGTAG 13406
+                   *********************************************************************************************** PP
+
+       china 13397 ttgtgatcaactccgcgaacccatgcttcagtcagctgatgcacaatcgtttttaaacgggtttgcggtgtaagtgcagcccgtcttacaccgtg 13491
+                   ttgtgatcaactccgcgaacccatgcttcagtcagctgatgcacaatcgtttttaaacgggtttgcggtgtaagtgcagcccgtcttacaccgtg
+  MT327745.1 13407 TTGTGATCAACTCCGCGAACCCATGCTTCAGTCAGCTGATGCACAATCGTTTTTAAACGGGTTTGCGGTGTAAGTGCAGCCCGTCTTACACCGTG 13501
+                   *********************************************************************************************** PP
+
+       china 13492 cggcacaggcactagtactgatgtcgtatacagggcttttgacatctacaatgataaagtagctggttttgctaaattcctaaaaactaattgtt 13586
+                   cggcacaggcactagtactgatgtcgtatacagggcttttgacatctacaatgataaagtagctggttttgctaaattcctaaaaactaattgtt
+  MT327745.1 13502 CGGCACAGGCACTAGTACTGATGTCGTATACAGGGCTTTTGACATCTACAATGATAAAGTAGCTGGTTTTGCTAAATTCCTAAAAACTAATTGTT 13596
+                   *********************************************************************************************** PP
+
+       china 13587 gtcgcttccaagaaaaggacgaagatgacaatttaattgattcttactttgtagttaagagacacactttctctaactaccaacatgaagaaaca 13681
+                   gtcgcttccaagaaaaggacgaagatgacaatttaattgattcttactttgtagttaagagacacactttctctaactaccaacatgaagaaaca
+  MT327745.1 13597 GTCGCTTCCAAGAAAAGGACGAAGATGACAATTTAATTGATTCTTACTTTGTAGTTAAGAGACACACTTTCTCTAACTACCAACATGAAGAAACA 13691
+                   *********************************************************************************************** PP
+
+       china 13682 atttataatttacttaaggattgtccagctgttgctaaacatgacttctttaagtttagaatagacggtgacatggtaccacatatatcacgtca 13776
+                   atttataatttacttaaggattgtccagctgttgctaaacatgacttctttaagtttagaatagacggtgacatggtaccacatatatcacgtca
+  MT327745.1 13692 ATTTATAATTTACTTAAGGATTGTCCAGCTGTTGCTAAACATGACTTCTTTAAGTTTAGAATAGACGGTGACATGGTACCACATATATCACGTCA 13786
+                   *********************************************************************************************** PP
+
+       china 13777 acgtcttactaaatacacaatggcagacctcgtctatgctttaaggcattttgatgaaggtaattgtgacacattaaaagaaatacttgtcacat 13871
+                   acgtcttactaaatacacaatggcagacctcgtctatgctttaaggcattttgatgaaggtaattgtgacacattaaaagaaatacttgtcacat
+  MT327745.1 13787 ACGTCTTACTAAATACACAATGGCAGACCTCGTCTATGCTTTAAGGCATTTTGATGAAGGTAATTGTGACACATTAAAAGAAATACTTGTCACAT 13881
+                   *********************************************************************************************** PP
+
+       china 13872 acaattgttgtgatgatgattatttcaataaaaaggactggtatgattttgtagaaaacccagatatattacgcgtatacgccaacttaggtgaa 13966
+                   acaattgttgtgatgatgattatttcaataaaaaggactggtatgattttgtagaaaacccagatatattacgcgtatacgccaacttaggtgaa
+  MT327745.1 13882 ACAATTGTTGTGATGATGATTATTTCAATAAAAAGGACTGGTATGATTTTGTAGAAAACCCAGATATATTACGCGTATACGCCAACTTAGGTGAA 13976
+                   *********************************************************************************************** PP
+
+       china 13967 cgtgtacgccaagctttgttaaaaacagtacaattctgtgatgccatgcgaaatgctggtattgttggtgtactgacattagataatcaagatct 14061
+                   cgtgtacgccaagctttgttaaaaacagtacaattctgtgatgccatgcgaaatgctggtattgttggtgtactgacattagataatcaagatct
+  MT327745.1 13977 CGTGTACGCCAAGCTTTGTTAAAAACAGTACAATTCTGTGATGCCATGCGAAATGCTGGTATTGTTGGTGTACTGACATTAGATAATCAAGATCT 14071
+                   *********************************************************************************************** PP
+
+       china 14062 caatggtaactggtatgatttcggtgatttcatacaaaccacgccaggtagtggagttcctgttgtagattcttattattcattgttaatgccta 14156
+                   caatggtaactggtatgatttcggtgatttcatacaaaccacgccaggtagtggagttcctgttgtagattcttattattcattgttaatgccta
+  MT327745.1 14072 CAATGGTAACTGGTATGATTTCGGTGATTTCATACAAACCACGCCAGGTAGTGGAGTTCCTGTTGTAGATTCTTATTATTCATTGTTAATGCCTA 14166
+                   *********************************************************************************************** PP
+
+       china 14157 tattaaccttgaccagggctttaactgcagagtcacatgttgacactgacttaacaaagccttacattaagtgggatttgttaaaatatgacttc 14251
+                   tattaaccttgaccagggctttaactgcagagtcacatgttgacactgacttaacaaagccttacattaagtgggatttgttaaaatatgacttc
+  MT327745.1 14167 TATTAACCTTGACCAGGGCTTTAACTGCAGAGTCACATGTTGACACTGACTTAACAAAGCCTTACATTAAGTGGGATTTGTTAAAATATGACTTC 14261
+                   *********************************************************************************************** PP
+
+       china 14252 acggaagagaggttaaaactctttgaccgttattttaaatattgggatcagacataccacccaaattgtgttaactgtttggatgacagatgcat 14346
+                   acggaagagaggttaaaactctttgaccgttattttaaatattgggatcagacataccacccaaattgtgttaactgtttggatgacagatgcat
+  MT327745.1 14262 ACGGAAGAGAGGTTAAAACTCTTTGACCGTTATTTTAAATATTGGGATCAGACATACCACCCAAATTGTGTTAACTGTTTGGATGACAGATGCAT 14356
+                   *********************************************************************************************** PP
+
+       china 14347 tctgcattgtgcaaactttaatgttttattctctacagtgttcccacctacaagttttggaccactagtgagaaaaatatttgttgatggtgttc 14441
+                   tctgcattgtgcaaactttaatgttttattctctacagtgttcccacctacaagttttggaccactagtgagaaaaatatttgttgatggtgttc
+  MT327745.1 14357 TCTGCATTGTGCAAACTTTAATGTTTTATTCTCTACAGTGTTCCCACCTACAAGTTTTGGACCACTAGTGAGAAAAATATTTGTTGATGGTGTTC 14451
+                   *********************************************************************************************** PP
+
+       china 14442 catttgtagtttcaactggataccacttcagagagctaggtgttgtacataatcaggatgtaaacttacatagctctagacttagttttaaggaa 14536
+                   catttgtagtttcaactggataccacttcagagagctaggtgttgtacataatcaggatgtaaacttacatagctctagacttagttttaaggaa
+  MT327745.1 14452 CATTTGTAGTTTCAACTGGATACCACTTCAGAGAGCTAGGTGTTGTACATAATCAGGATGTAAACTTACATAGCTCTAGACTTAGTTTTAAGGAA 14546
+                   *********************************************************************************************** PP
+
+       china 14537 ttacttgtgtatgctgctgaccctgctatgcacgctgcttctggtaatctattactagataaacgcactacgtgcttttcagtagctgcacttac 14631
+                   ttacttgtgtatgctgctgaccctgctatgcacgctgcttctggtaatctattactagataaacgcactacgtgcttttcagtagctgcacttac
+  MT327745.1 14547 TTACTTGTGTATGCTGCTGACCCTGCTATGCACGCTGCTTCTGGTAATCTATTACTAGATAAACGCACTACGTGCTTTTCAGTAGCTGCACTTAC 14641
+                   *********************************************************************************************** PP
+
+       china 14632 taacaatgttgcttttcaaactgtcaaacccggtaattttaacaaagacttctatgactttgctgtgtctaagggtttctttaaggaaggaagtt 14726
+                   taacaatgttgcttttcaaactgtcaaacccggtaattttaacaaagacttctatgactttgctgtgtctaagggtttctttaaggaaggaagtt
+  MT327745.1 14642 TAACAATGTTGCTTTTCAAACTGTCAAACCCGGTAATTTTAACAAAGACTTCTATGACTTTGCTGTGTCTAAGGGTTTCTTTAAGGAAGGAAGTT 14736
+                   *********************************************************************************************** PP
+
+       china 14727 ctgttgaattaaaacacttcttctttgctcaggatggtaatgctgctatcagcgattatgactactatcgttataatctaccaacaatgtgtgat 14821
+                   ctgttgaattaaaacacttcttctttgctcaggatggtaatgctgctatcagcgattatgactactatcgttataatctaccaacaatgtgtgat
+  MT327745.1 14737 CTGTTGAATTAAAACACTTCTTCTTTGCTCAGGATGGTAATGCTGCTATCAGCGATTATGACTACTATCGTTATAATCTACCAACAATGTGTGAT 14831
+                   *********************************************************************************************** PP
+
+       china 14822 atcagacaactactatttgtagttgaagttgttgataagtactttgattgttacgatggtggctgtattaatgctaaccaagtcatcgtcaacaa 14916
+                   atcagacaactactatttgtagttgaagttgttgataagtactttgattgttacgatggtggctgtattaatgctaaccaagtcatcgtcaacaa
+  MT327745.1 14832 ATCAGACAACTACTATTTGTAGTTGAAGTTGTTGATAAGTACTTTGATTGTTACGATGGTGGCTGTATTAATGCTAACCAAGTCATCGTCAACAA 14926
+                   *********************************************************************************************** PP
+
+       china 14917 cctagacaaatcagctggttttccatttaataaatggggtaaggctagactttattatgattcaatgagttatgaggatcaagatgcacttttcg 15011
+                   cctagacaaatcagctggttttccatttaataaatggggtaaggctagactttattatgattcaatgagttatgaggatcaagatgcacttttcg
+  MT327745.1 14927 CCTAGACAAATCAGCTGGTTTTCCATTTAATAAATGGGGTAAGGCTAGACTTTATTATGATTCAATGAGTTATGAGGATCAAGATGCACTTTTCG 15021
+                   *********************************************************************************************** PP
+
+       china 15012 catatacaaaacgtaatgtcatccctactataactcaaatgaatcttaagtatgccattagtgcaaagaatagagctcgcaccgtagctggtgtc 15106
+                   catatacaaaacgtaatgtcatccctactataactcaaatgaatcttaagtatgccattagtgcaaagaatagagctcgcaccgtagctggtgtc
+  MT327745.1 15022 CATATACAAAACGTAATGTCATCCCTACTATAACTCAAATGAATCTTAAGTATGCCATTAGTGCAAAGAATAGAGCTCGCACCGTAGCTGGTGTC 15116
+                   *********************************************************************************************** PP
+
+       china 15107 tctatctgtagtactatgaccaatagacagtttcatcaaaaattattgaaatcaatagccgccactagaggagctactgtagtaattggaacaag 15201
+                   tctatctgtagtactatgaccaatagacagtttcatcaaaaattattgaaatcaatagccgccactagaggagctactgtagtaattggaacaag
+  MT327745.1 15117 TCTATCTGTAGTACTATGACCAATAGACAGTTTCATCAAAAATTATTGAAATCAATAGCCGCCACTAGAGGAGCTACTGTAGTAATTGGAACAAG 15211
+                   *********************************************************************************************** PP
+
+       china 15202 caaattctatggtggttggcacaacatgttaaaaactgtttatagtgatgtagaaaaccctcaccttatgggttgggattatcctaaatgtgata 15296
+                   caaattctatggtggttggcacaacatgttaaaaactgtttatagtgatgtagaaaaccctcaccttatgggttgggattatcctaaatgtgata
+  MT327745.1 15212 CAAATTCTATGGTGGTTGGCACAACATGTTAAAAACTGTTTATAGTGATGTAGAAAACCCTCACCTTATGGGTTGGGATTATCCTAAATGTGATA 15306
+                   *********************************************************************************************** PP
+
+       china 15297 gagccatgcctaacatgcttagaattatggcctcacttgttcttgctcgcaaacatacaacgtgttgtagcttgtcacaccgtttctatagatta 15391
+                   gagccatgcctaacatgcttagaattatggcctcacttgttcttgctcgcaaacatacaacgtgttgtagcttgtcacaccgtttctatagatta
+  MT327745.1 15307 GAGCCATGCCTAACATGCTTAGAATTATGGCCTCACTTGTTCTTGCTCGCAAACATACAACGTGTTGTAGCTTGTCACACCGTTTCTATAGATTA 15401
+                   *********************************************************************************************** PP
+
+       china 15392 gctaatgagtgtgctcaagtattgagtgaaatggtcatgtgtggcggttcactatatgttaaaccaggtggaacctcatcaggagatgccacaac 15486
+                   gctaatgagtgtgctcaagtattgagtgaaatggtcatgtgtggcggttcactatatgttaaaccaggtggaacctcatcaggagatgccacaac
+  MT327745.1 15402 GCTAATGAGTGTGCTCAAGTATTGAGTGAAATGGTCATGTGTGGCGGTTCACTATATGTTAAACCAGGTGGAACCTCATCAGGAGATGCCACAAC 15496
+                   *********************************************************************************************** PP
+
+       china 15487 tgcttatgctaatagtgtttttaacatttgtcaagctgtcacggccaatgttaatgcacttttatctactgatggtaacaaaattgccgataagt 15581
+                   tgcttatgctaatagtgtttttaacatttgtcaagctgtcacggccaatgttaatgcacttttatctactgatggtaacaaaattgccgataagt
+  MT327745.1 15497 TGCTTATGCTAATAGTGTTTTTAACATTTGTCAAGCTGTCACGGCCAATGTTAATGCACTTTTATCTACTGATGGTAACAAAATTGCCGATAAGT 15591
+                   *********************************************************************************************** PP
+
+       china 15582 atgtccgcaatttacaacacagactttatgagtgtctctatagaaatagagatgttgacacagactttgtgaatgagttttacgcatatttgcgt 15676
+                   atgtccgcaatttacaacacagactttatgagtgtctctatagaaatagagatgttgacacagactttgtgaatgagttttacgcatatttgcgt
+  MT327745.1 15592 ATGTCCGCAATTTACAACACAGACTTTATGAGTGTCTCTATAGAAATAGAGATGTTGACACAGACTTTGTGAATGAGTTTTACGCATATTTGCGT 15686
+                   *********************************************************************************************** PP
+
+       china 15677 aaacatttctcaatgatgatactctctgacgatgctgttgtgtgtttcaatagcacttatgcatctcaaggtctagtggctagcataaagaactt 15771
+                   aaacatttctcaatgatgatactctctgacgatgctgttgtgtgtttcaatagcacttatgcatctcaaggtctagtggctagcataaagaactt
+  MT327745.1 15687 AAACATTTCTCAATGATGATACTCTCTGACGATGCTGTTGTGTGTTTCAATAGCACTTATGCATCTCAAGGTCTAGTGGCTAGCATAAAGAACTT 15781
+                   *********************************************************************************************** PP
+
+       china 15772 taagtcagttctttattatcaaaacaatgtttttatgtctgaagcaaaatgttggactgagactgaccttactaaaggacctcatgaattttgct 15866
+                   taagtcagttctttattatcaaaacaatgtttttatgtctgaagcaaaatgttggactgagactgaccttactaaaggacctcatgaattttgct
+  MT327745.1 15782 TAAGTCAGTTCTTTATTATCAAAACAATGTTTTTATGTCTGAAGCAAAATGTTGGACTGAGACTGACCTTACTAAAGGACCTCATGAATTTTGCT 15876
+                   *********************************************************************************************** PP
+
+       china 15867 ctcaacatacaatgctagttaaacagggtgatgattatgtgtaccttccttacccagatccatcaagaatcctaggggccggctgttttgtagat 15961
+                   ctcaacatacaatgctagttaaacagggtgatgattatgtgtaccttccttacccagatccatcaagaatcctaggggccggctgttttgtagat
+  MT327745.1 15877 CTCAACATACAATGCTAGTTAAACAGGGTGATGATTATGTGTACCTTCCTTACCCAGATCCATCAAGAATCCTAGGGGCCGGCTGTTTTGTAGAT 15971
+                   *********************************************************************************************** PP
+
+       china 15962 gatatcgtaaaaacagatggtacacttatgattgaacggttcgtgtctttagctatagatgcttacccacttactaaacatcctaatcaggagta 16056
+                   gatatcgtaaaaacagatggtacacttatgattgaacggttcgtgtctttagctatagatgcttacccacttactaaacatcctaatcaggagta
+  MT327745.1 15972 GATATCGTAAAAACAGATGGTACACTTATGATTGAACGGTTCGTGTCTTTAGCTATAGATGCTTACCCACTTACTAAACATCCTAATCAGGAGTA 16066
+                   *********************************************************************************************** PP
+
+       china 16057 tgctgatgtctttcatttgtacttacaatacataagaaagctacatgatgagttaacaggacacatgttagacatgtattctgttatgcttacta 16151
+                   tgctgatgtctttcatttgtacttacaatacataagaaagctacatgatgagttaacaggacacatgttagacatgtattctgttatgcttacta
+  MT327745.1 16067 TGCTGATGTCTTTCATTTGTACTTACAATACATAAGAAAGCTACATGATGAGTTAACAGGACACATGTTAGACATGTATTCTGTTATGCTTACTA 16161
+                   *********************************************************************************************** PP
+
+       china 16152 atgataacacttcaaggtattgggaacctgagttttatgaggctatgtacacaccgcatacagtcttacaggctgttggggcttgtgttctttgc 16246
+                   atgataacacttcaaggtattgggaacctgagttttatgaggctatgtacacaccgcatacagtcttacaggctgttggggcttgtgttctttgc
+  MT327745.1 16162 ATGATAACACTTCAAGGTATTGGGAACCTGAGTTTTATGAGGCTATGTACACACCGCATACAGTCTTACAGGCTGTTGGGGCTTGTGTTCTTTGC 16256
+                   *********************************************************************************************** PP
+
+       china 16247 aattcacagacttcattaagatgtggtgcttgcatacgtagaccattcttatgttgtaaatgctgttacgaccatgtcatatcaacatcacataa 16341
+                   aattcacagacttcattaagatgtggtgcttgcatacgtagaccattcttatgttgtaaatgctgttacgaccatgtcatatcaacatcacataa
+  MT327745.1 16257 AATTCACAGACTTCATTAAGATGTGGTGCTTGCATACGTAGACCATTCTTATGTTGTAAATGCTGTTACGACCATGTCATATCAACATCACATAA 16351
+                   *********************************************************************************************** PP
+
+       china 16342 attagtcttgtctgttaatccgtatgtttgcaatgctccaggttgtgatgtcacagatgtgactcaactttacttaggaggtatgagctattatt 16436
+                   attagtcttgtctgttaatccgtatgtttgcaatgctccaggttgtgatgtcacagatgtgactcaactttacttaggaggtatgagctattatt
+  MT327745.1 16352 ATTAGTCTTGTCTGTTAATCCGTATGTTTGCAATGCTCCAGGTTGTGATGTCACAGATGTGACTCAACTTTACTTAGGAGGTATGAGCTATTATT 16446
+                   *********************************************************************************************** PP
+
+       china 16437 gtaaatcacataaaccacccattagttttccattgtgtgctaatggacaagtttttggtttatataaaaatacatgtgttggtagcgataatgtt 16531
+                   gtaaatcacataaaccacccattagttttccattgtgtgctaatggacaagtttttggtttatataaaaatacatgtgttggtagcgataatgtt
+  MT327745.1 16447 GTAAATCACATAAACCACCCATTAGTTTTCCATTGTGTGCTAATGGACAAGTTTTTGGTTTATATAAAAATACATGTGTTGGTAGCGATAATGTT 16541
+                   *********************************************************************************************** PP
+
+       china 16532 actgactttaatgcaattgcaacatgtgactggacaaatgctggtgattacattttagctaacacctgtactgaaagactcaagctttttgcagc 16626
+                   actgactttaatgcaattgcaacatgtgactggacaaatgctggtgattacattttagctaacacctgtactgaaagactcaagctttttgcagc
+  MT327745.1 16542 ACTGACTTTAATGCAATTGCAACATGTGACTGGACAAATGCTGGTGATTACATTTTAGCTAACACCTGTACTGAAAGACTCAAGCTTTTTGCAGC 16636
+                   *********************************************************************************************** PP
+
+       china 16627 agaaacgctcaaagctactgaggagacatttaaactgtcttatggtattgctactgtacgtgaagtgctgtctgacagagaattacatctttcat 16721
+                   agaaacgctcaaagctactgaggagacatttaaactgtcttatggtattgctactgtacgtgaagtgctgtctgacagagaattacatctttcat
+  MT327745.1 16637 AGAAACGCTCAAAGCTACTGAGGAGACATTTAAACTGTCTTATGGTATTGCTACTGTACGTGAAGTGCTGTCTGACAGAGAATTACATCTTTCAT 16731
+                   *********************************************************************************************** PP
+
+       china 16722 gggaagttggtaaacctagaccaccacttaaccgaaattatgtctttactggttatcgtgtaactaaaaacagtaaagtacaaataggagagtac 16816
+                   gggaagttggtaaacctagaccaccacttaaccgaaattatgtctttactggttatcgtgtaactaaaaacagtaaagtacaaataggagagtac
+  MT327745.1 16732 GGGAAGTTGGTAAACCTAGACCACCACTTAACCGAAATTATGTCTTTACTGGTTATCGTGTAACTAAAAACAGTAAAGTACAAATAGGAGAGTAC 16826
+                   *********************************************************************************************** PP
+
+       china 16817 acctttgaaaaaggtgactatggtgatgctgttgtttaccgaggtacaacaacttacaaattaaatgttggtgattattttgtgctgacatcaca 16911
+                   acctttgaaaaaggtgactatggtgatgctgttgtttaccgaggtacaacaacttacaaattaaatgttggtgattattttgtgctgacatcaca
+  MT327745.1 16827 ACCTTTGAAAAAGGTGACTATGGTGATGCTGTTGTTTACCGAGGTACAACAACTTACAAATTAAATGTTGGTGATTATTTTGTGCTGACATCACA 16921
+                   *********************************************************************************************** PP
+
+       china 16912 tacagtaatgccattaagtgcacctacactagtgccacaagagcactatgttagaattactggcttatacccaacactcaatatctcagatgagt 17006
+                   tacagtaatgccattaagtgcacctacactagtgccacaagagcactatgttagaattactggcttatacccaacactcaatatctcagatgagt
+  MT327745.1 16922 TACAGTAATGCCATTAAGTGCACCTACACTAGTGCCACAAGAGCACTATGTTAGAATTACTGGCTTATACCCAACACTCAATATCTCAGATGAGT 17016
+                   *********************************************************************************************** PP
+
+       china 17007 tttctagcaatgttgcaaattatcaaaaggttggtatgcaaaagtattctacactccagggaccacctggtactggtaagagtcattttgctatt 17101
+                   tttctagcaatgttgcaaattatcaaaaggttggtatgcaaaagtattctacactccagggaccacctggtactggtaagagtcattttgctatt
+  MT327745.1 17017 TTTCTAGCAATGTTGCAAATTATCAAAAGGTTGGTATGCAAAAGTATTCTACACTCCAGGGACCACCTGGTACTGGTAAGAGTCATTTTGCTATT 17111
+                   *********************************************************************************************** PP
+
+       china 17102 ggcctagctctctactacccttctgctcgcatagtgtatacagcttgctctcatgccgctgttgatgcactatgtgagaaggcattaaaatattt 17196
+                   ggcctagctctctactacccttctgctcgcatagtgtatacagcttgctctcatgccgctgttgatgcactatgtgagaaggcattaaaatattt
+  MT327745.1 17112 GGCCTAGCTCTCTACTACCCTTCTGCTCGCATAGTGTATACAGCTTGCTCTCATGCCGCTGTTGATGCACTATGTGAGAAGGCATTAAAATATTT 17206
+                   *********************************************************************************************** PP
+
+       china 17197 gcctatagataaatgtagtagaattatacctgcacgtgctcgtgtagagtgttttgataaattcaaagtgaattcaacattagaacagtatgtct 17291
+                   gcctatagataaatgtagtagaattatacctgcacgtgctcgtgtagagtgttttgataaattcaaagtgaattcaacattagaacagtatgtct
+  MT327745.1 17207 GCCTATAGATAAATGTAGTAGAATTATACCTGCACGTGCTCGTGTAGAGTGTTTTGATAAATTCAAAGTGAATTCAACATTAGAACAGTATGTCT 17301
+                   *********************************************************************************************** PP
+
+       china 17292 tttgtactgtaaatgcattgcctgagacgacagcagatatagttgtctttgatgaaatttcaatggccacaaattatgatttgagtgttgtcaat 17386
+                   tttgtactgtaaatgcattgcctgagacgacagcagatatagttgtctttgatgaaatttcaatggccacaaattatgatttgagtgttgtcaat
+  MT327745.1 17302 TTTGTACTGTAAATGCATTGCCTGAGACGACAGCAGATATAGTTGTCTTTGATGAAATTTCAATGGCCACAAATTATGATTTGAGTGTTGTCAAT 17396
+                   *********************************************************************************************** PP
+
+       china 17387 gccagattacgtgctaagcactatgtgtacattggcgaccctgctcaattacctgcaccacgcacattgctaactaagggcacactagaaccaga 17481
+                   gccagattacgtgctaagcactatgtgtacattggcgaccctgctcaattacctgcaccacgcacattgctaactaagggcacactagaaccaga
+  MT327745.1 17397 GCCAGATTACGTGCTAAGCACTATGTGTACATTGGCGACCCTGCTCAATTACCTGCACCACGCACATTGCTAACTAAGGGCACACTAGAACCAGA 17491
+                   *********************************************************************************************** PP
+
+       china 17482 atatttcaattcagtgtgtagacttatgaaaactataggtccagacatgttcctcggaacttgtcggcgttgtcctgctgaaattgttgacactg 17576
+                   atatttcaattcagtgtgtagacttatgaaaactataggtccagacatgttcctcggaacttgtcggcgttgtcctgctgaaattgttgacactg
+  MT327745.1 17492 ATATTTCAATTCAGTGTGTAGACTTATGAAAACTATAGGTCCAGACATGTTCCTCGGAACTTGTCGGCGTTGTCCTGCTGAAATTGTTGACACTG 17586
+                   *********************************************************************************************** PP
+
+       china 17577 tgagtgctttggtttatgataataagcttaaagcacataaagacaaatcagctcaatgctttaaaatgttttataagggtgttatcacgcatgat 17671
+                   tgagtgctttggtttatgataataagcttaaagcacataaagacaaatcagctcaatgctttaaaatgttttataagggtgttatcacgcatgat
+  MT327745.1 17587 TGAGTGCTTTGGTTTATGATAATAAGCTTAAAGCACATAAAGACAAATCAGCTCAATGCTTTAAAATGTTTTATAAGGGTGTTATCACGCATGAT 17681
+                   *********************************************************************************************** PP
+
+       china 17672 gtttcatctgcaattaacaggccacaaataggcgtggtaagagaattccttacacgtaaccctgcttggagaaaagctgtctttatttcacctta 17766
+                   gtttcatctgcaattaacaggccacaaataggcgtggtaagagaattccttacacgtaaccctgcttggagaaaagctgtctttatttcacctta
+  MT327745.1 17682 GTTTCATCTGCAATTAACAGGCCACAAATAGGCGTGGTAAGAGAATTCCTTACACGTAACCCTGCTTGGAGAAAAGCTGTCTTTATTTCACCTTA 17776
+                   *********************************************************************************************** PP
+
+       china 17767 taattcacagaatgctgtagcctcaaagattttgggactaccaactcaaactgttgattcatcacagggctcagaatatgactatgtcatattca 17861
+                   taattcacagaatgctgtagcctcaaagattttgggactaccaactcaaactgttgattcatcacagggctcagaatatgactatgtcatattca
+  MT327745.1 17777 TAATTCACAGAATGCTGTAGCCTCAAAGATTTTGGGACTACCAACTCAAACTGTTGATTCATCACAGGGCTCAGAATATGACTATGTCATATTCA 17871
+                   *********************************************************************************************** PP
+
+       china 17862 ctcaaaccactgaaacagctcactcttgtaatgtaaacagatttaatgttgctattaccagagcaaaagtaggcatactttgcataatgtctgat 17956
+                   ctcaaaccactgaaacagctcactcttgtaatgtaaacagatttaatgttgctattaccagagcaaaagtaggcatactttgcataatgtctgat
+  MT327745.1 17872 CTCAAACCACTGAAACAGCTCACTCTTGTAATGTAAACAGATTTAATGTTGCTATTACCAGAGCAAAAGTAGGCATACTTTGCATAATGTCTGAT 17966
+                   *********************************************************************************************** PP
+
+       china 17957 agagacctttatgacaagttgcaatttacaagtcttgaaattccacgtaggaatgtggcaactttacaagctgaaaatgtaacaggactctttaa 18051
+                   agagacctttatgacaagttgcaatttacaagtcttgaaattccacgtaggaatgtggcaactttacaagctgaaaatgtaacaggactctttaa
+  MT327745.1 17967 AGAGACCTTTATGACAAGTTGCAATTTACAAGTCTTGAAATTCCACGTAGGAATGTGGCAACTTTACAAGCTGAAAATGTAACAGGACTCTTTAA 18061
+                   *********************************************************************************************** PP
+
+       china 18052 agattgtagtaaggtaatcactgggttacatcctacacaggcacctacacacctcagtgttgacactaaattcaaaactgaaggtttatgtgttg 18146
+                   agattgtagtaaggtaatcactgggttacatcctacacaggcacctacacacctcagtgttgacactaaattcaaaactgaaggtttatgtgttg
+  MT327745.1 18062 AGATTGTAGTAAGGTAATCACTGGGTTACATCCTACACAGGCACCTACACACCTCAGTGTTGACACTAAATTCAAAACTGAAGGTTTATGTGTTG 18156
+                   *********************************************************************************************** PP
+
+       china 18147 acatacctggcatacctaaggacatgacctatagaagactcatctctatgatgggttttaaaatgaattatcaagttaatggttaccctaacatg 18241
+                   acatacctggcatacctaaggacatgacctatagaagactcatctctatgatgggttttaaaatgaattatcaagttaatggttaccctaacatg
+  MT327745.1 18157 ACATACCTGGCATACCTAAGGACATGACCTATAGAAGACTCATCTCTATGATGGGTTTTAAAATGAATTATCAAGTTAATGGTTACCCTAACATG 18251
+                   *********************************************************************************************** PP
+
+       china 18242 tttatcacccgcgaagaagctataagacatgtacgtgcatggattggcttcgatgtcgaggggtgtcatgctactagagaagctgttggtaccaa 18336
+                   tttatcacccgcgaagaagctataagacatgtacgtgcatggattggcttcgatgtcgaggggtgtcatgctactagagaagctgttggtaccaa
+  MT327745.1 18252 TTTATCACCCGCGAAGAAGCTATAAGACATGTACGTGCATGGATTGGCTTCGATGTCGAGGGGTGTCATGCTACTAGAGAAGCTGTTGGTACCAA 18346
+                   *********************************************************************************************** PP
+
+       china 18337 tttacctttacagctaggtttttctacaggtgttaacctagttgctgtacctacaggttatgttgatacacctaataatacagatttttccagag 18431
+                   tttacctttacagctaggtttttctacaggtgttaacctagttgctgtacctacaggttatgttgatacacctaataatacagatttttccagag
+  MT327745.1 18347 TTTACCTTTACAGCTAGGTTTTTCTACAGGTGTTAACCTAGTTGCTGTACCTACAGGTTATGTTGATACACCTAATAATACAGATTTTTCCAGAG 18441
+                   *********************************************************************************************** PP
+
+       china 18432 ttagtgctaaaccaccgcctggagatcaatttaaacacctcataccacttatgtacaaaggacttccttggaatgtagtgcgtataaagattgta 18526
+                   ttagtgctaaaccaccgcctggagatcaatttaaacacctcataccacttatgtacaaaggacttccttggaatgtagtgcgtataaagattgta
+  MT327745.1 18442 TTAGTGCTAAACCACCGCCTGGAGATCAATTTAAACACCTCATACCACTTATGTACAAAGGACTTCCTTGGAATGTAGTGCGTATAAAGATTGTA 18536
+                   *********************************************************************************************** PP
+
+       china 18527 caaatgttaagtgacacacttaaaaatctctctgacagagtcgtatttgtcttatgggcacatggctttgagttgacatctatgaagtattttgt 18621
+                   caaatgttaagtgacacacttaaaaatctctctgacagagtcgtatttgtcttatgggcacatggctttgagttgacatctatgaagtattttgt
+  MT327745.1 18537 CAAATGTTAAGTGACACACTTAAAAATCTCTCTGACAGAGTCGTATTTGTCTTATGGGCACATGGCTTTGAGTTGACATCTATGAAGTATTTTGT 18631
+                   *********************************************************************************************** PP
+
+       china 18622 gaaaataggacctgagcgcacctgttgtctatgtgatagacgtgccacatgcttttccactgcttcagacacttatgcctgttggcatcattcta 18716
+                   gaaaataggacctgagcgcacctgttgtctatgtgatagacgtgccacatgcttttccactgcttcagacacttatgcctgttggcatcattcta
+  MT327745.1 18632 GAAAATAGGACCTGAGCGCACCTGTTGTCTATGTGATAGACGTGCCACATGCTTTTCCACTGCTTCAGACACTTATGCCTGTTGGCATCATTCTA 18726
+                   *********************************************************************************************** PP
+
+       china 18717 ttggatttgattacgtctataatccgtttatgattgatgttcaacaatggggttttacaggtaacctacaaagcaaccatgatctgtattgtcaa 18811
+                   ttggatttgattacgtctataatccgtttatgattgatgttcaacaatggggttttacaggtaacctacaaagcaaccatgatctgtattgtcaa
+  MT327745.1 18727 TTGGATTTGATTACGTCTATAATCCGTTTATGATTGATGTTCAACAATGGGGTTTTACAGGTAACCTACAAAGCAACCATGATCTGTATTGTCAA 18821
+                   *********************************************************************************************** PP
+
+       china 18812 gtccatggtaatgcacatgtagctagttgtgatgcaatcatgactaggtgtctagctgtccacgagtgctttgttaagcgtgttgactggactat 18906
+                   gtccatggtaatgcacatgtagctagttgtgatgcaatcatgactaggtgtctagctgtccacgagtgctttgttaagcgtgttgactggactat
+  MT327745.1 18822 GTCCATGGTAATGCACATGTAGCTAGTTGTGATGCAATCATGACTAGGTGTCTAGCTGTCCACGAGTGCTTTGTTAAGCGTGTTGACTGGACTAT 18916
+                   *********************************************************************************************** PP
+
+       china 18907 tgaatatcctataattggtgatgaactgaagattaatgcggcttgtagaaaggttcaacacatggttgttaaagctgcattattagcagacaaat 19001
+                   tgaatatcctataattggtgatgaactgaagattaatgcggcttgtagaaaggttcaacacatggttgttaaagctgcattattagcagacaaat
+  MT327745.1 18917 TGAATATCCTATAATTGGTGATGAACTGAAGATTAATGCGGCTTGTAGAAAGGTTCAACACATGGTTGTTAAAGCTGCATTATTAGCAGACAAAT 19011
+                   *********************************************************************************************** PP
+
+       china 19002 tcccagttcttcacgacattggtaaccctaaagctattaagtgtgtacctcaagctgatgtagaatggaagttctatgatgcacagccttgtagt 19096
+                   tcccagttcttcacgacattggtaaccctaaagctattaagtgtgtacctcaagctgatgtagaatggaagttctatgatgcacagccttgtagt
+  MT327745.1 19012 TCCCAGTTCTTCACGACATTGGTAACCCTAAAGCTATTAAGTGTGTACCTCAAGCTGATGTAGAATGGAAGTTCTATGATGCACAGCCTTGTAGT 19106
+                   *********************************************************************************************** PP
+
+       china 19097 gacaaagcttataaaatagaagaattattctattcttatgccacacattctgacaaattcacagatggtgtatgcctattttggaattgcaatgt 19191
+                   gacaaagcttataaaatagaagaattattctattcttatgccacacattctgacaaattcacagatggtgtatgcctattttggaattgcaatgt
+  MT327745.1 19107 GACAAAGCTTATAAAATAGAAGAATTATTCTATTCTTATGCCACACATTCTGACAAATTCACAGATGGTGTATGCCTATTTTGGAATTGCAATGT 19201
+                   *********************************************************************************************** PP
+
+       china 19192 cgatagatatcctgctaattccattgtttgtagatttgacactagagtgctatctaaccttaacttgcctggttgtgatggtggcagtttgtatg 19286
+                   cgatagatatcctgctaattccattgtttgtagatttgacactagagtgctatctaaccttaacttgcctggttgtgatggtggcagtttgtatg
+  MT327745.1 19202 CGATAGATATCCTGCTAATTCCATTGTTTGTAGATTTGACACTAGAGTGCTATCTAACCTTAACTTGCCTGGTTGTGATGGTGGCAGTTTGTATG 19296
+                   *********************************************************************************************** PP
+
+       china 19287 taaataaacatgcattccacacaccagcttttgataaaagtgcttttgttaatttaaaacaattaccatttttctattactctgacagtccatgt 19381
+                   taaataaacatgcattccacacaccagcttttgataaaagtgcttttgttaatttaaaacaattaccatttttctattactctgacagtccatgt
+  MT327745.1 19297 TAAATAAACATGCATTCCACACACCAGCTTTTGATAAAAGTGCTTTTGTTAATTTAAAACAATTACCATTTTTCTATTACTCTGACAGTCCATGT 19391
+                   *********************************************************************************************** PP
+
+       china 19382 gagtctcatggaaaacaagtagtgtcagatatagattatgtaccactaaagtctgctacgtgtataacacgttgcaatttaggtggtgctgtctg 19476
+                   gagtctcatggaaaacaagtagtgtcagatatagattatgtaccactaaagtctgctacgtgtataacacgttgcaatttaggtggtgctgtctg
+  MT327745.1 19392 GAGTCTCATGGAAAACAAGTAGTGTCAGATATAGATTATGTACCACTAAAGTCTGCTACGTGTATAACACGTTGCAATTTAGGTGGTGCTGTCTG 19486
+                   *********************************************************************************************** PP
+
+       china 19477 tagacatcatgctaatgagtacagattgtatctcgatgcttataacatgatgatctcagctggctttagcttgtgggtttacaaacaatttgata 19571
+                   tagacatcatgctaatgagtacagattgtatctcgatgcttataacatgatgatctcagctggctttagcttgtgggtttacaaacaatttgata
+  MT327745.1 19487 TAGACATCATGCTAATGAGTACAGATTGTATCTCGATGCTTATAACATGATGATCTCAGCTGGCTTTAGCTTGTGGGTTTACAAACAATTTGATA 19581
+                   *********************************************************************************************** PP
+
+       china 19572 cttataacctctggaacacttttacaagacttcagagtttagaaaatgtggcttttaatgttgtaaataagggacactttgatggacaacagggt 19666
+                   cttataacctctggaacacttttacaagacttcagagtttagaaaatgtggcttttaatgttgtaaataagggacactttgatggacaacagggt
+  MT327745.1 19582 CTTATAACCTCTGGAACACTTTTACAAGACTTCAGAGTTTAGAAAATGTGGCTTTTAATGTTGTAAATAAGGGACACTTTGATGGACAACAGGGT 19676
+                   *********************************************************************************************** PP
+
+       china 19667 gaagtaccagtttctatcattaataacactgtttacacaaaagttgatggtgttgatgtagaattgtttgaaaataaaacaacattacctgttaa 19761
+                   gaagtaccagtttctatcattaataacactgtttacacaaaagttgatggtgttgatgtagaattgtttgaaaataaaacaacattacctgttaa
+  MT327745.1 19677 GAAGTACCAGTTTCTATCATTAATAACACTGTTTACACAAAAGTTGATGGTGTTGATGTAGAATTGTTTGAAAATAAAACAACATTACCTGTTAA 19771
+                   *********************************************************************************************** PP
+
+       china 19762 tgtagcatttgagctttgggctaagcgcaacattaaaccagtaccagaggtgaaaatactcaataatttgggtgtggacattgctgctaatactg 19856
+                   tgtagcatttgagctttgggctaagcgcaacattaaaccagtaccagaggtgaaaatactcaataatttgggtgtggacattgctgctaatactg
+  MT327745.1 19772 TGTAGCATTTGAGCTTTGGGCTAAGCGCAACATTAAACCAGTACCAGAGGTGAAAATACTCAATAATTTGGGTGTGGACATTGCTGCTAATACTG 19866
+                   *********************************************************************************************** PP
+
+       china 19857 tgatctgggactacaaaagagatgctccagcacatatatctactattggtgtttgttctatgactgacatagccaagaaaccaactgaaacgatt 19951
+                   tgatctgggactacaaaagagatgctccagcacatatatctactattggtgtttgttctatgactgacatagccaagaaaccaactgaaacgatt
+  MT327745.1 19867 TGATCTGGGACTACAAAAGAGATGCTCCAGCACATATATCTACTATTGGTGTTTGTTCTATGACTGACATAGCCAAGAAACCAACTGAAACGATT 19961
+                   *********************************************************************************************** PP
+
+       china 19952 tgtgcaccactcactgtcttttttgatggtagagttgatggtcaagtagacttatttagaaatgcccgtaatggtgttcttattacagaaggtag 20046
+                   tgtgcaccactcactgtcttttttgatggtagagttgatggtcaagtagacttatttagaaatgcccgtaatggtgttcttattacagaaggtag
+  MT327745.1 19962 TGTGCACCACTCACTGTCTTTTTTGATGGTAGAGTTGATGGTCAAGTAGACTTATTTAGAAATGCCCGTAATGGTGTTCTTATTACAGAAGGTAG 20056
+                   *********************************************************************************************** PP
+
+       china 20047 tgttaaaggtttacaaccatctgtaggtcccaaacaagctagtcttaatggagtcacattaattggagaagccgtaaaaacacagttcaattatt 20141
+                   tgttaaaggtttacaaccatctgtaggtcccaaacaagctagtcttaatggagtcacattaattggagaagccgtaaaaacacagttcaattatt
+  MT327745.1 20057 TGTTAAAGGTTTACAACCATCTGTAGGTCCCAAACAAGCTAGTCTTAATGGAGTCACATTAATTGGAGAAGCCGTAAAAACACAGTTCAATTATT 20151
+                   *********************************************************************************************** PP
+
+       china 20142 ataagaaagttgatggtgttgtccaacaattacctgaaacttactttactcagagtagaaatttacaagaatttaaacccaggagtcaaatggaa 20236
+                   ataagaaagttgatggtgttgtccaacaattacctgaaacttactttactcagagtagaaatttacaagaatttaaacccaggagtcaaatggaa
+  MT327745.1 20152 ATAAGAAAGTTGATGGTGTTGTCCAACAATTACCTGAAACTTACTTTACTCAGAGTAGAAATTTACAAGAATTTAAACCCAGGAGTCAAATGGAA 20246
+                   *********************************************************************************************** PP
+
+       china 20237 attgatttcttagaattagctatggatgaattcattgaacggtataaattagaaggctatgccttcgaacatatcgtttatggagattttagtca 20331
+                   attgatttcttagaattagctatggatgaattcattgaacggtataaattagaaggctatgccttcgaacatatcgtttatggagattttagtca
+  MT327745.1 20247 ATTGATTTCTTAGAATTAGCTATGGATGAATTCATTGAACGGTATAAATTAGAAGGCTATGCCTTCGAACATATCGTTTATGGAGATTTTAGTCA 20341
+                   *********************************************************************************************** PP
+
+       china 20332 tagtcagttaggtggtttacatctactgattggactagctaaacgttttaaggaatcaccttttgaattagaagattttattcctatggacagta 20426
+                   tagtcagttaggtggtttacatctactgattggactagctaaacgttttaaggaatcaccttttgaattagaagattttattcctatggacagta
+  MT327745.1 20342 TAGTCAGTTAGGTGGTTTACATCTACTGATTGGACTAGCTAAACGTTTTAAGGAATCACCTTTTGAATTAGAAGATTTTATTCCTATGGACAGTA 20436
+                   *********************************************************************************************** PP
+
+       china 20427 cagttaaaaactatttcataacagatgcgcaaacaggttcatctaagtgtgtgtgttctgttattgatttattacttgatgattttgttgaaata 20521
+                   cagttaaaaactatttcataacagatgcgcaaacaggttcatctaagtgtgtgtgttctgttattgatttattacttgatgattttgttgaaata
+  MT327745.1 20437 CAGTTAAAAACTATTTCATAACAGATGCGCAAACAGGTTCATCTAAGTGTGTGTGTTCTGTTATTGATTTATTACTTGATGATTTTGTTGAAATA 20531
+                   *********************************************************************************************** PP
+
+       china 20522 ataaaatcccaagatttatctgtagtttctaaggttgtcaaagtgactattgactatacagaaatttcatttatgctttggtgtaaagatggcca 20616
+                   ataaaatcccaagatttatctgtagtttctaaggttgtcaaagtgactattgactatacagaaatttcatttatgctttggtgtaaagatggcca
+  MT327745.1 20532 ATAAAATCCCAAGATTTATCTGTAGTTTCTAAGGTTGTCAAAGTGACTATTGACTATACAGAAATTTCATTTATGCTTTGGTGTAAAGATGGCCA 20626
+                   *********************************************************************************************** PP
+
+       china 20617 tgtagaaacattttacccaaaattacaatctagtcaagcgtggcaaccgggtgttgctatgcctaatctttacaaaatgcaaagaatgctattag 20711
+                   tgtagaaacattttacccaaaattacaatctagtcaagcgtggcaaccgggtgttgctatgcctaatctttacaaaatgcaaagaatgctattag
+  MT327745.1 20627 TGTAGAAACATTTTACCCAAAATTACAATCTAGTCAAGCGTGGCAACCGGGTGTTGCTATGCCTAATCTTTACAAAATGCAAAGAATGCTATTAG 20721
+                   *********************************************************************************************** PP
+
+       china 20712 aaaagtgtgaccttcaaaattatggtgatagtgcaacattacctaaaggcataatgatgaatgtcgcaaaatatactcaactgtgtcaatattta 20806
+                   aaaagtgtgaccttcaaaattatggtgatagtgcaacattacctaaaggcataatgatgaatgtcgcaaaatatactcaactgtgtcaatattta
+  MT327745.1 20722 AAAAGTGTGACCTTCAAAATTATGGTGATAGTGCAACATTACCTAAAGGCATAATGATGAATGTCGCAAAATATACTCAACTGTGTCAATATTTA 20816
+                   *********************************************************************************************** PP
+
+       china 20807 aacacattaacattagctgtaccctataatatgagagttatacattttggtgctggttctgataaaggagttgcaccaggtacagctgttttaag 20901
+                   aacacattaacattagctgtaccctataatatgagagttatacattttggtgctggttctgataaaggagttgcaccaggtacagctgttttaag
+  MT327745.1 20817 AACACATTAACATTAGCTGTACCCTATAATATGAGAGTTATACATTTTGGTGCTGGTTCTGATAAAGGAGTTGCACCAGGTACAGCTGTTTTAAG 20911
+                   *********************************************************************************************** PP
+
+       china 20902 acagtggttgcctacgggtacgctgcttgtcgattcagatcttaatgactttgtctctgatgcagattcaactttgattggtgattgtgcaactg 20996
+                   acagtggttgcctacgggtacgctgcttgtcgattcagatcttaatgactttgtctctgatgcagattcaactttgattggtgattgtgcaactg
+  MT327745.1 20912 ACAGTGGTTGCCTACGGGTACGCTGCTTGTCGATTCAGATCTTAATGACTTTGTCTCTGATGCAGATTCAACTTTGATTGGTGATTGTGCAACTG 21006
+                   *********************************************************************************************** PP
+
+       china 20997 tacatacagctaataaatgggatctcattattagtgatatgtacgaccctaagactaaaaatgttacaaaagaaaatgactctaaagagggtttt 21091
+                   tacatacagctaataaatgggatctcattattagtgatatgtacgaccctaagactaaaaatgttacaaaagaaaatgactctaaagagggtttt
+  MT327745.1 21007 TACATACAGCTAATAAATGGGATCTCATTATTAGTGATATGTACGACCCTAAGACTAAAAATGTTACAAAAGAAAATGACTCTAAAGAGGGTTTT 21101
+                   *********************************************************************************************** PP
+
+       china 21092 ttcacttacatttgtgggtttatacaacaaaagctagctcttggaggttccgtggctataaagataacagaacattcttggaatgctgatcttta 21186
+                   ttcacttacatttgtgggtttatacaacaaaagctagctcttggaggttccgtggctataaagataacagaacattcttggaatgctgatcttta
+  MT327745.1 21102 TTCACTTACATTTGTGGGTTTATACAACAAAAGCTAGCTCTTGGAGGTTCCGTGGCTATAAAGATAACAGAACATTCTTGGAATGCTGATCTTTA 21196
+                   *********************************************************************************************** PP
+
+       china 21187 taagctcatgggacacttcgcatggtggacagcctttgttactaatgtgaatgcgtcatcatctgaagcatttttaattggatgtaattatcttg 21281
+                   taagctcatgggacacttcgcatggtggacagcctttgttactaatgtgaatgcgtcatcatctgaagcatttttaattggatgtaattatcttg
+  MT327745.1 21197 TAAGCTCATGGGACACTTCGCATGGTGGACAGCCTTTGTTACTAATGTGAATGCGTCATCATCTGAAGCATTTTTAATTGGATGTAATTATCTTG 21291
+                   *********************************************************************************************** PP
+
+       china 21282 gcaaaccacgcgaacaaatagatggttatgtcatgcatgcaaattacatattttggaggaatacaaatccaattcagttgtcttcctattcttta 21376
+                   gcaaaccacgcgaacaaatagatggttatgtcatgcatgcaaattacatattttggaggaatacaaatccaattcagttgtcttcctattcttta
+  MT327745.1 21292 GCAAACCACGCGAACAAATAGATGGTTATGTCATGCATGCAAATTACATATTTTGGAGGAATACAAATCCAATTCAGTTGTCTTCCTATTCTTTA 21386
+                   *********************************************************************************************** PP
+
+       china 21377 tttgacatgagtaaatttccccttaaattaaggggtactgctgttatgtctttaaaagaaggtcaaatcaatgatatgattttatctcttcttag 21471
+                   tttgacatgagtaaatttccccttaaattaaggggtactgctgttatgtctttaaaagaaggtcaaatcaatgatatgattttatctcttcttag
+  MT327745.1 21387 TTTGACATGAGTAAATTTCCCCTTAAATTAAGGGGTACTGCTGTTATGTCTTTAAAAGAAGGTCAAATCAATGATATGATTTTATCTCTTCTTAG 21481
+                   *********************************************************************************************** PP
+
+       china 21472 taaaggtagacttataattagagaaaacaacagagttgttatttctagtgatgttcttgttaacaactaaacgaacaatgtttgtttttcttgtt 21566
+                   taaaggtagacttataattagagaaaacaacagagttgttatttctagtgatgttcttgttaacaactaaacgaacaatgtttgtttttcttgtt
+  MT327745.1 21482 TAAAGGTAGACTTATAATTAGAGAAAACAACAGAGTTGTTATTTCTAGTGATGTTCTTGTTAACAACTAAACGAACAATGTTTGTTTTTCTTGTT 21576
+                   *********************************************************************************************** PP
+
+       china 21567 ttattgccactagtctctagtcagtgtgttaatcttacaaccagaactcaattaccccctgcatacactaattctttcacacgtggtgtttatta 21661
+                   ttattgccactagtctctagtcagtgtgttaatcttacaaccagaactcaattaccccctgcatacactaattctttcacacgtggtgtttatta
+  MT327745.1 21577 TTATTGCCACTAGTCTCTAGTCAGTGTGTTAATCTTACAACCAGAACTCAATTACCCCCTGCATACACTAATTCTTTCACACGTGGTGTTTATTA 21671
+                   *********************************************************************************************** PP
+
+       china 21662 ccctgacaaagttttcagatcctcagttttacattcaactcaggacttgttcttacctttcttttccaatgttacttggttccatgctatacatg 21756
+                   ccctgacaaagttttcagatcctcagttttacattcaactcaggacttgttcttacctttcttttccaatgttacttggttccatgctatacatg
+  MT327745.1 21672 CCCTGACAAAGTTTTCAGATCCTCAGTTTTACATTCAACTCAGGACTTGTTCTTACCTTTCTTTTCCAATGTTACTTGGTTCCATGCTATACATG 21766
+                   *********************************************************************************************** PP
+
+       china 21757 tctctgggaccaatggtactaagaggtttgataaccctgtcctaccatttaatgatggtgtttattttgcttccactgagaagtctaacataata 21851
+                   tctctgggaccaatggtactaagaggtttgataaccctgtcctaccatttaatgatggtgtttattttgcttccactgagaagtctaacataata
+  MT327745.1 21767 TCTCTGGGACCAATGGTACTAAGAGGTTTGATAACCCTGTCCTACCATTTAATGATGGTGTTTATTTTGCTTCCACTGAGAAGTCTAACATAATA 21861
+                   *********************************************************************************************** PP
+
+       china 21852 agaggctggatttttggtactactttagattcgaagacccagtccctacttattgttaataacgctactaatgttgttattaaagtctgtgaatt 21946
+                   agaggctggatttttggtactactttagattcgaagacccagtccctacttattgttaataacgctactaatgttgttattaaagtctgtgaatt
+  MT327745.1 21862 AGAGGCTGGATTTTTGGTACTACTTTAGATTCGAAGACCCAGTCCCTACTTATTGTTAATAACGCTACTAATGTTGTTATTAAAGTCTGTGAATT 21956
+                   *********************************************************************************************** PP
+
+       china 21947 tcaattttgtaatgatccatttttgggtgtttattaccacaaaaacaacaaaagttggatggaaagtgagttcagagtttattctagtgcgaata 22041
+                   tcaattttgtaatgatccatttttgggtgtttattaccacaaaaacaacaaaagttggatggaaagtgagttcagagtttattctagtgcgaata
+  MT327745.1 21957 TCAATTTTGTAATGATCCATTTTTGGGTGTTTATTACCACAAAAACAACAAAAGTTGGATGGAAAGTGAGTTCAGAGTTTATTCTAGTGCGAATA 22051
+                   *********************************************************************************************** PP
+
+       china 22042 attgcacttttgaatatgtctctcagccttttcttatggaccttgaaggaaaacagggtaatttcaaaaatcttagggaatttgtgtttaagaat 22136
+                   attgcacttttgaatatgtctctcagccttttcttatggaccttgaaggaaaacagggtaatttcaaaaatcttagggaatttgtgtttaagaat
+  MT327745.1 22052 ATTGCACTTTTGAATATGTCTCTCAGCCTTTTCTTATGGACCTTGAAGGAAAACAGGGTAATTTCAAAAATCTTAGGGAATTTGTGTTTAAGAAT 22146
+                   *********************************************************************************************** PP
+
+       china 22137 attgatggttattttaaaatatattctaagcacacgcctattaatttagtgcgtgatctccctcagggtttttcggctttagaaccattggtaga 22231
+                   attgatggttattttaaaatatattctaagcacacgcctattaatttagtgcgtgatctccctcagggtttttcggctttagaaccattggtaga
+  MT327745.1 22147 ATTGATGGTTATTTTAAAATATATTCTAAGCACACGCCTATTAATTTAGTGCGTGATCTCCCTCAGGGTTTTTCGGCTTTAGAACCATTGGTAGA 22241
+                   *********************************************************************************************** PP
+
+       china 22232 tttgccaataggtattaacatcactaggtttcaaactttacttgctttacatagaagttatttgactcctggtgattcttcttcaggttggacag 22326
+                   tttgccaataggtattaacatcactaggtttcaaactttacttgctttacatagaagttatttgactcctggtgattcttcttcaggttggacag
+  MT327745.1 22242 TTTGCCAATAGGTATTAACATCACTAGGTTTCAAACTTTACTTGCTTTACATAGAAGTTATTTGACTCCTGGTGATTCTTCTTCAGGTTGGACAG 22336
+                   *********************************************************************************************** PP
+
+       china 22327 ctggtgctgcagcttattatgtgggttatcttcaacctaggacttttctattaaaatataatgaaaatggaaccattacagatgctgtagactgt 22421
+                   ctggtgctgcagcttattatgtgggttatcttcaacctaggacttttctattaaaatataatgaaaatggaaccattacagatgctgtagactgt
+  MT327745.1 22337 CTGGTGCTGCAGCTTATTATGTGGGTTATCTTCAACCTAGGACTTTTCTATTAAAATATAATGAAAATGGAACCATTACAGATGCTGTAGACTGT 22431
+                   *********************************************************************************************** PP
+
+       china 22422 gcacttgaccctctctcagaaacaaagtgtacgttgaaatccttcactgtagaaaaaggaatctatcaaacttctaactttagagtccaaccaac 22516
+                   gcacttgaccctctctcagaaacaaagtgtacgttgaaatccttcactgtagaaaaaggaatctatcaaacttctaactttagagtccaaccaac
+  MT327745.1 22432 GCACTTGACCCTCTCTCAGAAACAAAGTGTACGTTGAAATCCTTCACTGTAGAAAAAGGAATCTATCAAACTTCTAACTTTAGAGTCCAACCAAC 22526
+                   *********************************************************************************************** PP
+
+       china 22517 agaatctattgttagatttcctaatattacaaacttgtgcccttttggtgaagtttttaacgccaccagatttgcatctgtttatgcttggaaca 22611
+                   agaatctattgttagatttcctaatattacaaacttgtgcccttttggtgaagtttttaacgccaccagatttgcatctgtttatgcttggaaca
+  MT327745.1 22527 AGAATCTATTGTTAGATTTCCTAATATTACAAACTTGTGCCCTTTTGGTGAAGTTTTTAACGCCACCAGATTTGCATCTGTTTATGCTTGGAACA 22621
+                   *********************************************************************************************** PP
+
+       china 22612 ggaagagaatcagcaactgtgttgctgattattctgtcctatataattccgcatcattttccacttttaagtgttatggagtgtctcctactaaa 22706
+                   ggaagagaatcagcaactgtgttgctgattattctgtcctatataattccgcatcattttccacttttaagtgttatggagtgtctcctactaaa
+  MT327745.1 22622 GGAAGAGAATCAGCAACTGTGTTGCTGATTATTCTGTCCTATATAATTCCGCATCATTTTCCACTTTTAAGTGTTATGGAGTGTCTCCTACTAAA 22716
+                   *********************************************************************************************** PP
+
+       china 22707 ttaaatgatctctgctttactaatgtctatgcagattcatttgtaattagaggtgatgaagtcagacaaatcgctccagggcaaactggaaagat 22801
+                   ttaaatgatctctgctttactaatgtctatgcagattcatttgtaattagaggtgatgaagtcagacaaatcgctccagggcaaactggaaagat
+  MT327745.1 22717 TTAAATGATCTCTGCTTTACTAATGTCTATGCAGATTCATTTGTAATTAGAGGTGATGAAGTCAGACAAATCGCTCCAGGGCAAACTGGAAAGAT 22811
+                   *********************************************************************************************** PP
+
+       china 22802 tgctgattataattataaattaccagatgattttacaggctgcgttatagcttggaattctaacaatcttgattctaaggttggtggtaattata 22896
+                   tgctgattataattataaattaccagatgattttacaggctgcgttatagcttggaattctaacaatcttgattctaaggttggtggtaattata
+  MT327745.1 22812 TGCTGATTATAATTATAAATTACCAGATGATTTTACAGGCTGCGTTATAGCTTGGAATTCTAACAATCTTGATTCTAAGGTTGGTGGTAATTATA 22906
+                   *********************************************************************************************** PP
+
+       china 22897 attacctgtatagattgtttaggaagtctaatctcaaaccttttgagagagatatttcaactgaaatctatcaggccggtagcacaccttgtaat 22991
+                   attacctgtatagattgtttaggaagtctaatctcaaaccttttgagagagatatttcaactgaaatctatcaggccggtagcacaccttgtaat
+  MT327745.1 22907 ATTACCTGTATAGATTGTTTAGGAAGTCTAATCTCAAACCTTTTGAGAGAGATATTTCAACTGAAATCTATCAGGCCGGTAGCACACCTTGTAAT 23001
+                   *********************************************************************************************** PP
+
+       china 22992 ggtgttgaaggttttaattgttactttcctttacaatcatatggtttccaacccactaatggtgttggttaccaaccatacagagtagtagtact 23086
+                   ggtgttgaaggttttaattgttactttcctttacaatcatatggtttccaacccactaatggtgttggttaccaaccatacagagtagtagtact
+  MT327745.1 23002 GGTGTTGAAGGTTTTAATTGTTACTTTCCTTTACAATCATATGGTTTCCAACCCACTAATGGTGTTGGTTACCAACCATACAGAGTAGTAGTACT 23096
+                   *********************************************************************************************** PP
+
+       china 23087 ttcttttgaacttctacatgcaccagcaactgtttgtggacctaaaaagtctactaatttggttaaaaacaaatgtgtcaatttcaacttcaatg 23181
+                   ttcttttgaacttctacatgcaccagcaactgtttgtggacctaaaaagtctactaatttggttaaaaacaaatgtgtcaatttcaacttcaatg
+  MT327745.1 23097 TTCTTTTGAACTTCTACATGCACCAGCAACTGTTTGTGGACCTAAAAAGTCTACTAATTTGGTTAAAAACAAATGTGTCAATTTCAACTTCAATG 23191
+                   *********************************************************************************************** PP
+
+       china 23182 gtttaacaggcacaggtgttcttactgagtctaacaaaaagtttctgcctttccaacaatttggcagagacattgctgacactactgatgctgtc 23276
+                   gtttaacaggcacaggtgttcttactgagtctaacaaaaagtttctgcctttccaacaatttggcagagacattgctgacactactgatgctgtc
+  MT327745.1 23192 GTTTAACAGGCACAGGTGTTCTTACTGAGTCTAACAAAAAGTTTCTGCCTTTCCAACAATTTGGCAGAGACATTGCTGACACTACTGATGCTGTC 23286
+                   *********************************************************************************************** PP
+
+       china 23277 cgtgatccacagacacttgagattcttgacattacaccatgttcttttggtggtgtcagtgttataacaccaggaacaaatacttctaaccaggt 23371
+                   cgtgatccacagacacttgagattcttgacattacaccatgttcttttggtggtgtcagtgttataacaccaggaacaaatacttctaaccaggt
+  MT327745.1 23287 CGTGATCCACAGACACTTGAGATTCTTGACATTACACCATGTTCTTTTGGTGGTGTCAGTGTTATAACACCAGGAACAAATACTTCTAACCAGGT 23381
+                   *********************************************************************************************** PP
+
+       china 23372 tgctgttctttatcaggatgttaactgcacagaagtccctgttgctattcatgcagatcaacttactcctacttggcgtgtttattctacaggtt 23466
+                   tgctgttctttatcaggatgttaactgcacagaagtccctgttgctattcatgcagatcaacttactcctacttggcgtgtttattctacaggtt
+  MT327745.1 23382 TGCTGTTCTTTATCAGGATGTTAACTGCACAGAAGTCCCTGTTGCTATTCATGCAGATCAACTTACTCCTACTTGGCGTGTTTATTCTACAGGTT 23476
+                   *********************************************************************************************** PP
+
+       china 23467 ctaatgtttttcaaacacgtgcaggctgtttaataggggctgaacatgtcaacaactcatatgagtgtgacatacccattggtgcaggtatatgc 23561
+                   ctaatgtttttcaaacacgtgcaggctgtttaataggggctgaacatgtcaacaactcatatgagtgtgacatacccattggtgcaggtatatgc
+  MT327745.1 23477 CTAATGTTTTTCAAACACGTGCAGGCTGTTTAATAGGGGCTGAACATGTCAACAACTCATATGAGTGTGACATACCCATTGGTGCAGGTATATGC 23571
+                   *********************************************************************************************** PP
+
+       china 23562 gctagttatcagactcagactaattctcctcggcgggcacgtagtgtagctagtcaatccatcattgcctacactatgtcacttggtgcagaaaa 23656
+                   gctagttatcagactcagactaattctcctcggcgggcacgtagtgtagctagtcaatccatcattgcctacactatgtcacttggtgcagaaaa
+  MT327745.1 23572 GCTAGTTATCAGACTCAGACTAATTCTCCTCGGCGGGCACGTAGTGTAGCTAGTCAATCCATCATTGCCTACACTATGTCACTTGGTGCAGAAAA 23666
+                   *********************************************************************************************** PP
+
+       china 23657 ttcagttgcttactctaataactctattgccatacccacaaattttactattagtgttaccacagaaattctaccagtgtctatgaccaagacat 23751
+                   ttcagttgcttactctaataactctattgccatacccacaaattttactattagtgttaccacagaaattctaccagtgtctatgaccaagacat
+  MT327745.1 23667 TTCAGTTGCTTACTCTAATAACTCTATTGCCATACCCACAAATTTTACTATTAGTGTTACCACAGAAATTCTACCAGTGTCTATGACCAAGACAT 23761
+                   *********************************************************************************************** PP
+
+       china 23752 cagtagattgtacaatgtacatttgtggtgattcaactgaatgcagcaatcttttgttgcaatatggcagtttttgtacacaattaaaccgtgct 23846
+                   cagtagattgtacaatgtacatttgtggtgattcaactgaatgcagcaatcttttgttgcaatatggcagtttttgtacacaattaaaccgtgct
+  MT327745.1 23762 CAGTAGATTGTACAATGTACATTTGTGGTGATTCAACTGAATGCAGCAATCTTTTGTTGCAATATGGCAGTTTTTGTACACAATTAAACCGTGCT 23856
+                   *********************************************************************************************** PP
+
+       china 23847 ttaactggaatagctgttgaacaagacaaaaacacccaagaagtttttgcacaagtcaaacaaatttacaaaacaccaccaattaaagattttgg 23941
+                   ttaactggaatagct ttgaacaagacaaaaacacccaagaagtttttgcacaagtcaaacaaatttacaaaacaccaccaattaaagattttgg
+  MT327745.1 23857 TTAACTGGAATAGCTATTGAACAAGACAAAAACACCCAAGAAGTTTTTGCACAAGTCAAACAAATTTACAAAACACCACCAATTAAAGATTTTGG 23951
+                   *********************************************************************************************** PP
+
+       china 23942 tggttttaatttttcacaaatattaccagatccatcaaaaccaagcaagaggtcatttattgaagatctacttttcaacaaagtgacacttgcag 24036
+                   tggttttaatttttcacaaatattaccagatccatcaaaaccaagcaagaggtcatttattgaagatctacttttcaacaaagtgacacttgcag
+  MT327745.1 23952 TGGTTTTAATTTTTCACAAATATTACCAGATCCATCAAAACCAAGCAAGAGGTCATTTATTGAAGATCTACTTTTCAACAAAGTGACACTTGCAG 24046
+                   *********************************************************************************************** PP
+
+       china 24037 atgctggcttcatcaaacaatatggtgattgccttggtgatattgctgctagagacctcatttgtgcacaaaagtttaacggccttactgttttg 24131
+                   atgctggcttcatcaaacaatatggtgattgccttggtgatattgctgctagagacctcatttgtgcacaaaagtttaacggccttactgttttg
+  MT327745.1 24047 ATGCTGGCTTCATCAAACAATATGGTGATTGCCTTGGTGATATTGCTGCTAGAGACCTCATTTGTGCACAAAAGTTTAACGGCCTTACTGTTTTG 24141
+                   *********************************************************************************************** PP
+
+       china 24132 ccacctttgctcacagatgaaatgattgctcaatacacttctgcactgttagcgggtacaatcacttctggttggacctttggtgcaggtgctgc 24226
+                   ccacctttgctcacagatgaaatgattgctcaatacacttctgcactgttagcgggtacaatcacttctggttggacctttggtgcaggtgctgc
+  MT327745.1 24142 CCACCTTTGCTCACAGATGAAATGATTGCTCAATACACTTCTGCACTGTTAGCGGGTACAATCACTTCTGGTTGGACCTTTGGTGCAGGTGCTGC 24236
+                   *********************************************************************************************** PP
+
+       china 24227 attacaaataccatttgctatgcaaatggcttataggtttaatggtattggagttacacagaatgttctctatgagaaccaaaaattgattgcca 24321
+                   attacaaataccatttgctatgcaaatggcttataggtttaatggtattggagttacacagaatgttctctatgagaaccaaaaattgattgcca
+  MT327745.1 24237 ATTACAAATACCATTTGCTATGCAAATGGCTTATAGGTTTAATGGTATTGGAGTTACACAGAATGTTCTCTATGAGAACCAAAAATTGATTGCCA 24331
+                   *********************************************************************************************** PP
+
+       china 24322 accaatttaatagtgctattggcaaaattcaagactcactttcttccacagcaagtgcacttggaaaacttcaagatgtggtcaaccaaaatgca 24416
+                   accaatttaatagtgctattggcaaaattcaagactcactttcttccacagcaagtgcacttggaaaacttcaagatgtggtcaaccaaaatgca
+  MT327745.1 24332 ACCAATTTAATAGTGCTATTGGCAAAATTCAAGACTCACTTTCTTCCACAGCAAGTGCACTTGGAAAACTTCAAGATGTGGTCAACCAAAATGCA 24426
+                   *********************************************************************************************** PP
+
+       china 24417 caagctttaaacacgcttgttaaacaacttagctccaattttggtgcaatttcaagtgttttaaatgatatcctttcacgtcttgacaaagttga 24511
+                   caagctttaaacacgcttgttaaacaacttagctccaattttggtgcaatttcaagtgttttaaatgatatcctttcacgtcttgacaaagttga
+  MT327745.1 24427 CAAGCTTTAAACACGCTTGTTAAACAACTTAGCTCCAATTTTGGTGCAATTTCAAGTGTTTTAAATGATATCCTTTCACGTCTTGACAAAGTTGA 24521
+                   *********************************************************************************************** PP
+
+       china 24512 ggctgaagtgcaaattgataggttgatcacaggcagacttcaaagtttgcagacatatgtgactcaacaattaattagagctgcagaaatcagag 24606
+                   ggctgaagtgcaaattgataggttgatcacaggcagacttcaaagtttgcagacatatgtgactcaacaattaattagagctgcagaaatcagag
+  MT327745.1 24522 GGCTGAAGTGCAAATTGATAGGTTGATCACAGGCAGACTTCAAAGTTTGCAGACATATGTGACTCAACAATTAATTAGAGCTGCAGAAATCAGAG 24616
+                   *********************************************************************************************** PP
+
+       china 24607 cttctgctaatcttgctgctactaaaatgtcagagtgtgtacttggacaatcaaaaagagttgatttttgtggaaagggctatcatcttatgtcc 24701
+                   cttctgctaatcttgctgctactaaaatgtcagagtgtgtacttggacaatcaaaaagagttgatttttgtggaaagggctatcatcttatgtcc
+  MT327745.1 24617 CTTCTGCTAATCTTGCTGCTACTAAAATGTCAGAGTGTGTACTTGGACAATCAAAAAGAGTTGATTTTTGTGGAAAGGGCTATCATCTTATGTCC 24711
+                   *********************************************************************************************** PP
+
+       china 24702 ttccctcagtcagcacctcatggtgtagtcttcttgcatgtgacttatgtccctgcacaagaaaagaacttcacaactgctcctgccatttgtca 24796
+                   ttccctcagtcagcacctcatggtgtagtcttcttgcatgtgacttatgtccctgcacaagaaaagaacttcacaactgctcctgccatttgtca
+  MT327745.1 24712 TTCCCTCAGTCAGCACCTCATGGTGTAGTCTTCTTGCATGTGACTTATGTCCCTGCACAAGAAAAGAACTTCACAACTGCTCCTGCCATTTGTCA 24806
+                   *********************************************************************************************** PP
+
+       china 24797 tgatggaaaagcacactttcctcgtgaaggtgtctttgtttcaaatggcacacactggtttgtaacacaaaggaatttttatgaaccacaaatca 24891
+                   tgatggaaaagcacactttcctcgtgaaggtgtctttgtttcaaatggcacacactggtttgtaacacaaaggaatttttatgaaccacaaatca
+  MT327745.1 24807 TGATGGAAAAGCACACTTTCCTCGTGAAGGTGTCTTTGTTTCAAATGGCACACACTGGTTTGTAACACAAAGGAATTTTTATGAACCACAAATCA 24901
+                   *********************************************************************************************** PP
+
+       china 24892 ttactacagacaacacatttgtgtctggtaactgtgatgttgtaataggaattgtcaacaacacagtttatgatcctttgcaacctgaattagac 24986
+                   ttactacagacaacacatttgtgtctggtaactgtgatgttgtaataggaattgtcaacaacacagtttatgatcctttgcaacctgaattagac
+  MT327745.1 24902 TTACTACAGACAACACATTTGTGTCTGGTAACTGTGATGTTGTAATAGGAATTGTCAACAACACAGTTTATGATCCTTTGCAACCTGAATTAGAC 24996
+                   *********************************************************************************************** PP
+
+       china 24987 tcattcaaggaggagttagataaatattttaagaatcatacatcaccagatgttgatttaggtgacatctctggcattaatgcttcagttgtaaa 25081
+                   tcattcaaggaggagttagataaatattttaagaatcatacatcaccagatgttgatttaggtgacatctctggcattaatgcttcagttgtaaa
+  MT327745.1 24997 TCATTCAAGGAGGAGTTAGATAAATATTTTAAGAATCATACATCACCAGATGTTGATTTAGGTGACATCTCTGGCATTAATGCTTCAGTTGTAAA 25091
+                   *********************************************************************************************** PP
+
+       china 25082 cattcaaaaagaaattgaccgcctcaatgaggttgccaagaatttaaatgaatctctcatcgatctccaagaacttggaaagtatgagcagtata 25176
+                   cattcaaaaagaaattgaccgcctcaatgaggttgccaagaatttaaatgaatctctcatcgatctccaagaacttggaaagtatgagcagtata
+  MT327745.1 25092 CATTCAAAAAGAAATTGACCGCCTCAATGAGGTTGCCAAGAATTTAAATGAATCTCTCATCGATCTCCAAGAACTTGGAAAGTATGAGCAGTATA 25186
+                   *********************************************************************************************** PP
+
+       china 25177 taaaatggccatggtacatttggctaggttttatagctggcttgattgccatagtaatggtgacaattatgctttgctgtatgaccagttgctgt 25271
+                   taaaatggccatggtacatttggctaggttttatagctggcttgattgccatagtaatggtgacaattatgctttgctgtatgaccagttgctgt
+  MT327745.1 25187 TAAAATGGCCATGGTACATTTGGCTAGGTTTTATAGCTGGCTTGATTGCCATAGTAATGGTGACAATTATGCTTTGCTGTATGACCAGTTGCTGT 25281
+                   *********************************************************************************************** PP
+
+       china 25272 agttgtctcaagggctgttgttcttgtggatcctgctgcaaatttgatgaagacgactctgagccagtgctcaaaggagtcaaattacattacac 25366
+                   agttgtctcaagggctgttgttcttgtggatcctgctgcaaatttgatgaagacgactctgagccagtgctcaaaggagtcaaattacattacac
+  MT327745.1 25282 AGTTGTCTCAAGGGCTGTTGTTCTTGTGGATCCTGCTGCAAATTTGATGAAGACGACTCTGAGCCAGTGCTCAAAGGAGTCAAATTACATTACAC 25376
+                   *********************************************************************************************** PP
+
+       china 25367 ataaacgaacttatggatttgtttatgagaatcttcacaattggaactgtaactttgaagcaaggtgaaatcaaggatgctactccttcagattt 25461
+                   ataaacgaacttatggatttgtttatgagaatcttcacaattggaactgtaactttgaagcaaggtgaaatcaaggatgctactccttcagattt
+  MT327745.1 25377 ATAAACGAACTTATGGATTTGTTTATGAGAATCTTCACAATTGGAACTGTAACTTTGAAGCAAGGTGAAATCAAGGATGCTACTCCTTCAGATTT 25471
+                   *********************************************************************************************** PP
+
+       china 25462 tgttcgcgctactgcaacgataccgatacaagcctcactccctttcggatggcttattgttggcgttgcacttcttgctgtttttcagagcgctt 25556
+                   tgttcgcgctactgcaacgataccgatacaagcctcactccctttcggatggcttattgttggcgttgcacttcttgctgtttttcagagcgctt
+  MT327745.1 25472 TGTTCGCGCTACTGCAACGATACCGATACAAGCCTCACTCCCTTTCGGATGGCTTATTGTTGGCGTTGCACTTCTTGCTGTTTTTCAGAGCGCTT 25566
+                   *********************************************************************************************** PP
+
+       china 25557 ccaaaatcataaccctcaaaaagagatggcaactagcactctccaagggtgttcactttgtttgcaacttgctgttgttgtttgtaacagtttac 25651
+                   ccaaaatcataaccctcaaaaagagatggcaactagcactctccaagggtgttcactttgtttgcaacttgctgttgttgtttgtaacagtttac
+  MT327745.1 25567 CCAAAATCATAACCCTCAAAAAGAGATGGCAACTAGCACTCTCCAAGGGTGTTCACTTTGTTTGCAACTTGCTGTTGTTGTTTGTAACAGTTTAC 25661
+                   *********************************************************************************************** PP
+
+       china 25652 tcacaccttttgctcgttgctgctggccttgaagccccttttctctatctttatgctttagtctacttcttgcagagtataaactttgtaagaat 25746
+                   tcacaccttttgctcgttgctgctggccttgaagccccttttctctatctttatgctttagtctacttcttgcagagtataaactttgtaagaat
+  MT327745.1 25662 TCACACCTTTTGCTCGTTGCTGCTGGCCTTGAAGCCCCTTTTCTCTATCTTTATGCTTTAGTCTACTTCTTGCAGAGTATAAACTTTGTAAGAAT 25756
+                   *********************************************************************************************** PP
+
+       china 25747 aataatgaggctttggctttgctggaaatgccgttccaaaaacccattactttatgatgccaactattttctttgctggcatactaattgttacg 25841
+                   aataatgaggctttggctttgctggaaatgccgttccaaaaacccattactttatgatgccaactattttctttgctggcatactaattgttacg
+  MT327745.1 25757 AATAATGAGGCTTTGGCTTTGCTGGAAATGCCGTTCCAAAAACCCATTACTTTATGATGCCAACTATTTTCTTTGCTGGCATACTAATTGTTACG 25851
+                   *********************************************************************************************** PP
+
+       china 25842 actattgtataccttacaatagtgtaacttcttcaattgtcattacttcaggtgatggcacaacaagtcctatttctgaacatgactaccagatt 25936
+                   actattgtataccttacaatagtgtaacttcttcaattgtcattacttcaggtgatggcacaacaagtcctatttctgaacatgactaccagatt
+  MT327745.1 25852 ACTATTGTATACCTTACAATAGTGTAACTTCTTCAATTGTCATTACTTCAGGTGATGGCACAACAAGTCCTATTTCTGAACATGACTACCAGATT 25946
+                   *********************************************************************************************** PP
+
+       china 25937 ggtggttatactgaaaaatgggaatctggagtaaaagactgtgttgtattacacagttacttcacttcagactattaccagctgtactcaactca 26031
+                   ggtggttatactgaaaaatgggaatctggagtaaaagactgtgttgtattacacagttacttcacttcagactattaccagctgtactcaactca
+  MT327745.1 25947 GGTGGTTATACTGAAAAATGGGAATCTGGAGTAAAAGACTGTGTTGTATTACACAGTTACTTCACTTCAGACTATTACCAGCTGTACTCAACTCA 26041
+                   *********************************************************************************************** PP
+
+       china 26032 attgagtacagacactggtgttgaacatgttaccttcttcatctacaataaaattgttgatgagcctgaagaacatgtccaaattcacacaatcg 26126
+                   attgagtacagacactggtgttgaacatgttaccttcttcatctacaataaaattgttgatgagcctgaagaacatgtccaaattcacacaatcg
+  MT327745.1 26042 ATTGAGTACAGACACTGGTGTTGAACATGTTACCTTCTTCATCTACAATAAAATTGTTGATGAGCCTGAAGAACATGTCCAAATTCACACAATCG 26136
+                   *********************************************************************************************** PP
+
+       china 26127 acggttcatccggagttgttaatccagtaatggaaccaatttatgatgaaccgacgacgactactagcgtgcctttgtaagcacaagctgatgag 26221
+                   acggttcatccggagttgttaatccagtaatggaaccaatttatgatgaaccgacgacgactactagcgtgcctttgtaagcacaagctgatgag
+  MT327745.1 26137 ACGGTTCATCCGGAGTTGTTAATCCAGTAATGGAACCAATTTATGATGAACCGACGACGACTACTAGCGTGCCTTTGTAAGCACAAGCTGATGAG 26231
+                   *********************************************************************************************** PP
+
+       china 26222 tacgaacttatgtactcattcgtttcggaagagacaggtacgttaatagttaatagcgtacttctttttcttgctttcgtggtattcttgctagt 26316
+                   tacgaacttatgtactcattcgtttcggaagagacaggtacgttaatagttaatagcgtacttctttttcttgctttcgtggtattcttgctagt
+  MT327745.1 26232 TACGAACTTATGTACTCATTCGTTTCGGAAGAGACAGGTACGTTAATAGTTAATAGCGTACTTCTTTTTCTTGCTTTCGTGGTATTCTTGCTAGT 26326
+                   *********************************************************************************************** PP
+
+       china 26317 tacactagccatccttactgcgcttcgattgtgtgcgtactgctgcaatattgttaacgtgagtcttgtaaaaccttctttttacgtttactctc 26411
+                   tacactagccatccttactgcgcttcgattgtgtgcgtactgctgcaatattgttaacgtgagtcttgtaaaaccttctttttacgtttactctc
+  MT327745.1 26327 TACACTAGCCATCCTTACTGCGCTTCGATTGTGTGCGTACTGCTGCAATATTGTTAACGTGAGTCTTGTAAAACCTTCTTTTTACGTTTACTCTC 26421
+                   *********************************************************************************************** PP
+
+       china 26412 gtgttaaaaatctgaattcttctagagttcctgatcttctggtctaaacgaactaaatattatattagtttttctgtttggaactttaattttag 26506
+                   gtgttaaaaatctgaattcttctagagttcctgatcttctggtctaaacgaactaaatattatattagtttttctgtttggaactttaattttag
+  MT327745.1 26422 GTGTTAAAAATCTGAATTCTTCTAGAGTTCCTGATCTTCTGGTCTAAACGAACTAAATATTATATTAGTTTTTCTGTTTGGAACTTTAATTTTAG 26516
+                   *********************************************************************************************** PP
+
+       china 26507 ccatggcagattccaacggtactattaccgttgaagagcttaaaaagctccttgaacaatggaacctagtaataggtttcctattccttacatgg 26601
+                   ccatggcagattccaacggtactattaccgttgaagagcttaaaaagctccttgaacaatggaacctagtaataggtttcctattccttacatgg
+  MT327745.1 26517 CCATGGCAGATTCCAACGGTACTATTACCGTTGAAGAGCTTAAAAAGCTCCTTGAACAATGGAACCTAGTAATAGGTTTCCTATTCCTTACATGG 26611
+                   *********************************************************************************************** PP
+
+       china 26602 atttgtcttctacaatttgcctatgccaacaggaataggtttttgtatataattaagttaattttcctctggctgttatggccagtaactttagc 26696
+                   atttgtcttctacaatttgcctatgccaacaggaataggtttttgtatataattaagttaattttcctctggctgttatggccagtaactttagc
+  MT327745.1 26612 ATTTGTCTTCTACAATTTGCCTATGCCAACAGGAATAGGTTTTTGTATATAATTAAGTTAATTTTCCTCTGGCTGTTATGGCCAGTAACTTTAGC 26706
+                   *********************************************************************************************** PP
+
+       china 26697 ttgttttgtgcttgctgctgtttacagaataaattggatcaccggtggaattgctatcgcaatggcttgtcttgtaggcttgatgtggctcagct 26791
+                   ttgttttgtgcttgctgctgtttacagaataaattggatcaccggtggaattgctatcgcaatggcttgtcttgtaggcttgatgtggctcagct
+  MT327745.1 26707 TTGTTTTGTGCTTGCTGCTGTTTACAGAATAAATTGGATCACCGGTGGAATTGCTATCGCAATGGCTTGTCTTGTAGGCTTGATGTGGCTCAGCT 26801
+                   *********************************************************************************************** PP
+
+       china 26792 acttcattgcttctttcagactgtttgcgcgtacgcgttccatgtggtcattcaatccagaaactaacattcttctcaacgtgccactccatggc 26886
+                   acttcattgcttctttcagactgtttgcgcgtacgcgttccatgtggtcattcaatccagaaactaacattcttctcaacgtgccactccatggc
+  MT327745.1 26802 ACTTCATTGCTTCTTTCAGACTGTTTGCGCGTACGCGTTCCATGTGGTCATTCAATCCAGAAACTAACATTCTTCTCAACGTGCCACTCCATGGC 26896
+                   *********************************************************************************************** PP
+
+       china 26887 actattctgaccagaccgcttctagaaagtgaactcgtaatcggagctgtgatccttcgtggacatcttcgtattgctggacaccatctaggacg 26981
+                   actattctgaccagaccgcttctagaaagtgaactcgtaatcggagctgtgatccttcgtggacatcttcgtattgctggacaccatctaggacg
+  MT327745.1 26897 ACTATTCTGACCAGACCGCTTCTAGAAAGTGAACTCGTAATCGGAGCTGTGATCCTTCGTGGACATCTTCGTATTGCTGGACACCATCTAGGACG 26991
+                   *********************************************************************************************** PP
+
+       china 26982 ctgtgacatcaaggacctgcctaaagaaatcactgttgctacatcacgaacgctttcttattacaaattgggagcttcgcagcgtgtagcaggtg 27076
+                   ctgtgacatcaaggacctgcctaaagaaatcactgttgctacatcacgaacgctttcttattacaaattgggagcttcgcagcgtgtagcaggtg
+  MT327745.1 26992 CTGTGACATCAAGGACCTGCCTAAAGAAATCACTGTTGCTACATCACGAACGCTTTCTTATTACAAATTGGGAGCTTCGCAGCGTGTAGCAGGTG 27086
+                   *********************************************************************************************** PP
+
+       china 27077 actcaggttttgctgcatacagtcgctacaggattggcaactataaattaaacacagaccattccagtagcagtgacaatattgctttgcttgta 27171
+                   actcaggttttgctgcatacagtcgctacaggattggcaactataaattaaacacagaccattccagtagcagtgacaatattgctttgcttgta
+  MT327745.1 27087 ACTCAGGTTTTGCTGCATACAGTCGCTACAGGATTGGCAACTATAAATTAAACACAGACCATTCCAGTAGCAGTGACAATATTGCTTTGCTTGTA 27181
+                   *********************************************************************************************** PP
+
+       china 27172 cagtaagtgacaacagatgtttcatctcgttgactttcaggttactatagcagagatattactaattattatgaggacttttaaagtttccattt 27266
+                   cagtaagtgacaacagatgtttcatctcgttgactttcaggttactatagcagagatattactaattattatgaggacttttaaagtttccattt
+  MT327745.1 27182 CAGTAAGTGACAACAGATGTTTCATCTCGTTGACTTTCAGGTTACTATAGCAGAGATATTACTAATTATTATGAGGACTTTTAAAGTTTCCATTT 27276
+                   *********************************************************************************************** PP
+
+       china 27267 ggaatcttgattacatcataaacctcataattaaaaatttatctaagtcactaactgagaataaatattctcaattagatgaagagcaaccaatg 27361
+                   ggaatcttgattacatcataaacctcataattaaaaatttatctaagtcactaactgagaataaatattctcaattagatgaagagcaaccaatg
+  MT327745.1 27277 GGAATCTTGATTACATCATAAACCTCATAATTAAAAATTTATCTAAGTCACTAACTGAGAATAAATATTCTCAATTAGATGAAGAGCAACCAATG 27371
+                   *********************************************************************************************** PP
+
+       china 27362 gagattgattaaacgaacatgaaaattattcttttcttggcactgataacactcgctacttgtgagctttatcactaccaagagtgtgttagagg 27456
+                   gagattgattaaacgaacatgaaaattattcttttcttggcactgataacactcgctacttgtgagctttatcactaccaagagtgtgttagagg
+  MT327745.1 27372 GAGATTGATTAAACGAACATGAAAATTATTCTTTTCTTGGCACTGATAACACTCGCTACTTGTGAGCTTTATCACTACCAAGAGTGTGTTAGAGG 27466
+                   *********************************************************************************************** PP
+
+       china 27457 tacaacagtacttttaaaagaaccttgctcttctggaacatacgagggcaattcaccatttcatcctctagctgataacaaatttgcactgactt 27551
+                   tacaacagtacttttaaaagaaccttgctcttctggaacatacgagggcaattcaccatttcatcctctagctgataacaaatttgcactgactt
+  MT327745.1 27467 TACAACAGTACTTTTAAAAGAACCTTGCTCTTCTGGAACATACGAGGGCAATTCACCATTTCATCCTCTAGCTGATAACAAATTTGCACTGACTT 27561
+                   *********************************************************************************************** PP
+
+       china 27552 gctttagcactcaatttgcttttgcttgtcctgacggcgtaaaacacgtctatcagttacgtgccagatcagtttcacctaaactgttcatcaga 27646
+                   gctttagcactcaatttgcttttgcttgtcctgacggcgtaaaacacgtctatcagttacgtgccagatcagtttcacctaaactgttcatcaga
+  MT327745.1 27562 GCTTTAGCACTCAATTTGCTTTTGCTTGTCCTGACGGCGTAAAACACGTCTATCAGTTACGTGCCAGATCAGTTTCACCTAAACTGTTCATCAGA 27656
+                   *********************************************************************************************** PP
+
+       china 27647 caagaggaagttcaagaactttactctccaatttttcttattgttgcggcaatagtgtttataacactttgcttcacactcaaaagaaagacaga 27741
+                   caagaggaagttcaagaactttactctccaatttttcttattgttgcggcaatagtgtttataacactttgcttcacactcaaaagaaagacaga
+  MT327745.1 27657 CAAGAGGAAGTTCAAGAACTTTACTCTCCAATTTTTCTTATTGTTGCGGCAATAGTGTTTATAACACTTTGCTTCACACTCAAAAGAAAGACAGA 27751
+                   *********************************************************************************************** PP
+
+       china 27742 atgattgaactttcattaattgacttctatttgtgctttttagcctttctgctattccttgttttaattatgcttattatcttttggttctcact 27836
+                   atgattgaactttcattaattgacttctatttgtgctttttagcctttctgctattccttgttttaattatgcttattatcttttggttctcact
+  MT327745.1 27752 ATGATTGAACTTTCATTAATTGACTTCTATTTGTGCTTTTTAGCCTTTCTGCTATTCCTTGTTTTAATTATGCTTATTATCTTTTGGTTCTCACT 27846
+                   *********************************************************************************************** PP
+
+       china 27837 tgaactgcaagatcataatgaaacttgtcacgcctaaacgaacatgaaatttcttgttttcttaggaatcatcacaactgtagctgcatttcacc 27931
+                   tgaactgcaagatcataatgaaacttgtcacgcctaaacgaacatgaaatttcttgttttcttaggaatcatcacaactgtagctgcatttcacc
+  MT327745.1 27847 TGAACTGCAAGATCATAATGAAACTTGTCACGCCTAAACGAACATGAAATTTCTTGTTTTCTTAGGAATCATCACAACTGTAGCTGCATTTCACC 27941
+                   *********************************************************************************************** PP
+
+       china 27932 aagaatgtagtttacagtcatgtactcaacatcaaccatatgtagttgatgacccgtgtcctattcacttctattctaaatggtatattagagta 28026
+                   aagaatgtagtttacagtcatgtactcaacatcaaccatatgtagttgatgacccgtgtcctattcacttctattctaaatggtatattagagta
+  MT327745.1 27942 AAGAATGTAGTTTACAGTCATGTACTCAACATCAACCATATGTAGTTGATGACCCGTGTCCTATTCACTTCTATTCTAAATGGTATATTAGAGTA 28036
+                   *********************************************************************************************** PP
+
+       china 28027 ggagctagaaaatcagcacctttaattgaattgtgcgtggatgaggctggttctaaatcacccattcagtacatcgatatcggtaattatacagt 28121
+                   ggagctagaaaatcagcacctttaattgaattgtgcgtggatgaggctggttctaaatcacccattcagtacatcgatatcggtaattatacagt
+  MT327745.1 28037 GGAGCTAGAAAATCAGCACCTTTAATTGAATTGTGCGTGGATGAGGCTGGTTCTAAATCACCCATTCAGTACATCGATATCGGTAATTATACAGT 28131
+                   *********************************************************************************************** PP
+
+       china 28122 ttcctgtttaccttttacaattaattgccaggaacctaaattgggtagtcttgtagtgcgttgttcgttctatgaagactttttagagtatcatg 28216
+                   ttcctgtttaccttttacaattaattgccaggaacctaaattgggtagtcttgtagtgcgttgttcgttctatgaagactttttagagtatcatg
+  MT327745.1 28132 TTCCTGTTTACCTTTTACAATTAATTGCCAGGAACCTAAATTGGGTAGTCTTGTAGTGCGTTGTTCGTTCTATGAAGACTTTTTAGAGTATCATG 28226
+                   *********************************************************************************************** PP
+
+       china 28217 acgttcgtgttgttttagatttcatctaaacgaacaaactaaaatgtctgataatggaccccaaaatcagcgaaatgcaccccgcattacgtttg 28311
+                   acgttcgtgttgttttagatttcatctaaacgaacaaactaaaatgtctgataatggaccccaaaatcagcgaaatgcaccccgcattacgtttg
+  MT327745.1 28227 ACGTTCGTGTTGTTTTAGATTTCATCTAAACGAACAAACTAAAATGTCTGATAATGGACCCCAAAATCAGCGAAATGCACCCCGCATTACGTTTG 28321
+                   *********************************************************************************************** PP
+
+       china 28312 gtggaccctcagattcaactggcagtaaccagaatggagaacgcagtggggcgcgatcaaaacaacgtcggccccaaggtttacccaataatact 28406
+                   gtggaccctcagattcaactggcagtaaccagaatggagaacgcagtggggcgcgatcaaaacaacgtcggccccaaggtttacccaataatact
+  MT327745.1 28322 GTGGACCCTCAGATTCAACTGGCAGTAACCAGAATGGAGAACGCAGTGGGGCGCGATCAAAACAACGTCGGCCCCAAGGTTTACCCAATAATACT 28416
+                   *********************************************************************************************** PP
+
+       china 28407 gcgtcttggttcaccgctctcactcaacatggcaaggaagaccttaaattccctcgaggacaaggcgttccaattaacaccaatagcagtccaga 28501
+                   gcgtcttggttcaccgctctcactcaacatggcaaggaagaccttaaattccctcgaggacaaggcgttccaattaacaccaatagcagtccaga
+  MT327745.1 28417 GCGTCTTGGTTCACCGCTCTCACTCAACATGGCAAGGAAGACCTTAAATTCCCTCGAGGACAAGGCGTTCCAATTAACACCAATAGCAGTCCAGA 28511
+                   *********************************************************************************************** PP
+
+       china 28502 tgaccaaattggctactaccgaagagctaccagacgaattcgtggtggtgacggtaaaatgaaagatctcagtccaagatggtatttctactacc 28596
+                   tgaccaaattggctactaccgaagagctaccagacgaattcgtggtggtgacggtaaaatgaaagatctcagtccaagatggtatttctactacc
+  MT327745.1 28512 TGACCAAATTGGCTACTACCGAAGAGCTACCAGACGAATTCGTGGTGGTGACGGTAAAATGAAAGATCTCAGTCCAAGATGGTATTTCTACTACC 28606
+                   *********************************************************************************************** PP
+
+       china 28597 taggaactgggccagaagctggacttccctatggtgctaacaaagacggcatcatatgggttgcaactgagggagccttgaatacaccaaaagat 28691
+                   taggaactgggccagaagctggacttccctatggtgctaacaaagacggcatcatatgggttgcaactgagggagcc tgaatacaccaaaagat
+  MT327745.1 28607 TAGGAACTGGGCCAGAAGCTGGACTTCCCTATGGTGCTAACAAAGACGGCATCATATGGGTTGCAACTGAGGGAGCCCTGAATACACCAAAAGAT 28701
+                   *********************************************************************************************** PP
+
+       china 28692 cacattggcacccgcaatcctgctaacaatgctgcaatcgtgctacaacttcctcaaggaacaacattgccaaaaggcttctacgcagaagggag 28786
+                   cacattggcacccgcaatcctgctaacaatgctgcaatcgtgctacaacttcctcaaggaacaacattgccaaaaggcttctacgcagaagggag
+  MT327745.1 28702 CACATTGGCACCCGCAATCCTGCTAACAATGCTGCAATCGTGCTACAACTTCCTCAAGGAACAACATTGCCAAAAGGCTTCTACGCAGAAGGGAG 28796
+                   *********************************************************************************************** PP
+
+       china 28787 cagaggcggcagtcaagcctcttctcgttcctcatcacgtagtcgcaacagttcaagaaattcaactccaggcagcagtaggggaacttctcctg 28881
+                   cagaggcggcagtcaagcctcttctcgttcctcatcacgtagtcgcaacagttcaagaaattcaactccaggcagcagtaggggaacttctcctg
+  MT327745.1 28797 CAGAGGCGGCAGTCAAGCCTCTTCTCGTTCCTCATCACGTAGTCGCAACAGTTCAAGAAATTCAACTCCAGGCAGCAGTAGGGGAACTTCTCCTG 28891
+                   *********************************************************************************************** PP
+
+       china 28882 ctagaatggctggcaatggcggtgatgctgctcttgctttgctgctgcttgacagattgaaccagcttgagagcaaaatgtctggtaaaggccaa 28976
+                   ctagaatggctggcaatggcggtgatgctgctcttgctttgctgctgcttgacagattgaaccagcttgagagcaaaatgtctggtaaaggccaa
+  MT327745.1 28892 CTAGAATGGCTGGCAATGGCGGTGATGCTGCTCTTGCTTTGCTGCTGCTTGACAGATTGAACCAGCTTGAGAGCAAAATGTCTGGTAAAGGCCAA 28986
+                   *********************************************************************************************** PP
+
+       china 28977 caacaacaaggccaaactgtcactaagaaatctgctgctgaggcttctaagaagcctcggcaaaaacgtactgccactaaagcatacaatgtaac 29071
+                   caacaacaaggccaaactgtcactaagaaatctgctgctgaggcttctaagaagcctcggcaaaaacgtactgccactaaagcatacaatgtaac
+  MT327745.1 28987 CAACAACAAGGCCAAACTGTCACTAAGAAATCTGCTGCTGAGGCTTCTAAGAAGCCTCGGCAAAAACGTACTGCCACTAAAGCATACAATGTAAC 29081
+                   *********************************************************************************************** PP
+
+       china 29072 acaagctttcggcagacgtggtccagaacaaacccaaggaaattttggggaccaggaactaatcagacaaggaactgattacaaacattggccgc 29166
+                   acaagctttcggcagacgtggtccagaacaaacccaaggaaattttggggaccaggaactaatcagacaaggaactgattacaaacattggccgc
+  MT327745.1 29082 ACAAGCTTTCGGCAGACGTGGTCCAGAACAAACCCAAGGAAATTTTGGGGACCAGGAACTAATCAGACAAGGAACTGATTACAAACATTGGCCGC 29176
+                   *********************************************************************************************** PP
+
+       china 29167 aaattgcacaatttgcccccagcgcttcagcgttcttcggaatgtcgcgcattggcatggaagtcacaccttcgggaacgtggttgacctacaca 29261
+                   aaattgcacaatttgcccccagcgcttcagcgttcttcggaatgtcgcgcattggcatggaagtcacaccttcgggaacgtggttgacctacaca
+  MT327745.1 29177 AAATTGCACAATTTGCCCCCAGCGCTTCAGCGTTCTTCGGAATGTCGCGCATTGGCATGGAAGTCACACCTTCGGGAACGTGGTTGACCTACACA 29271
+                   *********************************************************************************************** PP
+
+       china 29262 ggtgccatcaaattggatgacaaagatccaaatttcaaagatcaagtcattttgctgaataagcatattgacgcatacaaaacattcccaccaac 29356
+                   ggtgccatcaaattggatgacaaagatccaaatttcaaagatcaagtcattttgctgaataagcatattgacgcatacaaaacattcccaccaac
+  MT327745.1 29272 GGTGCCATCAAATTGGATGACAAAGATCCAAATTTCAAAGATCAAGTCATTTTGCTGAATAAGCATATTGACGCATACAAAACATTCCCACCAAC 29366
+                   *********************************************************************************************** PP
+
+       china 29357 agagcctaaaaaggacaaaaagaagaaggctgatgaaactcaagccttaccgcagagacagaagaaacagcaaactgtgactcttcttcctgctg 29451
+                   agagcctaaaaaggacaaaaagaagaaggctgatgaaactcaagccttaccgcagagacagaagaaacagcaaactgtgactcttcttcctgctg
+  MT327745.1 29367 AGAGCCTAAAAAGGACAAAAAGAAGAAGGCTGATGAAACTCAAGCCTTACCGCAGAGACAGAAGAAACAGCAAACTGTGACTCTTCTTCCTGCTG 29461
+                   *********************************************************************************************** PP
+
+       china 29452 cagatttggatgatttctccaaacaattgcaacaatccatgagcagtgctgactcaactcaggcctaaactcatgcagaccacacaaggcagatg 29546
+                   cagatttggatgatttctccaaacaattgcaacaatccatgagcagtgctgactcaactcaggcctaaactcatgcagaccacacaaggcagatg
+  MT327745.1 29462 CAGATTTGGATGATTTCTCCAAACAATTGCAACAATCCATGAGCAGTGCTGACTCAACTCAGGCCTAAACTCATGCAGACCACACAAGGCAGATG 29556
+                   *********************************************************************************************** PP
+
+       china 29547 ggctatataaacgttttcgcttttccgtttacgatatatagtctactcttgtgcagaatgaattctcgtaactacatagcacaagtagatgtagt 29641
+                   gg tatataaacgttttcgcttttccgtttacgatatatagtctactcttgtgcagaatgaattctcgtaactacatagcacaagtagatgtagt
+  MT327745.1 29557 GGTTATATAAACGTTTTCGCTTTTCCGTTTACGATATATAGTCTACTCTTGTGCAGAATGAATTCTCGTAACTACATAGCACAAGTAGATGTAGT 29651
+                   *********************************************************************************************** PP
+
+       china 29642 taactttaatctcacatagcaatctttaatcagtgtgtaacattagggaggacttgaaagagccaccacattttcaccgaggccacgcggagtac 29736
+                   taactttaatctcacatagcaatctttaatcagtgtgtaacattagggaggacttgaaagagccaccacattttcaccgaggccac cggagtac
+  MT327745.1 29652 TAACTTTAATCTCACATAGCAATCTTTAATCAGTGTGTAACATTAGGGAGGACTTGAAAGAGCCACCACATTTTCACCGAGGCCACTCGGAGTAC 29746
+                   *********************************************************************************************** PP
+
+       china 29737 gatcgagtgtacagtgaacaatgctagggagagctgcctatatggaagagccctaatgtgtaaaattaattttagtagtgctatcc 29822
+                   gatcgagtgtacagtgaacaatgctagggagagctgcctatatggaagagccctaatgtgtaaaattaattttagtagtgctatcc
+  MT327745.1 29747 GATCGAGTGTACAGTGAACAATGCTAGGGAGAGCTGCCTATATGGAAGAGCCCTAATGTGTAAAATTAATTTTAGTAGTGCTATCC 29832
+                   ***********************************************************************************985 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (29863 nodes)
+Target sequences:                          1  (29832 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 20.91u 3.96s 00:00:24.87 Elapsed: 00:00:24.87
+# Mc/sec: 35.81
+//
+[ok]
