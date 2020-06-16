@@ -1,0 +1,1192 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  china.hmm
+# target sequence database:        ./mers/Thailand.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       china  [M=29863]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence   Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------   -----------
+          0 4865.8 501.9          0 4399.6 385.7    8.4  9  KT225476.2  |Middle East respiratory syndrome coronavirus iso
+
+
+Domain annotation for each sequence (and alignments):
+>> KT225476.2  |Middle East respiratory syndrome coronavirus isolate MERS-CoV/THA/CU/17_06_2015| complete genome
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   -3.3   0.1    0.0047    0.0047      25     242 ..      26     297 ..      15     306 .. 0.53
+   2 !   43.9   7.5   2.8e-17   2.8e-17    2684    3719 ..    2810    3995 ..    2771    4078 .. 0.58
+   3 !   24.6   7.3   1.9e-11   1.9e-11    5016    5434 ..    4788    5212 ..    4763    5365 .. 0.74
+   4 !    1.7   2.9   0.00015   0.00015    6050    6251 ..    5888    6068 ..    5610    6102 .. 0.73
+   5 ! 4399.6 385.7         0         0    7102   21545 ..    7024   21497 ..    6928   21587 .. 0.85
+   6 !    3.5   1.6   4.1e-05   4.1e-05   22317   22513 ..   22365   22558 ..   22257   22579 .. 0.77
+   7 !  198.9  24.0   6.2e-64   6.2e-64   23687   25377 ..   23792   25521 ..   23545   25537 .. 0.73
+   8 !   28.0  10.3   1.8e-12   1.8e-12   26219   27027 ..   27573   28362 ..   27550   28457 .. 0.70
+   9 !  211.5   3.1   9.9e-68   9.9e-68   28372   29383 ..   28654   29681 ..   28612   29702 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: -3.3 bits;  conditional E-value: 0.0047
+       china  25 actttcgatctcttgtagatctgttctctaaacgaactt...taaaatctgtgtggc.................................tgtcactcg 87 
+                  c  tcg tctcttg aga ct t  t t aacgaactt   taaaa c  tgt g                                  tg cact  
+  KT225476.2  26 CCCCTCGTTCTCTTGCAGAACTTTGATTTTAACGAACTTaaaTAAAAGCCCTGTTGTttagcgtattgttgcacttgtctggtgggattgTGGCACTAA 124
+                 4566899*******************************9333344554432222221000001111111111111111111111112222344566666 PP
+
+       china  88 gctgcatgctt........agtgcactcacgc.........agtataattaataactaattactgtcgttgacaggacacgagtaactcgtctatcttc 169
+                   tgc tgct         agtg ac  a gc          gtataatt  taa t a tact t  tt  cag     gag    tcgt t tctt 
+  KT225476.2 125 TTTGCCTGCTCatctaggcAGTGGACATATGCtcaacactgGGTATAATT-CTAATTGAATACTATTTTT--CAGTT--AGAG--CGTCGTGTCTCTTG 216
+                 66677777774222222225788887665554222222222699999998.4888899999999987666..44322..1222..22444444444444 PP
+
+       china 170 tgca....gg...ctgcttacggtttcgtccgtgttgcagccgatcatcagcacatctagg.tttcgt.ccgggtgtgaccg 242
+                 t c     gg   c    tacggtttcgtccg    g  g c at     gcacatc  g  tttcgt  c ggtgtga cg
+  KT225476.2 217 TACGtctcGGtcaCAATATACGGTTTCGTCCGGTGCGTGG-CAATTCGGGGCACATCATGTcTTTCGTgGCTGGTGTGATCG 297
+                 33321111111113445699**********9754333333.34555566788999886654256666633668888888765 PP
+
+  == domain 2  score: 43.9 bits;  conditional E-value: 2.8e-17
+       china 2684 taccttcacactcaaaggcggtgcacc...aacaaaggttacttttggtgatgacactgtgatagaagtgca..aggttac......aag.agtgtg 2768
+                  t  ctt a act aa gg ggtgcacc   aa aaa gt  c tttgg g tga           aagt ca  aggtt c      aag agtgt 
+  KT225476.2 2810 TCTCTTTAGACTTAAGGGAGGTGCACCtgtAAAAAAAGTAGCCTTTGGCGGTGATC---------AAGTACAtgAGGTTGCtgctgtAAGaAGTGTT 2897
+                  445789999****************9866678888999999******998887754.........44444442234444431111113331455554 PP
+
+       china 2769 aatatcacttttgaacttgatgaaaggattgataaagtacttaatgagaagtgctctgcctatacagttgaactcggtacagaagtaaatgagttcg 2865
+                  a t tc   t   a  tt atg      t ga a a tactt          gct    cta  c  t gaac        g  gta at agt   
+  KT225476.2 2898 ACTGTCGAGTACAACATTCATGCTGTATTAGACACACTACTT----------GCTTCTTCTAGTCT-TAGAACCT----TTGTTGTAGATAAGTCTT 2979
+                  444444333333333344444433333456778888888875..........45444444444332.34555422....224457777777776544 PP
+
+       china 2866 cctgtgttgtggcagatgctgtcataaaaactttgcaaccagtatctgaattact...tacaccactggg...ca...............ttgattt 2941
+                    t   ttg gg    tgctg c ta  aa    g aac agt tc ga tt ct   ta a  actg g    a               ttgattt
+  KT225476.2 2980 TGTCAATTGAGGAGTTTGCTGACGTAGTAA---AGGAACAAGTCTCAGACTTGCTtgtTAAATTACTGCGtggAAtgccgattccagattTTGATTT 3073
+                  444456789999888999999999987776...4899*************999862225788888887442221122222222222333389***** PP
+
+       china 2942 agatgagtggagtatggctacatactacttatttga...tgagtctggtgagtttaaattggcttcacatatgtattgttctttctaccctcc.... 3031
+                  aga ga t  a t   gc  cat cta t  ttt a   tgag  tg tg  t t   t g cttc   tatg   t  tct t  accc  c    
+  KT225476.2 3074 AGACGATTTTATTGACGCACCATGCTATTGCTTTAAcgcTGAGGGTGATGCATCT---TGGTCTTCTACTATGATCTTCTCTCTTCACCC--Cgtcg 3165
+                  ********99999999***********9999998662226666555555544443...44558999888999975554455444444444..31122 PP
+
+       china 3032 a....gatgagga......tgaagaagaaggt...gattgtgaagaagaagag............tttgagccatcaactcaatatgagtatggtac 3103
+                  a    ga gagga      tgaag aga g t   gatt  gaagaag  ga             t tgag c tcaact aa a g   a g t c
+  KT225476.2 3166 AgtgtGACGAGGAgtgttcTGAAGTAGAGGCTtcaGATTTAGAAGAAGGTGAAtcagagtgcattTCTGAGACTTCAACTGAACAAGTTGACGTTTC 3262
+                  222225667777655555567777777766555557888888888888655541111112233224689999********99999888777887777 PP
+
+       china 3104 tgaagatgattaccaaggtaaa....cctttggaatttggtgccacttctgctgctcttc.........aacctgaagaaga............gca 3175
+                  t a ga gatt c  a g   a     ct   g a ttg tg           gc  t c         aa c gaaga g             gca
+  KT225476.2 3263 TCATGA-GATTTCTGACGACGAgtggGCTGCTGCAGTTGATGA---------AGCGTTCCccctcgatgAAGCAGAAGATGTtactgaatctgtGCA 3349
+                  777666.444444433321111000012222222333333332.........222222110000000012222222222110111111111111555 PP
+
+       china 3176 agaagaagattggttaga............tgatgatagtcaacaaactgttggtcaacaagacggcagtgaggaca...atcagacaactactatt 3257
+                  agaagaag       ag             tga gata t                  ca g  g ca  g  gaca     cag  aact ct tt
+  KT225476.2 3350 AGAAGAAGCACAACCAGTagaagtacctgtTGAAGATATTGCG---------------CAGGTTGTCATAGCTGACAcctTACAGGAAACTCCTGTT 3431
+                  5555555543333333320000000000003444444433333...............344444555555555665522245889999999999987 PP
+
+       china 3258 caaac...aattgttgaggttcaacctcaattagagatggaacttacaccagttgttcagactat...............tgaagt........... 3325
+                      c    a tgttga gt c acc caa t   g tg aactt c  c g    tcagactat                gaagt           
+  KT225476.2 3432 GTGTCtgaTACTGTTGAAGTCCCACCGCAAGT---GGTGAAACTTCCGTCTGAACCTCAGACTATccagcccgaggtaaaAGAAGTtgcacctgtct 3525
+                  543331113679****************9866...567789****999999999999*****99833333322222111112222222111111111 PP
+
+       china 3326 ..............ga........atagtttt.............agtggttatttaaaa..ctta...ctgacaatgtataca...ttaaa..... 3374
+                                ga        a agt tt             ag ggtta   aaaa  c ta    tgac  t t t ca   tt aa     
+  KT225476.2 3526 atgaggctgataccGAacagacacAGAGTGTTactgttaaacctaAGAGGTTACGCAAAAagCGTAatgTTGACCCTTTGTCCAattTTGAAcataa 3622
+                  1111111111111122111111111122322200011111111112333444443333331122221112222222222221111111122200000 PP
+
+       china 3375 ....aatgcaga.........cattg...tggaagaagctaaaaaggtaaaaccaa..............cagtggttgttaatgcagccaatgttt 3441
+                      a t caga         cat g   t g  ga gc a   a gta   ccaa              c gtg t gttaatgc gc aa     
+  KT225476.2 3623 ggttATTACAGAgtgcgttacCATAGtttTAGGTGACGCAATTCAAGTA--GCCAAgtgctatggggagtCTGTGTTAGTTAATGCTGCTAACACAC 3717
+                  0111122233321111111112222210022223333333333333332..344443333333333333367899999******************* PP
+
+       china 3442 accttaaacatggaggaggtgttgcaggagccttaaataaggctactaacaatgccatgcaagttgaatctgatgattacatagctactaatggacc 3538
+                  a cttaa catgg gg ggt t gc gg gc  t aat  ggct c aa    gc  t caa   ga tc gatga ta at     ctaa gg cc
+  KT225476.2 3718 ATCTTAAGCATGGCGGTGGTATCGCTGGTGCTATTAATGCGGCTTCAAAAGGGGCTGTCCAAAAAGAGTCAGATGAGTATATTCTGGCTAAAGGGCC 3814
+                  *************************************************9999*****************************99999********** PP
+
+       china 3539 acttaaagtgggtggt..agttgtgttttaagcggacacaatcttgctaaacactgtcttcatgttgtcggcccaaatg.......ttaacaaaggt 3626
+                    t  aagt gg g t  agtt t tt  aa  gg ca   tct gctaa  a    ct catgt gt ggccca atg       t aaca     
+  KT225476.2 3815 GTTACAAGTAGGAGATtcAGTTCTCTTGCAA--GGCCATTCTCTAGCTAAGAATATCCTGCATGTCGTAGGCCCAGATGcccgcgcTAAACA----G 3905
+                  ************9987668999999998888..58999999*********99999999********************83333322223332....2 PP
+
+       china 3627 gaagacattcaacttcttaagagtgct.......tatgaaaattttaatcagcacgaagttctacttgcaccattattatcagctggtatttttggt 3716
+                  ga g    tc  ctt  ta  agtgct       tatgaa  t    atc  c       t ta t  c cc  t  t tca c gg at tttggt
+  KT225476.2 3906 GATGTTTCTCTCCTTAGTA--AGTGCTataaggcTATGAA--TGCATATCCTCT------TGTAGTCACTCCTCTTGTTTCAACAGGCATATTTGGT 3992
+                  3444444444444444444..4566642222222344432..222223333333......3333333455666666777899999999999999998 PP
+
+       china 3717 gct 3719
+                  g  
+  KT225476.2 3993 GTA 3995
+                  754 PP
+
+  == domain 3  score: 24.6 bits;  conditional E-value: 1.9e-11
+       china 5016 acatatggacaacagtttggtccaacttatttggatggagctgatgttactaaaataaaacctcataattcacatgaaggtaaaacattttatgt.. 5110
+                  ac tat ga  acag ttgg      tt  tt  atgg gctgat tt ct a a  a  cct at a   aca  a ggt a  ca tttat t  
+  KT225476.2 4788 ACTTATAGATCACAGCTTGGATGCGTTTTCTTTAATGGTGCTGATATTTCTGATACCATTCCTGATGAGAAACAGAATGGTCA--CAGTTTATATct 4882
+                  5679999*************98888899999999**********************************************986..666666665422 PP
+
+       china 5111 .........tttacctaatgatgacactctacgtgttgaggctttt...gagtactaccacacaactgatcctagttttctgggtaggtacatgtca 5195
+                           ttt  ct  tgatga ac           aggc  tt   gagt  ta   c c   tgatccta ttt  t    ag t c      
+  KT225476.2 4883 agcagacaaTTTGACTGCTGATGAAACA---------AAGGCGCTTaaaGAGTTATATGGCCCCGTTGATCCTACTTTCTTACACAGATTC------ 4964
+                  3333333334555567777777777764.........245555444333899999999999999**********99887765555554444...... PP
+
+       china 5196 gcattaaatcacacta.............aaaagtggaaatacccacaagttaatggtt.............taacttctattaaatgggcagataa 5266
+                        a tca  ct              a aagtggaa              atggtt             ta  ttct t aaat g   gataa
+  KT225476.2 4965 -----TATTCA--CTTaaggctgcagtccATAAGTGGAAG-------------ATGGTTgtgtgtgataaggTACGTTCTCTCAAATTGAGTGATAA 5041
+                  .....333333..333000000011111134556666542.............233333222222232222267789******************** PP
+
+       china 5267 caactgttatcttgccactgcattgttaacactccaacaaat...agagttgaagtttaatccacctgctctacaagatgc..ttattacagagcaa 5358
+                   aa tgttatctt    c g   t  t acact  a   a t    ga  t aa ttt  t  acctgctctaca  atgc  ttat a a a  aa
+  KT225476.2 5042 TAATTGTTATCTTAATGCAGTTATTATGACACTTGATTTATTgaaGGACATTAAATTTGTTATACCTGCTCTACAGCATGCatTTATGAAACA-TAA 5137
+                  ************955444443334445688888877655544111344557778899999999*****************9333444444433.467 PP
+
+       china 5359 gggctggtgaagctgctaacttttgtgcacttatcttagcctactgtaataagacagtaggtgagttaggtgatgt 5434
+                  gggc ggtga  c  ct actt    gc ct at  t gc ta  g aat   aca t ggtg    ag tgatg 
+  KT225476.2 5138 GGGC-GGTGATTCAACTGACTTCATAGCCCTCATTATGGCTTATGGCAATTGCACATTTGGTGCTCCAGATGATGC 5212
+                  7776.99********************************************************9999999999974 PP
+
+  == domain 4  score: 1.7 bits;  conditional E-value: 0.00015
+       china 6050 taatatcaaatttgctgatgatttaaaccagttaa...ctggttataagaaacctgcttc.aagagagcttaaagttac..atttttccctgactta 6140
+                  taata                     acc  tta     tg tt ta  aaacc g   c aaga a   ta a ttac   tt tt cct a   a
+  KT225476.2 5888 TAATA---------------------ACCTTTTAGggtTTGATTCTAGTAAACCAGTCACtAAGAAA---TACACTTACtcCTTCTTGCCTAAAGAA 5960
+                  22222.....................33333333211134445555555555555533321233322...455555554114667788888888889 PP
+
+       china 6141 aatggtgatgtggtggctattgattataaacactacacaccctcttt.taagaaaggagctaaattgttacataaacctattgtttggcatgttaac 6236
+                   a gg gatgtg tg     tga t t  acact    accct ttt taagaa gg gc a  t    a   aaacc att tttgg   gt aac
+  KT225476.2 5961 GACGGCGATGTGTTGTTGGCTGAGTTT-GACACTTATGACCCTATTTaTAAGAATGGTGCCATGTATAAAGGCAAACCAATTCTTTGG---GTCAAC 6053
+                  99*********9999888888998866.579999999999999876549***********99777666677789*************9...9***** PP
+
+       china 6237 aatgcaactaataaa 6251
+                  aa gca ct at a 
+  KT225476.2 6054 AAAGCATCTTATGAT 6068
+                  ******999888664 PP
+
+  == domain 5  score: 4399.6 bits;  conditional E-value: 0
+       china  7102 gttctataccttgtagtgtttgtcttagtggtttagattctttagacacctatccttctttagaaactatacaaa......tta.ccatttcatc 7189 
+                   gttct  a   tgta t   tg  t a t g   agattc  ta     cta cc  ct t  a a   t caaa      tta cca t   t 
+  KT225476.2  7024 GTTCTGCAATGTGTAATTGGTGCTTGATTAGCCAAGATTCCATAACTCACTACCCAGCTCTTAAGATGGTTCAAAcacatcTTAgCCACTATGTT 7118 
+                   55555555556666655555555555666667777777777777665556777776554444444444444444311111133313333322222 PP
+
+       china  7190 ttttaaatgggatttaactgcttttggctt.agttgcagagtggtttttggcatatattcttttcactaggtttttctat..gtacttggattgg 7281 
+                    tt a at  g     a tg tt tgg tt   tt  aga tggt  ttggcata at ct t  ac   g   ttc a   gt  tt   ttgg
+  KT225476.2  7119 CTTAACATA-G-----ATTGGTTGTGGTTTgCATTTGAGACTGGT--TTGGCATACATGCTCTATACCTCGGCCTTCAACtgGTTGTT--GTTGG 7203 
+                   222232332.2.....44677777777665212444589999997..57999999999999887776555555555544311222233..36777 PP
+
+       china  7282 ctgcaatcatgcaattgtttttcagc...........tattttgcag.......tacattttatta....gtaattcttggcttatgtggttaat 7354 
+                   c g  a   tgca  t ttt t  gc           tat ttg ag         cat   atta    gt   t  tg ct  t tggtta t
+  KT225476.2  7204 CAGGTACATTGCAT-TATTTCTTTGCacagacttccaTAT-TTGTAGactggcgGTCATGCAATTAtgctGTGTCTAGTGCCT--TCTGGTTATT 7294 
+                   77777766677753.3333333222211111111111121.222222110000012333333332211111211222233333..3356666543 PP
+
+       china  7355 aattaatcttgtacaaatggccccgatttcagctatggttagaatgtacatcttctttgcatcattttattatgtatggaaaagttatgtgcatg 7449 
+                      ta  c   t c aatgg         c g t tggt  gaatgta a  tt tt gcat   ttt    t ta g aa   ttat  gcatg
+  KT225476.2  7295 ---TACCCACATTCCAATGG---------CGGGTTTGGTACGAATGTATAATTTGTTAGCATGCCTTTGGCTTTTACGCAAGTTTTATCAGCATG 7377 
+                   ...44444444555566666.........5678889***************************99999999999*******9************* PP
+
+       china  7450 ttgtagacggttgtaattcatcaacttgtatgatgtgttacaaacgtaatagagcaacaagagtcgaatgtacaactattgttaatggtgttaga 7544 
+                   t  t  a ggttg aa     c  c tg  tg t tg ta aa  g aa  ga   ac agagt gaa  t c ac  ttgt   tggtg  a a
+  KT225476.2  7378 TAATCAATGGTTGCAAAGATACGGCATGCTTGCTCTGCTATAAGAGGAACCGACTTACTAGAGTTGAAGCTTCTACCGTTGTCTGTGGTGGAAAA 7472 
+                   ****************999999999********************************************************************99 PP
+
+       china  7545 aggtccttttatgtctatgctaatggaggtaaaggcttttgcaaactacacaattggaattgtgttaattgtgatacattctgtgctggtagtac 7639 
+                    g  c ttttat tc   gc aatgg ggta     tt tg       ca aattggaattgtgt  attgtga a      gtg  gg a tac
+  KT225476.2  7473 CGTACGTTTTATATCACAGCAAATGGCGGTATTTCATTCTGTCGTAGGCATAATTGGAATTGTGTGGATTGTGACATTGCAGGTGTGGGGAATAC 7567 
+                   9999**************************9887777777777777789************************9988888899999********* PP
+
+       china  7640 atttattagtgatgaagttgcgagagacttgtcactacagtttaa..aagaccaataaatcctactgaccagtcttcttacatcgttgatagtgt 7732 
+                    tt at  gtga gaagt gc a  gac   tcactac g    a   ag cc at aa  ctac ga    tc   tta    gt gat   gt
+  KT225476.2  7568 CTTCATCTGTGAAGAAGTCGCAAATGACC--TCACTACCGCCCTAcgCAGGCCTATTAACGCTACGGATAGATCACATTATTATGTGGATTCCGT 7660 
+                   ***************************97..69*****9976555226899******************999999999999999*********** PP
+
+       china  7733 tacagtgaagaatggttccatccatctttactttgataaagctggtcaaaagacttatgaaagacatt..ctctctctcattttgttaacttaga 7825 
+                   tacagt aa  a   t    t ca  tt a t t  ta ag  ggtcaa      ta ga  g c tt  c ctct    tttt   aa  taga
+  KT225476.2  7661 TACAGTTAAAGAGACTGTTGTTCAGTTTAATTATCGTAGAGACGGTCAACCATTCTACGA--GCCGTTtcCCCTCTGCGCTTTTACAAATCTAGA 7753 
+                   ******9986665555566788999999999999*************9987776777775..5666651155555555678999999999***** PP
+
+       china  7826 caacctga........gagc....taataacactaaaggttcat.tgcctattaatgttatagtttttgatggtaaatcaaaatgtg...aagaa 7904 
+                    aa  tga        gag     taa a  acta  ggt  a  tg  ta  aa  ttat  t t     g    atca a  gtg   a gaa
+  KT225476.2  7754 TAAGTTGAagttcaaaGAGGtctgTAAAACTACTACTGGTATACcTGAATA-CAACTTTATCATCTA---CGACTCATCAGATCGTGgccAGGAA 7844 
+                   ***999862222221233321122355555667777777654421222222.244455565555554...4556789999999999855567888 PP
+
+       china  7905 tcatctgcaaaatcagcgtctgtttactacagtcagcttatgtgtcaacctatactgttactaga.tcaggcattagtgtctgatgttggtgata 7998 
+                      t  gc a  tc gc t tgttta ta   tca  t  tgtgt aa c at ct tt  t ga tca g  tt gt  ct  tgttggtgat 
+  KT225476.2  7845 AGTTTAGCTAGGTCTGCATGTGTTTATTATTCTCAAGTCTTGTGTAAATCAATTCTTTTGGTTGAcTCAAG-TTTGGTTACTTCTGTTGGTGATT 7938 
+                   888999*****************************************************999998345555.58899999*************99 PP
+
+       china  7999 gtgcggaagttgcagttaaaatgtttgatgcttacgttaatacgttttcatcaacttttaacgtaccaatggaaaaactcaaaacactagttgca 8093 
+                    t   gaa t gc   taaaatgtttgat c t  gttaata  tt    tc    t taa gt  ca   gaaaa  t  aaa act  t  c 
+  KT225476.2  7939 CTAGTGAAATCGCCACTAAAATGTTTGATTCCTTTGTTAATAGTTTCGTCTCGCTGTATAATGTCACACGCGAAAAGTTGGAAAAACTTATCTCT 8033 
+                   888889************************************87766666777778899*****9999999999999999999999999999999 PP
+
+       china  8094 actgcagaagctgaacttgcaaagaatgtg.....tccttagacaatgtcttatctacttttatttcagcagctcg.......gcaagggtttgt 8176 
+                   actgc    g tg     g aa g   g g       ctt  a a tgtctta c ac tt att   gcagc cg       gca g    tgt
+  KT225476.2  8034 ACTGCTCGTGATGG---CGTAAGGC--GAGgcgatAACTTCCATAGTGTCTTAACAACATTCATTGACGCAGCACGaggccccGCAGG----TGT 8119 
+                   99998654443332...23333221..1110011123566667778********************9999998876333333355533....788 PP
+
+       china  8177 tgattcagatgtagaaactaaagatgttgttgaatgtcttaaattgtcacatcaatctgacatagaagttactggcgatagttgtaataactata 8271 
+                    ga tc gatgt ga ac aa ga  ttgttga t t t  a t   c cat aa  tgacata aa ttact   ga agtt  aataa tat 
+  KT225476.2  8120 GGAGTCTGATGTTGAGACCAATGAAATTGTTGACTCTGTGCAGTATGCTCATAAACATGACATACAAATTACTAATGAGAGTTACAATAATTATG 8214 
+                   9**********************************9999999999999*********************************************** PP
+
+       china  8272 tgctcacctataacaaagttgaaaacatgacaccccgtgaccttggtgcttgtattgactgtagtgcgcgtcatattaatgcgcaggtagcaaaa 8366 
+                   t c c c tat   aaa  tga a   tg c  cc gtga  t ggt  t   attga tgta tgcg  t    ttaa           caaa 
+  KT225476.2  8215 TACCCTCATATGTTAAACCTGATAGTGTGTCTACCAGTGATTTAGGTAGTCTCATTGATTGTAATGCGGCTTCAGTTAAC----------CAAAT 8299 
+                   ******************************************************************98655444444442..........33333 PP
+
+       china  8367 agtc..........acaacattgctttgatatggaacgttaaagatttcatgtcattgtctgaacaactacgaaaacaaatacgtagtgctgcta 8451 
+                    gtc            aa   tgctt  at tggaacg t   g  t  atg  a t tc ga   act   a  aca at cg a tgc     
+  KT225476.2  8300 TGTCttgcgtaattCTAATGGTGCTTGTATTTGGAACGCTGCTGCATATATGAAACTCTCGGATGCACTTAAACGACAGATTCGCATTGCATGCC 8394 
+                   3332111111111146788899***********************9******************999999999999*************976667 PP
+
+       china  8452 aaaagaataacttaccttttaagttgacatgtgcaa..ctactagacaagttgttaatgttgtaacaacaaagatagcacttaagggtggtaaaa 8544 
+                     aag  taa tta cttt   gtt ac     caa  ctac  g  aa  tg taat t  ta ca       tag a t a  g t   aaaa
+  KT225476.2  8395 GTAAGTGTAATTTAGCTTTCCGGTTAACCACCTCAAagCTACGCGCTAA--TGATAATATCTTATCAG-----TTAG-ATTCACTGCTAACAAAA 8481 
+                   7889*********************998655544442355555555554..66777777776666653.....3333.33444456666677777 PP
+
+       china  8545 ttgttaa.........taattggttgaagcagtt.....aa......ttaaag..ttacac..............ttgtgttcctttttgttg.. 8601 
+                   ttgtt           ta  tggtt aa   gtt     a       ttaaag  ttac                ttgtgtt ct t tg tg  
+  KT225476.2  8482 TTGTTGGtggtgctccTACATGGTTTAATGTGTTgcgtgACtttacgTTAAAGggTTACGTtcttgctaccattaTTGTGTTTCTGTGTGCTGta 8576 
+                   77776541111111114556777777776555542222133111111334432113333221111111112222256677777766666655422 PP
+
+       china  8602 ctgctat.tttctatttaataacacctgttcatgtcatgtctaaacatactgacttttcaagtgaa......atcataggatacaaggctattga 8689 
+                   ctg t t ttt t ttta   aca  t t  atg          ac t  tga tttt    tgaa      atc t g  t  aa g t ttga
+  KT225476.2  8577 CTGATGTaTTTGTGTTTACCTACATTT-TCTATGG--------TACCTGTTGAATTTTA---TGAAgaccgcATCTTGGACTTTAAAGTTCTTGA 8659 
+                   333333223445556665555555433.2223322........3566777888888774...4444333444788888888999*********** PP
+
+       china  8690 tggtggtgtcactcgtgacatagcatctacagatacttgttttgctaacaaacatgctgattttgacac.atggtttagccagcgtggtggtagt 8783 
+                   t  tggt tca t g ga  ta    ct   gata  tg tttgctaa aa ca  c g   tt acac atggt t  + agc tg tggt gt
+  KT225476.2  8660 TAATGGTATCATTAGGGATGTAAATCCTGATGATAAGTGCTTTGCTAATAAGCAC-CGGTCCTTCACACaATGGTATCATGAGCATGTTGGTGGT 8753 
+                   **********************99999999**********************996.6777889999999459**************999999887 PP
+
+       china  8784 tatactaatgacaaagct......tgcccattgattgctgcagtcataacaagagaagtgggttttgtcgtgcctggtttgcctggcacgatatt 8872 
+                          atgacaa  ct      tgcccattga  g tgcagt at  c  gag  g  ggt  t  c t cc g   t cct    c a att
+  KT225476.2  8754 G---TCTATGACAACTCTatcacaTGCCCATTGACAGTTGCAGTAATTGCTGGAGTTGCTGGTGCTCGCATTCCAGACGTACCTA---CTACATT 8842 
+                   4...345789999876554444449******************************999999998887777777777777777763...3333333 PP
+
+       china  8873 .......acgcacaactaatggtgactttttgcatttcttacctagagttttt...agtgcagttggtaacatctgttacacaccatcaaaa... 8954 
+                            g acaa  a  g t a ttt t   tt      ct gagt ttt   a t ca   gg a   t tg tacac cc   a a    
+  KT225476.2  8843 ggcttggGTGAACAATCA--GATAATTTTCTTTGTT-----TCTCGAGTCTTTgctAATACA---GGCAGTGTTTGCTACACTCCTATAGATgag 8927 
+                   111111123445555444..3344444444333333.....356799998886222455555...566777899*******99985444332111 PP
+
+       china  8955 ....cttat.agagt.acactgactttgcaacatcagcttgtgttttggctgctgaatgtacaatttttaaagatgcttctgg...taagccagt 9040 
+                       c tat agagt  c ctga   t         g ttg  tt t  c  ctga tg ac at ttta  gatgc    gg   ta g c   
+  KT225476.2  8928 atacCCTATaAGAGTtTCTCTGATAGT---------GGTTGCATTCTTCCATCTGAGTGCACTATGTTTAGGGATGCAGAGGGccgTATGAC--- 9010 
+                   111133333134443123444443332.........45777778888889999***********************9876664222555544... PP
+
+       china  9041 accatattgttatgataccaatgtactagaaggttctgttgcttat.gaaagtttacgccctgacacacgttatgtgctcatggatggctcta.. 9132 
+                   accata tg  atgat c a tgt  t    gg  ct ttgc ta  g  ag t a   cct a    cgtta g   t    gatgg    a  
+  KT225476.2  9011 ACCATACTGCCATGATCCTACTGTTTTGCCTGGGGCTTTTGCGTACaGTCAGATGAG-GCCTCATGTTCGTTACGACTTGTATGATGGTAACAtg 9104 
+                   79***********************99999999999999999998524556666665.5678888899999999876666666777775444322 PP
+
+       china  9133 .ttattcaatttcctaacacctaccttgaaggttctgttagagtggtaacaacttttgattctgagtactgtaggcacggcacttgtgaaagatc 9226 
+                    ttatt aatttcct a        ttgaa gt c  ttag  t    a aact t     ct agtactg  gg  cgg a ttgtga     c
+  KT225476.2  9105 tTTATTAAATTTCCTGAAGTAGTATTTGAAAGTACACTTAGGATTACTAGAACTCTGTCAACTCAGTACTGCCGGTTCGGTAGTTGTGAGTATGC 9199 
+                   2799***********99888878899***************999999999***999999999***************************99999* PP
+
+       china  9227 agaagctggtgtttgtgtatctactagtggtagatgggtacttaacaatgattattacagatctttaccaggagttttctgtggtgtagatgctg 9321 
+                   a aag  ggtgtttgt t  c ac a tgg    tggg   tt   aatga  a  a      t  acc gg gt t  tgtgg    gat  t 
+  KT225476.2  9200 ACAAGAGGGTGTTTGTATTACCACAAATGGCTCGTGGGCCATTTTTAATGACCACCATCTTAATAGACCTGGTGTCTATTGTGGCTCTGATTTT- 9293 
+                   **************************************99999999999998887654444444567999*****9999999987666665333. PP
+
+       china  9322 taaatttacttactaatatgttta....caccactaattcaacctattggtgctttggacatatcagcatctatagtagctggtggtat.....t 9407 
+                      att ac t  t a   g tta     a cact  t ca cctatt  t  ttt  a  t  c  c tc  t gt       ggtat     t
+  KT225476.2  9294 ---ATTGACATTGTCAGGCGGTTAgcagTATCACTGTTCCAGCCTATTACTTATTTCCAATTGACTACCTCATTGGTCTTG---GGTATaggttT 9382 
+                   ...45555555555566666666533334789****************988888876665555555555554444443222...33333000002 PP
+
+       china  9408 gta.gctatcgtagtaacatgccttgcctactattttatgaggtttagaagagcttttggtgaatacagtca......tgtagttgcctttaata 9495 
+                   gt  gc  tc    t ac t  ct   cta tat tta  a   t a a g gcttttg  ga taca  ca      tgta ttgc  tt  t 
+  KT225476.2  9383 GTGtGCATTC---CTGACTTTGCTCTTCTATTATATTAATAAAGTAAAACGTGCTTTTGCAGATTACACCCAgtgtgcTGTAATTGCTGTTGTTG 9474 
+                   2220222222...2334444444555577888887777777777888899*****************9655544444489999999999998887 PP
+
+       china  9496 ctttactattccttatgtcattcac.tgtactctgtt....taacaccagtttactcattcttacctggtgtttattctgttatttacttgtact 9585 
+                   ct   ct ttc t at  c t   c t t ct tgtt      a acca t t      t ttacc      tta  ctg   t tact  ta  
+  KT225476.2  9475 CT--GCTGTTCTTAATAGCTTGTGCaTCTGCTTTGTTgcctCTATACCATTGTGTA---TATTACC------TTACACTGCATTGTACTATTATG 9558 
+                   75..5777777777665554322111223344444431111224444443333222...3345555......35666777777888888888888 PP
+
+       china  9586 tgacattttatcttactaatgatgtttcttttttagcacatattcagtggatggttatgttcacacctttagtacctttctggataacaattgct 9680 
+                     acatt tat ttactaatga   t c ttt t    cat tt   tgg    ttatgttc   cct t gt cc  t tggat ac    g  
+  KT225476.2  9559 CTACATTCTATTTTACTAATGAGCCTGCATTTATTATGCATGTTTCTTGGTACATTATGTTCGGGCCTATCGTTCCCATATGGATGACCTGCGTC 9653 
+                   89********************999999999999889999****999***999**********************************98888888 PP
+
+       china  9681 tatatcatttgtatttccacaaagcatttctattggttctttagtaattacctaaagagacgtgta...gtctttaatggtgtttccttta...g 9769 
+                   tata   tt   at t c   a  ca ttct  tgg t tt   t att     aaga ac tgta   gt ttta tg tg t    tta   g
+  KT225476.2  9654 TATACAGTTGCAATGTGCTTTAGACACTTCTTCTGGGTTTTAGCTTATTTTAGTAAGAAACATGTAgaaGTTTTTACTGATGGTAAGCTTAattG 9748 
+                   8888555555556778888888899**********999887777888888888899*******99622269999999999987765555443448 PP
+
+       china  9770 tacttttgaagaagctgcgctgtgcacctttttgttaaataaagaaatgtatctaaagttgcgtagtgatgtgctattacctcttacgcaatata 9864 
+                   ta ttt  a ga gctgc       a cttt t  t aa aa ga a  tat  a  g t c tag  a    ct t ac   t a gc  tat 
+  KT225476.2  9749 TAGTTTCCAGGACGCTGCCTCTAATATCTTTGTTATTAACAAGGACACTTATGCA--GCT-CTTAG--AAACTCTTTAACTAATGATGCC-TATT 9837 
+                   999**************97666666777766666666888999988876665433..111.22332..3333344444444444444543.4555 PP
+
+       china  9865 atagatacttagctctttataataagtacaagtattttagtggagcaatggatacaactagctacagagaagctgcttgttgtcatctcgcaaag 9959 
+                      gat  tt g   t t taa aagta aagta tt   tgg gc atgga aca c    ta  g gaagctgc    tgtcatct gc aa 
+  KT225476.2  9838 CACGATTTTTGGGGTTGTTTAACAAGTATAAGTACTTCTCTGGTGCTATGGAAACAGCCGCTTATCGTGAAGCTGCAGCATGTCATCTTGCTAAA 9932 
+                   5568888999999999999****************************************999****************************98777 PP
+
+       china  9960 gctctcaatgacttcagtaactcaggttctgatgttctttaccaaccaccacaaacctct...atcacctcagctgttttgcagagtggttttag 10051
+                   gc  t  a    t cag  a  c ggt  tgat ttctttaccaaccacc  a   ct t   at acctc g  gt ttgca ag ggttt   
+  KT225476.2  9933 GCCTTACAAACATACAGCGAGACTGGTAGTGATCTTCTTTACCAACCACCCAA---CTGTagcATAACCTCTGGCGTGTTGCAAAGCGGTTTGGT 10024
+                   76555444444588**********************************98543...44441126779**************************99 PP
+
+       china 10052 aaaaatggcattcccatctggtaaagttgagggttgtatggtacaagtaacttgtggtacaactacacttaacggtctttggcttgatgacgtag 10146
+                    aaaatg ca   cc   tgg  a gttgagg ttgtatggt ca gt ac tg ggta  a  ac cttaa ggtctttggcttga  ac  ag
+  KT225476.2 10025 GAAAATGTCACATCCCAGTGGAGATGTTGAGGCTTGTATGGTTCAGGTTACCTGCGGTAGCATGACTCTTAATGGTCTTTGGCTTGACAACACAG 10119
+                   9********998888888***************************************************************************** PP
+
+       china 10147 tttactgtccaagacatgtgatctgcacctctgaagacatgcttaaccctaattatgaagatttactcattcgtaagtctaatcataatttcttg 10241
+                   t t  tg cca gaca gt at tgc c  ctga  a  tg  t a cctaattatga g  tt  t att  ta g ctaatcata tttc   
+  KT225476.2 10120 TCTGGTGCCCACGACACGTAATGTGCCCGGCTGACCAGTTGTCTGATCCTAATTATGATGCCTTGTTGATTTCTATGACTAATCATAGTTTCAGT 10214
+                   *******************************************************************************************9988 PP
+
+       china 10242 gtaca......ggctggtaatgttc.....aac.tcagggttattggacattctatgcaaaattgtgtacttaagcttaaggttgatacagccaa 10324
+                   gt ca         tgg    g tc     aac t  g gtt ttgg cat c atgcaa     t t  t aag t a  gt gat   gc aa
+  KT225476.2 10215 GTGCAaaaacaCATTGGC---GCTCcagcaAACtTGCGTGTTGTTGGTCATGCCATGCAAGGCACTCTTTTGAAGTTGACTGTCGATGTTGCTAA 10306
+                   886551111113334432...2222111112331445889********************988888888899*********************** PP
+
+       china 10325 tcctaagacacctaagtataagtttgttcgca.ttcaaccaggacagactttttcagtgttagcttgttacaatggttcaccatctggtgtttac 10418
+                    ccta  ac cc    ta a  ttt     ca t  aacc gg     c ttt   gtgttagc tg ta aatggt   cc  ctggt   t c
+  KT225476.2 10307 CCCTAGCACTCCAGCCTACACTTTTACA-ACAgTGAAACCTGGCGCAGCATTTAGTGTGTTAGCATGCTATAATGGTCGTCCGACTGGTACATTC 10400
+                   *****99988886666666655554433.3441455677777765555778888999*******************************9866654 PP
+
+       china 10419 caatgtgctatgaggcccaatttcactattaagggttcattccttaatggttcatgtggtagtgttggttttaacatagattatgactgtg.tct 10512
+                        tg  atg g cc aa t cac attaagggttc tt ct   tggttc tgtggtagtgttggtt  a ca  ga   t a tgtg tc 
+  KT225476.2 10401 ACTGTTGTAATGCGCCCTAACTACACAATTAAGGGTTCCTTTCTGTGTGGTTCTTGTGGTAGTGTTGGTTACACCAAGGAGGGT-AGTGTGaTCA 10494
+                   33333567799***********************************************************99999987775444.4455554789 PP
+
+       china 10513 ctttttgttacatgcaccatatggaattaccaactggagttcatgctggcacagacttagaaggtaacttttatggaccttttgttgacaggcaa 10607
+                    tttttgttacatgca ca atggaa t  c a tgg    cat c gg  cag  tt ga ggta   t tatgg  c ttt t ga a  caa
+  KT225476.2 10495 ATTTTTGTTACATGCATCAAATGGAACTTGCTAATGGTACACATACCGGTTCAGCATTTGATGGTACTATGTATGGTGCCTTTATGGATAAACAA 10589
+                   9***************************************************************************************9988876 PP
+
+       china 10608 acagcacaagcagctggt.acggacacaactattacag..ttaatgttttagcttggttgtacgctgctgttataaatggagacaggtggtttct 10699
+                      gcac a    c g t ac  a acaa ta t cag  ttaatgt  tagcttgg t tacgc gc  t  t aatgg   c   tggttt t
+  KT225476.2 10590 G-TGCACCAAGTTCAGTTaAC--AGACAAATACTGCAGtgTTAATGTAGTAGCTTGGCTTTACGCAGCAATACTTAATGGTTGCGCTTGGTTTGT 10681
+                   5.3555544323333333134..4567788999988852279***************************************************99 PP
+
+       china 10700 caatcgatttaccacaactcttaatgactttaaccttgtggctatg.aagtacaatt..atgaacctct...aacacaagaccatgttgacatac 10788
+                    aa c    t  cac a t tt  t   tttaa      ggct t       caatt   tgaa  t t    ac caa      gttgacat  
+  KT225476.2 10682 AAAACCTAATCGCACTAGTGTTGTTTCTTTTAATGAATGGGCTCTTgCCAACCAATTcaCTGAATTTGTtggCACTCAATC---CGTTGACATGT 10773
+                   998887777777788776655555555555554433333333332201112233333113566655543111345555533...48999999999 PP
+
+       china 10789 taggacctctttctgctcaaactggaattgccgttttagatatgtgtgcttcatta.aaagaattactgcaaaatggtatgaatggacgtaccat 10882
+                   tag         ctg   aaac gg  ttgc  tt  a a  t    gctt at   a   aa  act  a a tgg  t  a gga      at
+  KT225476.2 10774 TAG---------CTGTCAAAACAGGCGTTGCTATTGAACAGCT----GCTTTATGCgATCCAACAACTTTATACTGGGTTCCAGGGAAAGCAAAT 10855
+                   987.........7888899***********9988877665443....444444432122335566788899999999999999999876666778 PP
+
+       china 10883 attgggtagtgctttattagaagatgaatttacaccttttgatgttgttagacaatgctcaggtgttactttccaaagtgcagtgaaaagaacaa 10977
+                     t gg agt ct t tt gaagatgaatt acacct   gatgtt  ta  ca       ggtgt   t t ca agtg  gtga aa a   a
+  KT225476.2 10856 CCTTGGCAGTACTATGTTGGAAGATGAATTCACACCTGAGGATGTTAATATGCAGATTATGGGTGTGGTTATGCAGAGTGGTGTGAGAAAAGTTA 10950
+                   8899*****************************************99998777766666679***********************9999999999 PP
+
+       china 10978 tcaagggtacacaccactggttgttactcacaattttgacttcacttttagttttagtc...cagagtactcaatggtctttgttcttttttttg 11069
+                      a ggtac    ca tggttgtt    ac    ttg ct  ac t t gt  ta tc   ca    act aat   ctttgt     t  ttg
+  KT225476.2 10951 CATATGGTACTGCGCATTGGTTGTTCGCGACCC--TTGTCTCAACCTAT-GTGATAATCttaCAAGCCACTAAATTTACTTTGTGGAACTACTTG 11042
+                   9999********************977666654..55666666665443.4444444332226777789***************99888888999 PP
+
+       china 11070 tatgaaa..atgcctttttaccttttgctatgggtatta.ttgctatgtctgcttttgcaatgatgtttgtcaaacataagcatgcatttctctg 11161
+                   t tga a  at cc     a  t tt c a    tatt  t  ctatg   gc tt g  atg tgtt gt aaaca aa ca  c ttt t   
+  KT225476.2 11043 TTTGAGActATTCCCACACAGTTGTTCCCACTCTTATTTgTGACTATG---GCCTTCGTTATGTTGTTGGTTAAACACAAACACACCTTTTTGAC 11134
+                   999887622344443333333344444444444444433033467776...788999**************************999999988777 PP
+
+       china 11162 tttgtttttgttaccttctcttgccactgtagcttattttaatatggtctatatgcctgctagttgggtgatgcgtattatgacatggttggata 11256
+                     t tt ttgtt cct     t     t t  cttat   aa at gtcta   gcc  cta t         c  att  g ca  g tg  t 
+  KT225476.2 11135 ACTTTTCTTGTTGCCTGTGGCTATTTGTTTGACTTATGCAAACATAGTCTACGAGCCCACTACT---------CCCATTTCGTCAGCGCTGATTG 11220
+                   7788899999999987543333333345677899**************************9876.........6789999999999999998888 PP
+
+       china 11257 tggttg.atactagtttgtctggttttaagctaaaagactgtgttatgtatgcatcagctgtagtgttactaatccttatgacagcaagaactgt 11350
+                     gttg a a t g ttg c     t a gc            ttat t  gca  a    ta tg ta t  t   ta    ag a g     t
+  KT225476.2 11221 CAGTTGcAAATTGGCTTGCCCCCACTAATGC------------TTATATGCGCACTACACATACTGATATTGGTGTCTACATTAGTATGTCACTT 11303
+                   8888872334445555555544444444444............4555566667766666667777777777666666666666666666554455 PP
+
+       china 11351 gtatga..tgatggtgctaggagagtgtggacacttatgaatgtcttgacactcgtttataaagtttattatggtaatg................ 11427
+                   gtat a     tg  g  a gaga tgt  a ac  at a t tct       cgtt   a  gt  a t   gtaatg                
+  KT225476.2 11304 GTATTAgtCATTGTAGTGAAGAGATTGTACA-ACCCATCACTTTCTAACTTTGCGTTAGCATTGTGCAGTGGTGTAATGtggttgtacacttata 11397
+                   6655432122333344446666666666544.466677777766665444444666555555554444444444444431111111111000000 PP
+
+       china 11428 .ctttaga......tcaag..ccatttccatgtgggctcttataatctctgttacttctaacta..ctcaggtgtagttaca.....actgtcat 11506
+                    c tt ga      tcaag  ccatt cc                  tctg t  tt t acta  ctca   gt  tta a     ac gtc t
+  KT225476.2 11398 gCATTGGAgaagccTCAAGtcCCATTGCCTA----------------TCTGGTTTTTGTCACTAcaCTCACTAGTGATTATAcgattACAGTCTT 11476
+                   0333333311222233333223344443322................233333333333333321134443333333333321111122222222 PP
+
+       china 11507 gtttttggccagaggtattgt.....ttttatgtgtgttgagtattgccctattttctt...cataactggtaatacacttcagtgt........ 11585
+                        t       g ta tgt     tt  a   gt t  a t  tgcc t ttt ctt   ca  ac g t  tacactt  gt t        
+  KT225476.2 11477 -----T-------GTTACTGTcaaccTTGCAAAAGTTTGCACTTATGCCATCTTTGCTTactCACCACAGCT--TACACTTGTGTTTccggaagt 11557
+                   .....1.......11222222111112222333333344455556778888888877752225555566655..678888754443222222222 PP
+
+       china 11586 .ataatgctagt.ttattgt.....ttcttaggctatttttgtacttgttactttggcctcttttgtttactcaaccgctactttagactgactc 11673
+                    a  atg ta t ttatt t     t  ttagg t   t tgtacttg ta tttgg  tctt t t t  t aacc   a  ttaga    ct 
+  KT225476.2 11558 gAAGATGATACTtTTATTATacacaTGTTTAGGTTTCATGTGTACTTGCTATTTTGGTGTCTTCTCTCTTTTGAACCTTAAGCTTAGAGCACCTA 11652
+                   222345555544134444432222256789***************************************************************** PP
+
+       china 11674 ttggtgtttatgattacttagtttctacacaggagtttagatatatgaattcacagggactactcccacccaagaatagcatagatgccttcaaa 11768
+                   t ggtgt tatga t     gt tc acaca gagtt agat  atga t c  a    cta    cacc a  aat      ga gc  t    
+  KT225476.2 11653 TGGGTGTCTATGACTTTAAGGTCTCAACACAAGAGTTCAGATTCATGACTGCTAACAATCTAACTGCACCTAGAAATTCTTGGGAGGCTATGGCT 11747
+                   *************9999999******************************999988899999999999999888888777777888888899999 PP
+
+       china 11769 ctcaacattaaattgttgggtgttggtggcaaaccttgtatcaaagtagccactgtacagtctaaaatgtcagatgtaaagtgcacatcagtagt 11863
+                   ct aac ttaa tt  t ggt ttgg gg a accttgtat aa gt gc  ct t cagtctaaa t  cagat t aa tgcacatc gt gt
+  KT225476.2 11748 CTGAACTTTAAGTTAATAGGTATTGGCGGTACACCTTGTATAAAGGTTGCTGCTATGCAGTCTAAACTTACAGATCTTAAATGCACATCTGTGGT 11842
+                   9********************************************************************************************** PP
+
+       china 11864 cttactctcagttttgcaaca.....actcagagtagaatcatcatctaaattgtgggctcaatgtgtccagttacacaatgacattctcttagc 11953
+                     t ctctc gt  t caaca     act agag   aat       ta     tgggct   tgtgt  a t  ca aatga at  t   agc
+  KT225476.2 11843 TCTCCTCTCTGTGCTCCAACAgttacACTTAGAGGCTAATA-----GTAGGGCCTGGGCTTTCTGTGTTAAATGCCATAATGATATATTGGCAGC 11932
+                   ********************955555667777776655553.....3455566689*************************************** PP
+
+       china 11954 taaagatactactgaagcctttgaaaaaatggtttcactactttctgttttgctttccatgcagggtgctgtagacataaacaagctttgtgaag 12048
+                    a aga  c a tga gc tt ga aaa t gt    ct  tt c   ttt  t  c  t    ggt  tgtaga  t  a   g t   t   g
+  KT225476.2 11933 AACAGACCCCAGTGAGGCTTTCGAGAAATTCGTAAGTCTCTTTGCCACTTTAATGACTTTTTCTGGTAATGTAGATCTTGATGCGTTAGCTAGTG 12027
+                   ****************************99999777777667766666666665555555666789999*****998887776666655566667 PP
+
+       china 12049 aaatgctggacaac...agggcaaccttacaagctatagcctcagagtttagttcccttccatcatatgcagcttttgctactgctcaagaagct 12140
+                   a at  t gaca     ag g a  c t caagcta     tc gagttt     c t  c  c t tgc g  tt g   ctgc ca  aagc 
+  KT225476.2 12028 ATATTTTTGACACTcctAGCGTA--C-TTCAAGCTACTCTTTCTGAGTTTTCACACTTAGCTACCTTTGCTGAGTTGGAAGCTGCGCAGAAAGCC 12119
+                   88999999999853111343333..3.458*******999********975444444444555556789999999999999************** PP
+
+       china 12141 tatgagcaggctgttgctaatggtgattct...gaagttgttcttaaaaagttgaagaagtctttgaatgtggctaaatctgaatttgaccgtga 12232
+                   tat ag a gct t g    tggtga  c      a   gttcttaa    ttg agaag ct t aat t gctaaa   g  t tga    ga
+  KT225476.2 12120 TATCAGGAAGCTATGGACTCTGGTGACACCtcaCCACAAGTTCTTAAGGCTTTGCAGAAGGCTGTTAATATAGCTAAAAACGCCTATGAGAAGGA 12214
+                   ****************999******97543111344556889*****************************************9*****999999 PP
+
+       china 12233 tgcagccatgcaacgtaagttggaaaagatggctgatcaagctatgacccaaatgtataaacaggctagatctgaggacaagagggcaaaagtta 12327
+                   t   gc  tg   cgtaagtt gaa   atggctgatca gctatgac    atgtataa ca gc  g  ctga gacaaga  gcaaaa tt 
+  KT225476.2 12215 TAAGGCAGTGGCCCGTAAGTTAGAACGTATGGCTGATCAGGCTATGACTTCTATGTATAAGCAAGCACGTGCTGAAGACAAGAAAGCAAAAATTG 12309
+                   999999999999*********************************************************************************** PP
+
+       china 12328 ctagtgctatgcagacaatgcttttcactatgcttagaaagttggataatgatgcactcaacaacattatcaacaatgcaagagatggttgtgtt 12422
+                     agtgctatgca ac atg t tt   tatg tta  aag t ga aa gatg  ct aa    at at    aa gc ag  atggttgt t 
+  KT225476.2 12310 TCAGTGCTATGCAAACTATGTTGTTTGGTATGATTAAGAAGCTCGACAACGATGTTCTTAATGGTATCATTTCTAACGCTAGGAATGGTTGTATA 12404
+                   **************************************************************999999999999********************* PP
+
+       china 12423 cccttgaacataatacctcttacaacagcagccaaactaatggttgtcataccagactataacacatataaaaatacgtgtgatggta....caa 12513
+                   cc  t a   t at cc ct     c  ca   aaact    gttgt at cc gact  a c   t    aa  a gt    t   a    c  
+  KT225476.2 12405 CCTCTTAGTGTCATTCCACTGTGTGCTTCAAATAAACTTCGCGTTGTAATTCCTGACTTCACCGTCTGG--AATCAGGT--AGTCACAtatcCCT 12495
+                   *****************9999888899999999*************************88876554443..33333332..11111110000233 PP
+
+       china 12514 catttacttatgcatcagcattgtgggaaatccaacaggttgtag...atgcagatagtaaaattgttcaacttagtgaaattagtatggacaat 12605
+                   c  tta  ta gc    gc ttgtggga at   acag tt ta    atg  ga a t aaattgtt a   t   ga  tt    t gaca  
+  KT225476.2 12496 CGCTTAACTACGCTGGGGCTTTGTGGGACATT--ACAG-TTATAAacaATGTGGACAATGAAATTGTTAAGTCTTCAGATGTT---GTAGACAGC 12584
+                   4557888899999999************9986..6765.66776423379999**************9887666555554433...344565543 PP
+
+       china 12606 tcacctaatttagcatggcctcttattgtaacagctttaaggg...ccaattctgctgtcaaattacagaataatgagcttagtcct....gttg 12693
+                         aattta catggcc ctt tt ta  a      aggg   cca ttctgc g  aa tt ca aataatgag t a  cct    gtt 
+  KT225476.2 12585 AATGAAAATTTACCATGGCCCCTTGTTTTAGAATTCGCTAGGGcatCCACTTCTGCCGCTAAGTTGCAAAATAATGAGATCAAACCTtcagGTTT 12679
+                   3333458999999*************9999887666667888844459**********************************9999833334554 PP
+
+       china 12694 cactacgacagatgtcttgtgctgccggtactacacaaactgcttgcactgatgacaatgcgttagcttactacaacacaacaaagggaggtagg 12788
+                    a  ac a  g tgt      ctgc ggt      caaact   tg a   at   a t c ttagctta tac a  c     aggg  gta  
+  KT225476.2 12680 AAAAACCATGGTTGTG----TCTGCAGGTCAAGAGCAAACTAACTGTA---ATACTAGTTCCTTAGCTTATTACGAACCTGTGCAGGGTCGTAAA 12767
+                   4555555554444443....389*****97777778888888777765...566668899**************999999999999999999999 PP
+
+       china 12789 tttgtacttgcactgttatccgatttacaggatttgaaatgggctagattccctaag..agtgatggaactggtactatctatacagaactggaa 12881
+                    t  t  t gc ct  t tc gat       at t aaatgggc  g  t    aag  a  ga gga  tg ta t        aga ct  aa
+  KT225476.2 12768 ATGCTGATGGCTCTTCTTTCTGATAATGCCTATCTCAAATGGGCGCGTGTTG--AAGgtAAGGACGGATTTGTTAGTG------TAGAGCTACAA 12854
+                   999999999**************97666667999*********987765543..333224458888998888888765......58999****** PP
+
+       china 12882 ccaccttgtaggtttgttacagacacacctaaaggtcctaaagtgaagtatttatactttattaaaggattaaacaacctaaatagaggtatggt 12976
+                   cc ccttg a  tt  t a  g    acc aaagg cct aa t    tat t ta ttt ttaaa    t aacaacct  at g gg    gt
+  KT225476.2 12855 CCTCCTTGCAAATTCTTGATTGCGGGACCAAAAGGACCTGAAATCCGATATCTCTATTTTGTTAAAAATCTTAACAACCTTCATCGCGGGCAAGT 12949
+                   *************9999999999999******************9999********************9***************99998777777 PP
+
+       china 12977 acttggtagtttagctgccacagtacgtctacaagctggtaatgcaacagaagtgcctgccaattcaactgtattatctttctgtgcttttgctg 13071
+                     t gg     t gctgc ac gt  g  t caagctggt  t   ac ga  t  c  c aattc  c gt tt tc  t   t   tt  c g
+  KT225476.2 12950 GTTAGGGCACATTGCTGCGACTGTTAGATTGCAAGCTGGTTCTAACACCGAGTTTGCCTCTAATTCTTCGGTGTTGTCACTTGTTAACTTCACCG 13044
+                   7777777677788***************************999888888887776666799*****************99988888899999*** PP
+
+       china 13072 tagatgctgctaaagcttacaaagattatctagctagtggggga...caaccaatcactaattgtgttaagatgttgtgtacacacactggtact 13163
+                   t gat ct   aaagctta    gatt   t g  a tg ggga      cca t ac aattgtgttaagatg t   t c  a actggtac 
+  KT225476.2 13045 TTGATCCTCAAAAAGCTTATCTCGATT---TCGTCAATGCGGGAggtGCCCCATTGACAAATTGTGTTAAGATGCTTACTCCTAAAACTGGTACA 13136
+                   ********9999999999999888877...445566666666552214568999*********************9999999999********** PP
+
+       china 13164 ggtcaggcaataacagttacaccggaagccaatatggatcaagaatcctttggtggtgcatcgtgttgtctgtactgccgttgccacatagatca 13258
+                   ggt   gc ata c gtta acc ga    a     gatcaaga  c t tggtgg gc tc    tgtct ta tgccgt   ca ataga ca
+  KT225476.2 13137 GGTATAGCTATATCTGTTAAACCAGAGAGTACAGCTGATCAAGAGACTTATGGTGGAGCTTCAGTGTGTCTCTATTGCCGTGCGCATATAGAACA 13231
+                   ***********************99976666666679*************************88889***************9************ PP
+
+       china 13259 tccaaatcctaaaggattttgtgacttaaaaggtaagtatgtacaaatacctacaacttgtgctaatgaccctgtgggttttacacttaaaaaca 13353
+                   tcc  at      gg  tttgt a t  aa ggtaagt tgt caaat cct c    tgtg    tgaccctgtggg ttt    t   aaa a
+  KT225476.2 13232 TCCTGATGTCTCTGGTGTTTGTAAATATAAGGGTAAGTTTGTCCAAATCCCTGCTCAGTGTGTCCGTGACCCTGTGGGATTTTGTTTGTCAAATA 13326
+                   ******9988899******************************************99**********************9999999989999999 PP
+
+       china 13354 cagtctgtaccgtctgcggtatgtggaaaggttatggctgtagttgtgatcaactccgc...gaacccatgcttcagtcagctgatgcacaatcg 13445
+                   c   ctgta  gtctg       tgga  gg tatgg tg a ttgtga    ct  g    g a c  tgc  ca tc    gat c caat  
+  KT225476.2 13327 CCCCCTGTAATGTCTGTCAATATTGGATTGGATATGGGTGCAATTGTGACTCGCTTAGGcaaGTAGCACTGCCCCAATCTAAAGATTC-CAAT-- 13418
+                   999************976655569************************9776666554312255667779999999999999999987.6776.. PP
+
+       china 13446 tttttaaacgggtttgcggtgtaagtgca...gcccgtcttacaccgtgcggcacaggcactagtactgatgtcgtatacagggcttttgacatc 13537
+                   tttttaaacg gt  g ggt   a tg a   gcccg  t   acc tg    a  gg       actgatgtcgt t  agggc tttgacatc
+  KT225476.2 13419 TTTTTAAACGAGTCCGGGGTTCTATTGTAaatGCCCGAATAGAACCCTGTTCAAGTGGTTTGTCCACTGATGTCGTCTTTAGGGCATTTGACATC 13513
+                   7999******9999999997544444443333689**99999999988876666666655555569****************************9 PP
+
+       china 13538 tacaat......gataaagtagctggttttgctaaattcctaaaaactaattgttgtcgcttccaagaaaagga...cgaagatgacaatttaat 13623
+                   t caa       g taa gt gctggt ttg  aaat c   aa actaat  ttgt g tt   agaa   ga   c aag   a  attta  
+  KT225476.2 13514 TGCAACtataagGCTAAGGTTGCTGGTATTGGAAAATACTACAAGACTAATACTTGTAGGTTTGTAGAATTAGAtgaCCAAGGGCATCATTTA-- 13606
+                   8777651111115567789******************99999*********************999998655540005555555555666655.. PP
+
+       china 13624 tgattcttactttgtagttaagagacacactttctctaactaccaacatgaagaaacaat.ttataatttacttaaggattgtccagctgttgct 13717
+                    ga tc ta tttgt gttaagag ca act t    aa ta  aac  g agaa ca t tta  attt  t    ga tgt   gctgt gct
+  KT225476.2 13607 -GACTCCTATTTTGTCGTTAAGAGGCATACTATGGAGAATTATGAACTAG-AGAAGCACTgTTACGATTTGTTACGTGACTGTGATGCTGTAGCT 13699
+                   .9********************************************9776.689999877477888998887777779***************** PP
+
+       china 13718 aaacatgacttctttaagtttagaatagacggtgacatggtaccacatatatcacgtcaacgtcttactaaatacacaatggcagacctcgtcta 13812
+                      catga ttctt a  ttt    tagac   g  a    acc catat   acgtca cgt t act a tacac atg   ga ct gt ta
+  KT225476.2 13700 CCCCATGATTTCTTCATCTTTGATGTAGACAAAGTTAAAACACCTCATATTGTACGTCAGCGTTTAACTGAGTACACTATGATGGATCTTGTATA 13794
+                   ******************99999999999998888888889****************************************************** PP
+
+       china 13813 tgctttaaggcattttgatgaaggtaattgtgacacattaaaagaaatacttgtcacatacaattgttgtgatgatgattatttcaataaaaagg 13907
+                   tgc  t aggca tttgat aa   aat g ga     t aa g  at  t gt a  ta   ttg tgtgatg t   ta tt  a aa aa  
+  KT225476.2 13795 TGCCCTGAGGCACTTTGATCAA---AATAGCGAAGTGCTTAAGGCTATCTTAGTGAAGTATGGTTGCTGTGATGTTACCTACTTTGAAAATAAAC 13886
+                   ********************98...788899999999999********************************************99999999999 PP
+
+       china 13908 actggtatgattttgtagaaaa.cccagatatattacgcgtatacgccaacttaggtgaacgtgtacgccaagctttgttaaaaacagtacaatt 14001
+                    ctggt tgattttgt gaaaa cccag   tatt  g gt ta    aa  t gg gaacgtgtacgccaagct t ttaaa ac gt  aatt
+  KT225476.2 13887 TCTGGTTTGATTTTGTTGAAAAtCCCAGTGTTATT-GGTGTTTATCATAAACTTGGAGAACGTGTACGCCAAGCTATCTTAAACACTGTTAAATT 13980
+                   ******************99983556666666655.699999998888888888***************************************** PP
+
+       china 14002 ctgtgatgccatgcgaaatgctggtattgttggtgtactgacattagataatcaagatctcaatggtaactggtatgatttcggtgatttcatac 14096
+                    tgtga   catg   aa gctggt t gt ggtgt ct aca taga aa ca ga ct aatgg aa tggtatgattt ggtga ttc ta 
+  KT225476.2 13981 TTGTGACCACATGGTCAAGGCTGGTTTAGTCGGTGTGCTCACACTAGACAACCAGGACCTTAATGGCAAGTGGTATGATTTTGGTGACTTCGTAA 14075
+                   *********************************************************************************************98 PP
+
+       china 14097 aaaccacgccaggtagtggagttcctgttgtagattcttattattcattgttaatgcctatattaaccttgaccagggctttaactgcagagtca 14191
+                     ac    cc ggt   ggagt  ct t gt gat   ta tattc t  tt atgcct t  t  c  tgacc     t t  c gc gag ca
+  KT225476.2 14076 TCACTCAACCTGGTTCAGGAGTAGCTATAGTTGATAGCTACTATTCTTATTTGATGCCTGTGCTCTCAATGACCGATTGTCTGGCCGCTGAGACA 14170
+                   77777778999***************************************************************88888889999********** PP
+
+       china 14192 catgttgacactgacttaacaaagccttacattaagtgggatttgttaaaatatgacttcacggaagagaggttaaaactctttgaccgttattt 14286
+                   cat   ga   tga tt a  aa cc   catt agtgg    t     a tatga tt ac ga  a a g ta aactctttga    ta tt
+  KT225476.2 14171 CATAGGGATTGTGATTTTAATAAACCACTCATTGAGTGGCCACTTACTGAGTATGATTTTACTGATTATAAGGTACAACTCTTTGAGAAGTACTT 14265
+                   ***************9999999999999**********9765555555689******************************************** PP
+
+       china 14287 taaatattgggatcagacataccacccaaattgtgttaactgtttggatgacagatgcattctgcattgtgcaaactttaatgttttattctcta 14381
+                   taaatattgggatcagac ta cac caaattg gttaa tgt   gatgac g tg  t  t cattgtgc aa tt aatgt tt tt  cta
+  KT225476.2 14266 TAAATATTGGGATCAGACGTATCACGCAAATTGCGTTAATTGTACTGATGACCGTTGTGTGTTACATTGTGCTAATTTCAATGTATTGTTTGCTA 14360
+                   ************************************************************************************99999999988 PP
+
+       china 14382 cagtgttcccacctacaagttttggaccactagtgagaaaaatatttgttgatggtgttccatttgtagtttcaactggataccacttcagagag 14476
+                         t cc    ac  gttt ggacc  tagt  gaaa at tttgttgatgg gt ccatttgtagt tc   tgg ta cact ca aga 
+  KT225476.2 14361 TGACCATGCCTAAGACTTGTTTCGGACCCATAGTCCGAAAGATCTTTGTTGATGGCGTGCCATTTGTAGTATCTTGTGGTTATCACTACAAAGAA 14455
+                   5444344444444567889**************************************************************************** PP
+
+       china 14477 ctaggtgttgtacataatcaggatgtaaacttacatagctctagacttagttttaaggaattacttgtgtatgctgctgaccctgctatgcacgc 14571
+                    taggt t gt    aat  ggatgt a   t catag   tag ct   t ttaagga tt  t  tgtatgc gctga cc gc atgcac  
+  KT225476.2 14456 TTAGGTTTAGTCATGAATATGGATGTTAGTCTCCATAGACATAGGCTCTCTCTTAAGGAGTTGATGATGTATGCCGCTGATCCAGCCATGCACAT 14550
+                   ***********99999******************************************************************************* PP
+
+       china 14572 tgcttctggtaatctattactagataaacgcactacgtgcttttcagtagctgcacttactaacaatgttgcttttcaaactgtcaaacccggta 14666
+                   tgc tc   taa    tt ct gat    g ac  c tg ttt   gt gctgcacttac a    t t  cttttcaaactgt    cc gg a
+  KT225476.2 14551 TGCCTCCTCTAACGCTTTTCTTGATTTGAGGACATCATGTTTTAGTGTCGCTGCACTTACAACTGGTTTGACTTTTCAAACTGTGCGGCCTGGCA 14645
+                   *************999********************************************99999999999************************ PP
+
+       china 14667 attttaacaaagacttctatgactttgctgtgtctaagggtttctttaaggaaggaagttctgttgaattaaaacacttcttctttgctcaggat 14761
+                   attttaac aagacttctatga tt g  gt tctaa ggtttctttaagga gg   ttc gtt    t aaaca tt ttctttgctca gat
+  KT225476.2 14646 ATTTTAACCAAGACTTCTATGATTTCGTGGTATCTAAAGGTTTCTTTAAGGAGGGCTCTTCAGTTACGCTCAAACATTTTTTCTTTGCTCAAGAT 14740
+                   *********************************************************************************************** PP
+
+       china 14762 ggtaatgctgctatcagcgattatgactactatcgttataatctaccaacaatgtgtgatatcagacaactactatttgtagttgaagttgttga 14856
+                   ggtaatgctgctat a  gattat a tactat  ttataatct cc ac atgtgtga atca acaa t  t tt     t gaagttgt  a
+  KT225476.2 14741 GGTAATGCTGCTATTACAGATTATAATTACTATTCTTATAATCTGCCTACTATGTGTGACATCAAACAAATGTTGTTCTGCATGGAAGTTGTAAA 14835
+                   ***********************************************************************9999998888899*********** PP
+
+       china 14857 taagtactttgattgttacgatggtggctgtattaatgctaaccaagtcatcgtcaacaacctagacaaatcagctggttttccatttaataaat 14951
+                    aagtactt ga    ta ga ggtgg tgt ttaatgct    aagt  t gt aa aa  tagacaa    gctgg   tcc tttaataa t
+  KT225476.2 14836 CAAGTACTTCGAAATCTATGACGGTGGTTGTCTTAATGCTTCTGAAGTGGTTGTTAATAATTTAGACAAGAGTGCTGGCCATCCTTTTAATAAGT 14930
+                   *********************************************************************************************** PP
+
+       china 14952 ggggtaaggctagactttattatgattcaatgagttatgaggatcaagatgcacttttcgcatatacaaaacgtaatgtcatccctactataact 15046
+                     gg aa gct g  t tattatga    atg  tta  agga caagatg act tt gc    acaaa cgtaa gtcat cctac at act
+  KT225476.2 14931 TTGGCAAAGCTCGTGTCTATTATGAGAGCATGTCTTACCAGGAGCAAGATGAACTCTTTGCCATGACAAAGCGTAACGTCATTCCTACCATGACT 15025
+                   **************************************************************99******************************* PP
+
+       china 15047 caaatgaatcttaagtatgccattagtgcaaagaatagagctcgcaccgtagctggtgtctctatctgtagtactatgaccaatagacagtttca 15141
+                   caaatgaatct aa tatgc attagtgc aagaatagagctcgcac gt gc gg gt tc at   tag ac atgac aat g cagt  ca
+  KT225476.2 15026 CAAATGAATCTAAAATATGCTATTAGTGCTAAGAATAGAGCTCGCACTGTTGCAGGCGTGTCCATACTTAGCACAATGACTAATCGCCAGTACCA 15120
+                   *********************************************************************************************** PP
+
+       china 15142 tcaaaaattattgaaatcaatagccgccactagaggagctactgtagtaattggaacaagcaaattctatggtggttggcacaacatgttaaaaa 15236
+                   tca aaa t  t aa tc at gc gc act g ggagc act   gt attgg ac a  aa ttctatggtgg tgg a   catg t aaaa
+  KT225476.2 15121 TCAGAAAATGCTTAAGTCCATGGCTGCAACTCGTGGAGCGACTTGCGTCATTGGTACTACAAAGTTCTATGGTGGCTGGGATTTCATGCTTAAAA 15215
+                   *********************************************************************************************** PP
+
+       china 15237 ctgtttatagtgatgtagaaaaccctcaccttatgggttgggattatcctaaatgtgatagagccatgcctaacatgcttagaattatggcctca 15331
+                   c  t ta a  gatgt ga aa cc ca cttatgggttgggatta cctaa tgtgatagagc atgcctaa atg  tagaat  t gc tca
+  KT225476.2 15216 CATTGTACAAAGATGTCGATAATCCGCATCTTATGGGTTGGGATTACCCTAAGTGTGATAGAGCTATGCCTAATATGTGTAGAATCTTCGCTTCA 15310
+                   *********************************************************************************************** PP
+
+       china 15332 cttgttcttgctcgcaaacatacaacgtgttgtagcttgtcacaccgtttctatagattagctaatgagtgtgctcaagtattgagtgaaatggt 15426
+                   ct  t  t gctcg aaacat   ac tgttgta         ac g tt tat g tt gc aatgagtgtgctca gt  t ag gaa   gt
+  KT225476.2 15311 CTCATATTAGCTCGTAAACATGGCACTTGTTGTACTACAAGGGACAGATTTTATCGCTTGGCAAATGAGTGTGCTCAGGTGCTAAGCGAATATGT 15405
+                   *********************************965544444578899******************************************99999 PP
+
+       china 15427 catgtgtggcggttcactatatgttaaaccaggtggaacctcatcaggagatgccacaactgcttatgctaatagtgtttttaacatttgtcaag 15521
+                     t tgtgg ggt      ta gt aaacc gg gg acc      ggagatgccac actgc tatgc aatagtgt tttaacattt  ca g
+  KT225476.2 15406 TCTATGTGGTGGTGGTTACTACGTCAAACCTGGAGGTACCAGTAGCGGAGATGCCACCACTGCATATGCCAATAGTGTCTTTAACATTTTGCAGG 15500
+                   9999999999988655556789*****************98888889************************************************ PP
+
+       china 15522 ctgtcacggccaatgttaatgcacttttatctactgatggtaacaaaattgccgataagtatgtccgcaatttacaacacagac.tttatgagtg 15615
+                   c    ac gc aatgt a tgcactt t   t ct atgg aacaa attg  ga aa  a gt         a  aca   a  tt at  gt 
+  KT225476.2 15501 CGACAACTGCTAATGTCAGTGCACTTATGGGTGCTAATGGCAACAAGATTGTTGACAAAGAAGTT-------AAAGACATGCAGtTTGATTTGTA 15588
+                   ********************************************************998776653.......33333332222212233333444 PP
+
+       china 15616 tctctat......agaaatagagatgttgacacagactttgtgaatgagttttacgcatatttgcgtaaacatttctcaatgatgatactctctg 15704
+                   t tc at      ag a  a        gac c  a tttgt  at a t  ta gc t t t   taa ca tt tc atgatgatact tctg
+  KT225476.2 15589 TGTCAATgtttacAGGAGCACTAGCCCAGACCCCAAATTTGTTGATAAATACTATGCTTTTCTTAATAAGCACTTTTCTATGATGATACTGTCTG 15683
+                   44444431111113332222211122335555555669********************************************************* PP
+
+       china 15705 acgatgctgttgtgtgtttcaatagcacttatgcatctcaaggtctagtggctagcataaagaactttaagtcagttctttattatcaaaacaat 15799
+                   a ga g tgt gt tg t  aatag   ttatgca ct a ggt    t gct g ata agaa tttaag  a   ct tattatca aacaat
+  KT225476.2 15684 ATGACGGTGTCGTTTGCTATAATAGTGATTATGCAGCTAAGGGTTACATTGCTGGAATACAGAATTTTAAGGAAACGCTGTATTATCAGAACAAT 15778
+                   ********************************************9999*********************************************** PP
+
+       china 15800 gtttttatgtctgaagcaaaatgttggactgagactgaccttactaaaggacctcatgaattttgctctcaacatacaatgctagttaaacaggg 15894
+                   gt tttatgtctgaagc aaatg tgg   ga ac ga ct a  aaagg cc catgaatt tg tc ca catac  t     ttaa  a gg
+  KT225476.2 15779 GTCTTTATGTCTGAAGCTAAATGCTGGGTGGAAACCGATCTGAAGAAAGGGCCACATGAATTCTGTTCACAGCATACGCTTTATATTAAGGATGG 15873
+                   *****************************************************************************988888889999999999 PP
+
+       china 15895 tgatgattatgtgtaccttccttacccagatccatcaagaatcctaggggccggctgttttgtagatgatatcgtaaaaacagatggtacactta 15989
+                    ga gat  t   t ccttcctta ccaga cc tcaagaat  t    gccgg tg tttgtagatgatatcgt aa ac ga ggtacact a
+  KT225476.2 15874 CGACGATGGTTACTTCCTTCCTTATCCAGACCCTTCAAGAATTTTGTCTGCCGGTTGCTTTGTAGATGATATCGTTAAGACTGACGGTACACTCA 15968
+                   9999999888888999******************************************************************************* PP
+
+       china 15990 tgattgaacggttcgtgtctttagctatagatgcttacccacttactaaacatcctaatcaggagtatgctgatgtctttcatttgtacttacaa 16084
+                   tg t ga cggtt gtgtcttt gctatagatgcttaccc ct ac aa cat    at   ga ta     atgt tt     t tacttaca 
+  KT225476.2 15969 TGGTAGAGCGGTTTGTGTCTTTGGCTATAGATGCTTACCCTCTCACAAAGCATGAAGATATAGAATACCAGAATGTATTCTGGGTCTACTTACAG 16063
+                   ******************************************************9999999999999999999*****9999999********** PP
+
+       china 16085 tacataagaaagctacatgatgagttaacaggacacatgttagacatgtattctgttatgcttactaatgataacacttcaaggtattgggaacc 16179
+                   ta ata  aaa ct  at a ga  t acaggacacatg t gaca  tattctgt atgct   t  tgataa  ct c a gt ttgggaa  
+  KT225476.2 16064 TATATAGAAAAACTGTATAAAGACCTTACAGGACACATGCTTGACAGTTATTCTGTCATGCTATGTGGTGATAATTCTGCTAAGTTTTGGGAAGA 16158
+                   *********************************************************************************************99 PP
+
+       china 16180 tgagttttatgaggctatgtacacaccgcatacagtcttacaggctgttggggcttgtgttctttgcaattcacagacttcattaagatgtggtg 16274
+                    g  tt ta    g t t ta a   cgc tac    tt caggctgt gg  c tg gtt t tgc attcacagacttc  ta g tgtgg  
+  KT225476.2 16159 GGCATTCTACAGAGATCTCTATAGTTCGCCTACCACTTTGCAGGCTGTCGGTTCATGCGTTGTATGCCATTCACAGACTTCCCTACGCTGTGGGA 16253
+                   99999*999999999999***************************************************************************** PP
+
+       china 16275 cttgcatacgtagaccattcttatgttgtaaatgctgttacgaccatgtcatatcaacatcacataaattagtcttgtctgttaatccgtatgtt 16369
+                   c tgcat cgtagaccatt  t tg tgtaaatgctg ta ga catgt ata caac  cacataa  t gt ttgtctgtt  tcc ta gtt
+  KT225476.2 16254 CATGCATCCGTAGACCATTTCTCTGCTGTAAATGCTGCTATGATCATGTTATAGCAACTCCACATAAGATGGTTTTGTCTGTTTCTCCTTACGTT 16348
+                   *********************************************************************************************** PP
+
+       china 16370 tgcaatgctccaggttgtgatgtcacagatgtgactcaactttacttaggaggtatgagctattattgtaaatcacataaaccacccattagttt 16464
+                   tg aatgc cc ggttgtg  gt  caga gt act a ct ta ttagg ggtatgagcta t ttgt  a   cata acc      tagttt
+  KT225476.2 16349 TGTAATGCCCCTGGTTGTGGCGTTTCAGACGTTACTAAGCTATATTTAGGTGGTATGAGCTACTTTTGTGTAGATCATAGACCTGTGTGTAGTTT 16443
+                   ****************************************************************999988888888999****999999****** PP
+
+       china 16465 tccattgtgtgctaatggacaagtttttggtttatataaaaatacatgtgttggtagcgataatgttactgactttaatgcaattgcaacatgtg 16559
+                   tcca t tg gctaatgg c  gt tt gg ttata aa aata  tg    ggtag   t  t t   tga tttaat    t gc ac tgtg
+  KT225476.2 16444 TCCACTTTGCGCTAATGGTCTTGTATTCGGCTTATACAAGAATATGTGCACAGGTAGTCCTTCTATAGTTGAATTTAATAGGTTGGCTACCTGTG 16538
+                   ********************************************999999*******999999999999************************** PP
+
+       china 16560 actggacaaatgctggtgattacattttagctaacacctgtactgaaagactcaagctttttgcagcagaaacgctcaaagctactgaggagaca 16654
+                   actggac  a   tggtgattaca   t gc aa ac    ac gaa  actcaa ctttttgc gc ga ac  t    gc actga gag c 
+  KT225476.2 16539 ACTGGACTGAAAGTGGTGATTACACCCTTGCCAATACTACAACAGAACCACTCAAACTTTTTGCTGCTGAGACTTTACGTGCCACTGAAGAGGCG 16633
+                   *******999999**************************************************************9999**************** PP
+
+       china 16655 tttaaactgtcttatggtattgctactgtacgtgaagtgctgtctgacagagaattacatctttcatgggaagttggtaaacctagaccaccact 16749
+                   t taa c gtcttatg tattgc ac  t    gaa t  t   tga  g  aa ta   ctt   tggga g tgg aa  c a accaccact
+  KT225476.2 16634 TCTAAGCAGTCTTATGCTATTGCCACCATCAAAGAAATTGTTGGTGAGCGCCAACTATTACTTGTGTGGGAGGCTGGCAAGTCCAAACCACCACT 16728
+                   **************************99988888887755555688888888999999999********************************** PP
+
+       china 16750 taaccgaaattatgtctttactggttatcgtgtaactaaaaacagtaaagtacaaataggagagtacacctttgaaaaaggtgactatggtgatg 16844
+                    aa cg aattatgt tttactggttatc t taac aaaaa agtaaagt ca  t gg gagtaca ctt ga      tga tat gtgatg
+  KT225476.2 16729 CAATCGTAATTATGTTTTTACTGGTTATCATATAACCAAAAATAGTAAAGTGCAGCTCGGTGAGTACATCTTCGAGCGCATTGATTATAGTGATG 16823
+                   ***************************************************************************999999************** PP
+
+       china 16845 ctgttgtttaccgaggtacaacaacttacaaattaaatgttggtgattattttgtgctgacatcacatacagtaatgccattaagtgcacctaca 16939
+                   ctgt    tac     ta  acaac ta aaa t a tgt ggtga    tt gt ct ac tc ca  c gt     c tt a  gc cc aca
+  KT225476.2 16824 CTGTATCCTACAAGTCTAGTACAACGTATAAACTGACTGTAGGTGACATCTTCGTACTTACCTCTCACTCTGTGGCTACCTTGACGGCGCCCACA 16918
+                   ****99999998777889999***************************************************99888888999999********* PP
+
+       china 16940 ctagtgccacaagagcactatgttagaattactggcttatacccaacactcaatatctcagatgagttttctagcaatgttgcaaattatcaaaa 17034
+                    t gtg   caagag   tatgtta aattactgg tt tacccaac  t a   t  c ga gagtt  c ag  atgttgc aa t  caaaa
+  KT225476.2 16919 ATTGTGAATCAAGAGAGGTATGTTAAAATTACTGGGTTGTACCCAACCATTACGGTACCTGAAGAGTTCGCAAGTCATGTTGCCAACTTCCAAAA 17013
+                   ***********************************************9999999999999********************************998 PP
+
+       china 17035 ggttggtatgcaaaagtattctacactccagggaccacctggtactggtaagagtcattttgctattggcctagctctctactacccttctgctc 17129
+                       ggt      aa tat   ac  t cagggaccacctgg actgg aa agtcattttgctat gg  tagc  t tactaccct c gc c
+  KT225476.2 17014 ATCAGGTTATAGTAAATATGTCACTGTTCAGGGACCACCTGGCACTGGCAAAAGTCATTTTGCTATAGGGTTAGCGATTTACTACCCTACAGCAC 17108
+                   7777776544455667999999************************************************************************* PP
+
+       china 17130 gcatagtgtatacagcttgctctcatgccgctgttgatgcactatgtgagaaggcattaaaatatttgcctatagataaatgtagtagaattata 17224
+                   g  t gt tatacagc tg tc ca gc gctgttgatgc  t tgtga aa gc tt aaatatttg   at g taaatgt    g at at 
+  KT225476.2 17109 GTGTTGTTTATACAGCATGTTCACACGCAGCTGTTGATGCTTTGTGTGAAAAAGCTTTTAAATATTTGAACATTGCTAAATGTTCCCGTATCATT 17203
+                   *********************************************************************************************** PP
+
+       china 17225 cctgcacgtgctcgtgtagagtgttttgataaattcaaagtgaattcaacattagaacagtatgtcttttgtactgtaaatgcattgcctgagac 17319
+                   cctgca   gc cgtgt gagtg t tga a  tt aaagt aat   aca      ca tat t ttt gtact t aatgc  t cc ga ac
+  KT225476.2 17204 CCTGCAAAGGCACGTGTTGAGTGCTATGACAGGTTTAAAGTTAATGAGACAAATTCTCAATATTTGTTTAGTACTATTAATGCTCTACCAGAAAC 17298
+                   *********************************************99999887778899************************************ PP
+
+       china 17320 gacagcagatatagttgtctttgatgaaatttcaatggccacaaattatgatttgagtgttgtcaatgccagattacgtgctaagcactatgtgt 17414
+                     c gc gatat  t gt  ttgatga  tt   atg  cac aattatgat t     tt t aatgc  g  t    gctaagcac  tgt t
+  KT225476.2 17299 TTCTGCCGATATTCTGGTGGTTGATGAGGTTAGTATGTGCACTAATTATGATCTTTCAATTATTAATGCACGTATTAAAGCTAAGCACATTGTCT 17393
+                   ****************************************************99989999*********8887777778**************** PP
+
+       china 17415 acattggcgaccctgctcaattacctgcaccacgcacattgctaactaagggcacactagaaccagaatatttcaattcagtgtgtagacttatg 17509
+                   a  t gg ga cc gc ca tt cc gc cc  g ac ttg t acta  ggcaca t gaaccagaa atttcaat   gt   taga t atg
+  KT225476.2 17394 ATGTAGGAGATCCAGCACAGTTGCCAGCTCCTAGGACTTTGTTGACTAGAGGCACATTGGAACCAGAAAATTTCAATAGTGTCACTAGATTGATG 17488
+                   ****************************************************************************9777777789********* PP
+
+       china 17510 aaaactataggtccagacatgttcctcggaacttgtcggcgttgtcctgctgaaattgttgacactgtgagtgctttggtttatgataataagct 17604
+                      a   taggtcc gacat tt  t  g a  tg     g tgtcct   gaaat gt   cactgtgag gct t gt ta  ataataa  t
+  KT225476.2 17489 TGTAACTTAGGTCCTGACATATTTTTAAGTATGTGCTACAGGTGTCCTAAGGAAATAGTAAGCACTGTGAGCGCTCTTGTCTACAATAATAAATT 17583
+                   9888888*************************999999999****************************************************** PP
+
+       china 17605 taaagcacataaagacaaatcagctcaatgctttaaaatgttttataagggtgttatcacgcatgatgtttcatctgcaattaacaggccacaaa 17699
+                      agc  a aa ga    tcag  ca tgctttaaaat  t tataaggg   t t acgcatgatg t   tctgc attaa ag ccacaa 
+  KT225476.2 17584 GTTAGCCAAGAAGGAGCTTTCAGGCCAGTGCTTTAAAATACTCTATAAGGGCAATGTGACGCATGATGCTAGCTCTGCCATTAATAGACCACAAC 17678
+                   *********************************************************************************************98 PP
+
+       china 17700 taggcgtggtaagagaattccttacacgtaaccctgcttggagaaaagctgtctttatttcaccttataattcacagaatgctgtagcctcaaag 17794
+                   t     t gt a   a tt  ttac    aa cc gc tggag aa gc gtctttatttc ccttataattcacagaatgctgt gc       
+  KT225476.2 17679 TCACATTTGTGAAGAATTTTATTACTGCCAATCCGGCATGGAGTAAGGCAGTCTTTATTTCGCCTTATAATTCACAGAATGCTGTGGCTCGTTCA 17773
+                   76555555555533356677899999999**********************************************************96444444 PP
+
+       china 17795 attttgggactaccaactcaaactgttgattcatcacagggctcagaatatgactatgtcatattcactcaaaccactgaaacagctcactcttg 17889
+                   at  tggg ct  c actca actgttgattc tcacaggg tcagaata  a ta gt at ttc  tcaaac  c ga ac gc ca  ct  
+  KT225476.2 17774 ATGCTGGGTCTTACTACTCAGACTGTTGATTCCTCACAGGGTTCAGAATACCAGTACGTTATCTTCTGTCAAACAGCAGATACGGCACATGCTAA 17868
+                   67789****************************************************************************************** PP
+
+       china 17890 taatgtaaacagatttaatgttgctattaccagagcaaaagtaggcatactttgcataatgtctgatagagacctttatgacaagttgcaattta 17984
+                    aa  t aacagatttaatgttgc at ac  g gc  aa  agg at ctttg  t atg c   t   g  ct t tga    tt  a ttta
+  KT225476.2 17869 CAACATTAACAGATTTAATGTTGCAATCACTCGTGCCCAAAAAGGTATTCTTTGTGTTATGACATCTCAGGCACTCTTTGAGTCCTTAGAGTTTA 17963
+                   ************************************999999************99988886655554445555666666666566666666666 PP
+
+       china 17985 caagtcttgaaattccacgtaggaatgtggcaactttacaagct.......gaaaatgtaacaggactctttaaagattgtagtaaggtaatcac 18072
+                   c      tgaa t  c   ta  aa          ttacaagct        a a tgtaac gg ct tttaaagattg   ta  g aa   c
+  KT225476.2 17964 C------TGAATTGTCTTTTACTAA----------TTACAAGCTccagtctCAGATTGTAACTGGCCTTTTTAAAGATTGCTCTAGAGAAACTTC 18042
+                   5......455555455444444444..........577787765222111168899*************************************** PP
+
+       china 18073 tgggttacatcctacacaggcacctacacacctcagtgttgacactaaattcaaaac...tgaaggtttatgtg......ttgacatacctggca 18158
+                   tgg  t    cct c  a gcacc aca ac t agtgttga    aa t  aa ac   tga g   t tg g      tt a  tacc g   
+  KT225476.2 18043 TGGCCTCTCACCTGCTTATGCACCAACATACGTTAGTGTTGATGACAAGTATAAGACgagTGATGAGCTTTGCGtgaatcTTAATTTACCCG--- 18134
+                   ***99999999*******************************99999999999987744455544444444444002222344444444433... PP
+
+       china 18159 tacctaaggacatgacctata..gaagactcatctctatgatgggttttaaaatgaattatcaagttaatggttaccctaacatgtttatcaccc 18251
+                            a at  cc ata     g  t at tc a gatggg tttaaa t  at     agtt  tgg ta cctaa  t tt at ac c
+  KT225476.2 18135 ------C--AAATATCCCATActCTCGTGTTATTTCCAGGATGGGCTTTAAACTCGATGCAACAGTTCCTGGATATCCTAAGCTTTTCATTACTC 18221
+                   ......2..33344444444311455677889*********************99999888889******************************* PP
+
+       china 18252 gcgaagaagctataagacatgtacgtgcatggattggcttcgatgtcgaggggtgtcatgctactagagaagctgttggtaccaatttaccttta 18346
+                   g gaaga gct taag ca gt cg    tggat ggcttcgatgt gaggg   tcatgct c  g  a gc   tgg accaat t cct ta
+  KT225476.2 18222 GTGAAGAGGCTGTAAGGCAAGTTCGAAGCTGGATAGGCTTCGATGTTGAGGGTGCTCATGCTTCCCGTAATGCATGTGGCACCAATGTGCCTCTA 18316
+                   ****************************************************999**************************************** PP
+
+       china 18347 cagctaggtttttctacaggtgttaacctagttgctgtacctacaggttatgttgatacacctaataataca.gat.ttttccagagttagtgct 18439
+                   ca  tagg ttttc ac ggtgt aac t gttg t   cc    ggt  tgt ga  cac  a t     a  at tt  c  g  tt  tgc 
+  KT225476.2 18317 CAATTAGGATTTTCAACTGGTGTGAACTTTGTTGTTCAGCCAGTTGGTGTTGTAGA--CACTGAGTGGGGTAaCATgTTAACGGGCATTGCTGCC 18409
+                   ****************************9999988877777777777777777665..5555554432221102230334455566677888999 PP
+
+       china 18440 aaaccaccgcctggagatcaatttaaacacctcataccacttatgtacaaaggacttccttggaatgtagtgcgtataaagattgtacaaatgtt 18534
+                      cc cc cc gg ga ca tttaa cacctc t cc cttatg a aa gg   t c tgg  t t gt  g   a   at gt caaatgtt
+  KT225476.2 18410 CGTCCTCCACCAGGTGAACAGTTTAAGCACCTCGTGCCTCTTATGCATAAGGGGGCTGCGTGGCCTATTGTTAGACGACGTATAGTGCAAATGTT 18504
+                   9999*************************************************************9999998887778888899*********** PP
+
+       china 18535 aagtgacacacttaaaaatctctctgacagagtcgtatttgtcttatgggcacatggctttgagttgacatctatgaagtattttgtgaaaatag 18629
+                       gacac  t  a aa  t tctga          tttgt t  tgggc catggctttga tt ac tct      ta ttt   aa atag
+  KT225476.2 18505 GTCAGACACTTTAGACAAATTGTCTGATTACTGTACGTTTGTTTGTTGGGCTCATGGCTTTGAATTAACGTCTGCATCATACTTTTGCAAGATAG 18599
+                   8888888887777778888899999987554434455899********************************998888899999999999***** PP
+
+       china 18630 gacctgagcgcacctgttgtctatgtgatagacgtgccaca...tg..cttttccactgcttcagacacttatgcctgttggcatcattctattg 18719
+                   g    ga c  a  tgttg  t tg  atagacg gc   a   t   ctt  cc ctgc     a  cttatgcctg tgg  tcattc    g
+  KT225476.2 18600 GTAAGGAACAGAAGTGTTGCATGTGCAATAGACGCGCTGTAgcgTActCTTCGCCTCTGC-----AATCTTATGCCTGCTGGACTCATTCCTGCG 18689
+                   **********************************99875541113300344444444444.....5679************************** PP
+
+       china 18720 gatttgattacgtctataatccgtttatgattgatgttcaacaatggggttttacaggtaacctacaaagcaaccatgatctgtattgtcaagtc 18814
+                   g t tgatta gtcta aa cc tt  t  t gatgttcaaca tggggtt t  agg aa ct    a  aa ca gatc  tattg    gtc
+  KT225476.2 18690 GTTATGATTATGTCTACAACCCTTTCTTTGTCGATGTTCAACAGTGGGGTTATGTAGGCAATCTTGCTACTAATCACGATCGTTATTGCTCTGTC 18784
+                   ***************************************************************999999999*********************** PP
+
+       china 18815 catggtaatgcacatgtagctagttgtgatgcaatcatgactaggtgtctagctgtccacgagtgctttgttaagcgtgttgactggactattga 18909
+                   cat      gc catgt gct  t  tgatgcaat atgact g tgt tagct t ca    tg ttt t  a cgtgt ga tgg  tat ga
+  KT225476.2 18785 CATCAAGGAGCTCATGTGGCTTCTAATGATGCAATAATGACTCGTTGTTTAGCTATTCATTCTTGTTTTATAGAACGTGTGGATTGGGATATAGA 18879
+                   ***988889************************************************************************************** PP
+
+       china 18910 atatcctataattggtgatgaactgaagattaatgcggcttgtagaaaggttcaacacatggttgttaaagctgcattattagcagacaaattc. 19003
+                    tatcct   at     atgaa  gaa  t aat c   ttgtagaa  gtt a c ca  gt gt    gctgc  t  t gc g    att  
+  KT225476.2 18880 GTATCCTTATATCTCACATGAAAAGAAATTGAATTCCTGTTGTAGAATCGTTGAGCGCAACGTCGTACGTGCTGCTCTTCTTGCCGGTTCATTTg 18974
+                   ******99999999999**********************************************************99888888765443333321 PP
+
+       china 19004 .ccagttcttcacgacattggtaaccctaaagctattaagtgtgtacctcaagctgatgtagaatggaagttctatgatgcacagccttgtagtg 19097
+                    c a    t  a ga attgg aa cctaaag  att     tgt   t a  ctg  gt ga tgg a t  t tgatgcacagcc t    tg
+  KT225476.2 18975 aCAAAG--TCTATGATATTGGCAATCCTAAAGGAATTCCTATTGTTGATGACCCTGTGGTTGATTGGCATTATTTTGATGCACAGCCCT----TG 19063
+                   122222..335899******************99999888888888889999999******************************9987....55 PP
+
+       china 19098 acaaagcttataaaatagaagaattattctattcttatgccacacattctgacaaattcacagatggtgtatgcctattttggaattgcaatgtc 19192
+                   ac a       aa  ta aa a  t ttctat c  a g ca      ct   a att  c gatgg  t tgc tattttggaa tg aatgt 
+  KT225476.2 19064 ACCAG-----AAAGGTACAACAGCTTTTCTATACAGAGGACATGGC--CTC-AAGATTTGCTGATGGGCTCTGCTTATTTTGGAACTGTAATGTA 19150
+                   55432.....2445567777888999********999986665433..333.3678999************************************ PP
+
+       china 19193 gatagatatcctgctaattccattgtttgtagatttgacactagagtgctatctaaccttaacttgcctggttgtgatggtggcagtttgtatgt 19287
+                      a atatcct  taat c attgt tg ag tttgacac  g gtgc  tct a  t aa ttgcc ggttgtgatgg gg agtttgtatgt
+  KT225476.2 19151 CCAAAATATCCTAATAATGCAATTGTATGCAGGTTTGACACACGTGTGCATTCTGAGTTCAATTTGCCAGGTTGTGATGGCGGTAGTTTGTATGT 19245
+                   *9********************************************************************************************* PP
+
+       china 19288 aaataaacatgcattccacacaccagcttttgataaaagtgcttttgttaatttaaaacaattaccatttttctattactctgacagtccatgtg 19382
+                    aa aa ca gc tt ca acaccagc t tgat   agtgc tt   t at t aaac  ttaccatt tt tatta tct   a  ccatgtg
+  KT225476.2 19246 TAACAAGCACGCTTTTCATACACCAGCATATGATGTGAGTGCATTCCGTGATCTGAAACCTTTACCATTCTTTTATTATTCTACTACACCATGTG 19340
+                   *********************************************************************************************** PP
+
+       china 19383 agtctcatggaaaacaagtagtgtca.....gatatagattatgtaccactaaagtctgctacgtgtataacacgttgcaatttaggtggtgctg 19472
+                   a    catgg aa    gtagt t a     gatat gattatgtacc ctaaa tctgc    tgtat aca  ttg aatttagg gg gctg
+  KT225476.2 19341 AAGTGCATGGTAAT--GGTAGTATGAtagagGATATTGATTATGTACCCCTAAAATCTGCAGTCTGTATTACAGCTTGTAATTTAGGGGGCGCTG 19433
+                   **********9885..688888776544444789************************************************************* PP
+
+       china 19473 tctgtagacatcatgctaatgagtacagattgtatctcgatgcttataacatgatgatctcagctggctttagcttgtgggtttacaaacaattt 19567
+                   t tgtag  a catgcta  gagtacaga  gtat t ga gc tataa  t  t     ca c gg tt  gc t tgg  tta aa    ttt
+  KT225476.2 19434 TTTGTAGGAAGCATGCTACAGAGTACAGAGAGTATATGGAAGCATATAATCTTGTCTCTGCATCAGGTTTCCGCCTTTGGTGTTATAAGACCTTT 19528
+                   ************************************************98887766666678899***********************999**** PP
+
+       china 19568 gatacttataacctctggaacacttttacaagacttcagagtttagaaaatgtggcttttaatgttgtaaataagggacactttgatggacaaca 19662
+                   gata ttataa ctctgg   acttttacaa a ttca  gttt gaaaa  t gcttttaatgttgt aa  a gg ca ttt  tgg     a
+  KT225476.2 19529 GATATTTATAATCTCTGGTCTACTTTTACAAAAGTTCAAGGTTTGGAAAACATTGCTTTTAATGTTGTTAAACAAGGCCATTTTATTGGTGTTGA 19623
+                   ********************************************************************99999999******************* PP
+
+       china 19663 gggtgaagtaccagtttctatcattaataacactgtttacacaaaagttgatggtgttgatgtagaattgtttgaaaataaaacaacattacctg 19757
+                   gggtgaa tacc gt  ct t  t aat a a   t t cac aa   tg  g t  tga  t     tgtttga aataaaac ac tt cct 
+  KT225476.2 19624 GGGTGAACTACCTGTAGCTGTAGTCAATGATAAGATCTTCACCAAGAGTGGCGTTAATGACATTTGTATGTTTGAGAATAAAACCACTTTGCCTA 19718
+                   *******************9999999999999999999999988766555555555555544544555899************************ PP
+
+       china 19758 ttaatgtagcatttgagctttgggctaagcgcaacattaaaccagta.ccagaggtgaaaatactcaataatttgggtgtggacatt.gctgcta 19850
+                    taat tagc tttga ct t  gctaagcg      ta  c  g a cc ga  t aaa t ct  a aattt    g  gacatt gct c a
+  KT225476.2 19719 CTAATATAGCTTTTGAACTCTATGCTAAGCGTGC-TGTACGCTCGCAtCCTGATTTCAAATTGCTACACAATTTACAAGCAGACATTtGCTACAA 19812
+                   ******************************9764.4455555555443789**********************************8625555544 PP
+
+       china 19851 atactgtgatctgggactacaaaagagatgctccagca.catatat.......ctactattggtgtttgttctatgactgacatagccaagaaac 19937
+                    t   gt  t tggga ta  aa g         agca  at tat       ctactattggtgt tgt      actga at g     aa  
+  KT225476.2 19813 GT-TCGTCCTTTGGGATTATGAACGT--------AGCAaTATTTATggtactgCTACTATTGGTGTATGTAAGTACACTGATATTGATGTTAATT 19898
+                   44.44888899*******99888653........333212222222333333389**************99888889999999987655555544 PP
+
+       china 19938 caactgaaacgatttgtgcaccactcactgtcttttttgatggtagagttgatggtcaagtagacttatttagaaatgcccgtaatggtgttctt 20032
+                   c                  a c  t a t t t ttttga     g g t atggt  a t ga    tt a    t c c  aatg   t  tt
+  KT225476.2 19899 C------------------AGCTTTGAATATATGTTTTGACATACGCGATAATGGTTCATTGGAGAAGTTCATGTCTACTCCCAATGCCATCTTT 19975
+                   4..................4455556677788888999999999999999999999999999988888888888888889999************ PP
+
+       china 20033 attacagaaggtagtgttaaaggtttacaaccat...ctgtaggtcccaaacaagctagtcttaatggagtcacatta...attggagaagccgt 20121
+                   att c ga  g a   ttaa     tac  cc t    tgtaggtcc  a  a gct    t aatgg g  a   t      t g ga g  gt
+  KT225476.2 19976 ATTTCTGATAGAAAAATTAAGA-AATAC--CCTTgtaTTGTAGGTCCTGATTATGCTTACTTCAATGGTGCTATCATCcgtGATAGTGATGTTGT 20067
+                   *******998888777776543.22322..3322222589****************************997653322201123557899999999 PP
+
+       china 20122 aaaaacac......agttcaattattataagaaagttgatggtgttgtccaacaat.tacctgaaacttactttactcagagtagaaatttacaa 20209
+                    aaa  ac      agttc a t  tataagaaagt  at  tg   t  a   at    ctga   t   t  actcagagt g   tt     
+  KT225476.2 20068 TAAACAACcagtgaAGTTCTACTTGTATAAGAAAGTCAATAATGAG-TTTATTGATcCTACTGAGTGTATTTACACTCAGAGTCGCTCTTGTAGT 20161
+                   8887666545555579999999**************9888777632.22222222212235666544444455699*********9999988889 PP
+
+       china 20210 gaatttaaacccaggagtcaaatggaaattgatttcttagaattagctatggatgaattcattgaacggtataaattagaaggctatgccttcga 20304
+                   ga tt   accc  g  t a atgga a  ga tt  ta   tt g ta  gatg  ttcatt a   gtat   tt gaa  ctatgc tt ga
+  KT225476.2 20162 GACTTCCTACCCCTGTCTGACATGGAGAAAGACTTTCTATCTTTTGATAGTGATGTTTTCATTAAGAAGTATGGCTTGGAAAACTATGCTTTTGA 20256
+                   999******************************************************************************************** PP
+
+       china 20305 acatatcgtttatggagattttagtcatagtcagttaggtggtttacatctactgattggactagctaaacgttttaaggaatcaccttttgaat 20399
+                    ca  t gt tatggaga tt   tcata t  gttagg ggt t ca  t ct attgg  ta             a gaa ca        a 
+  KT225476.2 20257 GCACGTAGTCTATGGAGACTTCTCTCATACTACGTTAGGCGGTCTTCACTTGCTTATTGGTTTATAC----------AAGAAGCA--------AC 20333
+                   ***********************************************************98877433..........33555554........33 PP
+
+       china 20400 tagaagattttattcctatggacagtacagttaaa...................aactatttcataacagatgcgcaaacaggttcatctaagtg 20475
+                     gaag t  tatt  tatgga ag a  g taaa                   aactattt at ac ga  c  a acag   c t taag  
+  KT225476.2 20334 AGGAAGGTCATATTATTATGGA-AGAAATGCTAAAaggtagctcaactattcatAACTATTTTATTACTGAGACTAACACAGCGGCTTTTAAGGC 20427
+                   4678888888888888888887.344433333333111111111112222222289*************************************** PP
+
+       china 20476 tgtgtgttctgttattgatttattacttgatgattttgttgaaataataaaatcccaagatttatctgtagtttctaaggttgtcaaagtgacta 20570
+                    gtgtgttctgttat gattta   cttga ga tttgtt   at  taaa    caaga  t    gtagt tc aaggttgtcaa gt  cta
+  KT225476.2 20428 GGTGTGTTCTGTTATAGATTTAAAGCTTGACGACTTTGTTATGATTTTAAAGAGTCAAGACCTTGGCGTAGTATCCAAGGTTGTCAAGGTTCCTA 20522
+                   ***************************************************************9******************************* PP
+
+       china 20571 ttgactatacagaaatttcatttatgctttggtgtaaagatggccatgtagaaacattttacccaaaattacaatctagtcaagcgtggcaaccg 20665
+                   ttgact  aca   att   tttatg t tggtgtaa gatgg ca gt  aaac tt taccc   a t ca  ct  t  ag  tgg aacc 
+  KT225476.2 20523 TTGACTTAACAATGATTGAGTTTATGTTATGGTGTAAGGATGGACAGGTTCAAACCTTCTACCCTCGACTCCAGGCTTCTGCAGATTGGAAACCT 20617
+                   *********************************************************************************************** PP
+
+       china 20666 ggtgttgctatgcctaatctttacaaaatgcaaagaatgctattagaaaagtgtgaccttcaaaattatggtgatagtgcaa.......cattac 20753
+                   ggt  tgc atgcc    ct t  aaa t caaa   t     t gaa   tgtga ctt   aatta          gcaa       c  t c
+  KT225476.2 20618 GGTCATGCAATGCCATCCCTCTTTAAAGTTCAAAATGTAAACCTTGAACGTTGTGAGCTTGCTAATTACAA-------GCAAtctattcCTATGC 20705
+                   *************98777776666666666666533332333577999999*********99999998743.......45552111111333556 PP
+
+       china 20754 ctaaaggcataatgatgaatgtcgcaaaatatactcaactgtgtcaatatttaaacacattaacattagctgtaccctataatatgagagttata 20848
+                   ct   gg  t    atgaa  tcgc aaatata  caa tgtg ca tatttaaa ac t  acattagc gt cc    aatatg g gttata
+  KT225476.2 20706 CTCGCGGTGTGCACATGAACATCGCTAAATATATGCAATTGTGCCAGTATTTAAATACTTGCACATTAGCCGTGCCTGCCAATATGCGTGTTATA 20800
+                   666777877777789******************************************************************************** PP
+
+       china 20849 cattttggtgctggttctgataaaggagttgcaccaggtacagctgttttaagacagtggttgcctacgggtacgctgcttgtcgattcagatct 20943
+                   cattttgg gctggttctgataaagg  t gc cc ggtaca c gtttta gacagtgg t cctac g t c  t  tt t gat   gat t
+  KT225476.2 20801 CATTTTGGCGCTGGTTCTGATAAAGGTATCGCTCCTGGTACATCAGTTTTACGACAGTGGCTTCCTACAGATGCCATTATTATAGATAATGATTT 20895
+                   *********************************************************************************************** PP
+
+       china 20944 taatgactttgtctctgatgcagattcaactttgattggtgattgtgcaactgtacata.cagctaataaatgggatctcattattagtgatatg 21037
+                    aatga tt gt tc gatgc ga   aacttt  ttgg gattgtg aactgtac t  c gc aa aa tg gatct  ttatt   ga atg
+  KT225476.2 20896 AAATGAGTTCGTGTCAGATGCTGACATAACTTTATTTGGAGATTGTGTAACTGTACGTGtCGGCCAACAAGTG-GATCTTGTTATTTCCGACATG 20989
+                   ********************************************************99637789999888875.7******************** PP
+
+       china 21038 tacgaccctaagactaaaaatgttacaaaagaaaatgactctaaagagggttttttcacttacatttgtgggtttatacaacaaaagctagctct 21132
+                   ta ga ccta  actaa aatgt aca      aatga tc aa g     tt tt acttac t tgt    t at  a  a aa ct gctct
+  KT225476.2 20990 TATGATCCTACTACTAAGAATGTAACAGGTAGTAATGAGTCAAAGGCTTTATTCTTTACTTACCTGTGTAACCTCATTAATAATAATCTTGCTCT 21084
+                   **************************99888889*******8875554445566778*************999999999999999********** PP
+
+       china 21133 tggaggttccgtggctataaagataacagaacattcttggaatgctgatctttataagctcatgggacacttcgcatggtggacagcctttgtta 21227
+                   tgg gg tc gt gctat aa ataacagaaca tcttgga  g tga ctttat a ct atggga a tt gc tggtggac g  tt    a
+  KT225476.2 21085 TGGTGGGTCTGTTGCTATTAAAATAACAGAACACTCTTGGAGCGTTGAACTTTATGAACTTATGGGAAAATTTGCTTGGTGGACTGTTTTCTGCA 21179
+                   ****************************************************************************************999999* PP
+
+       china 21228 ctaatgtgaatgcgtcatcatctgaagcatttttaattggatgtaattatcttggcaaaccacgcgaacaaatagatggttatgtcatgcatgca 21322
+                   c aatg  aatgc tc tcatctgaag att  t  t gg   taatta  t gg a        gaa a atagatggt  tg  atgca gc 
+  KT225476.2 21180 CCAATGCAAATGCATCCTCATCTGAAGGATTCCTCTTAGGTATTAATTACTTGGGTACTATTAAAGAAAATATAGATGGTGGTGCTATGCACGCC 21274
+                   ***********************************999**999******8888887654444556899999************************ PP
+
+       china 21323 aattacatattttggaggaatacaaatccaattcagttgtcttcctattctttatttgacatgagtaaatttccccttaaattaaggggtactgc 21417
+                   aa ta atattttggag aat c a tcc at  a  tg  t c ta tc  t tttga  t    aa tttc   t aaattaa  gg ac  c
+  KT225476.2 21275 AACTATATATTTTGGAGAAATTCCACTCCTATGAATCTGAGTACTTACTCACTTTTTGATTTATCCAAGTTTCAATTAAAATTAAAAGGAACACC 21369
+                   ************************************************************999999***************************** PP
+
+       china 21418 tgttatgtctttaaaagaaggtcaaatcaatgatatgattttatctcttcttagtaaaggtagacttataattagagaaaacaacagagttgtta 21512
+                    gtt t    ttaaa ga  gtcaaat aa ga  t  t  tatctct ct     a ggta   t  t at  g ga aa  a a a t   t 
+  KT225476.2 21370 AGTTCTTCAATTAAAGGAGAGTCAAATTAACGAACTCGTAATATCTCTCCTGTCGCAGGGTAAGTTACTTATCCGTGACAATGATACACTCAGTG 21464
+                   *****99999****************************************988778889999877777888999**************999999* PP
+
+       china 21513 tttctagtgatgttcttgttaacaactaaacga 21545
+                   tttcta tgatgttcttgttaaca cta a  a
+  KT225476.2 21465 TTTCTACTGATGTTCTTGTTAACACCTACAGAA 21497
+                   **************************9976433 PP
+
+  == domain 6  score: 3.5 bits;  conditional E-value: 4.1e-05
+       china 22317 ggttggacagctggtgctgcagcttattatgtgggttatcttcaacctaggacttttctattaaaatataatgaaaatggaaccatta.cagatg 22410
+                   g t g a agct g gctgc    t  ta gt   t a cttcaacc    acttt ct tt  a t t  tg   atgg    at   caga g
+  KT225476.2 22365 GATAGAAAAGCTTGGGCTGC---CTTCTACGTATATAAACTTCAACCGTTAACTTTCCTGTTGGATTTTTCTGTTGATGGTTATATACgCAGA-G 22455
+                   44567788999999988875...567789999999********************************************97666654314554.8 PP
+
+       china 22411 ctgtagactgtgcacttgaccctctctcagaaacaaagtgtacgttgaaatccttcactgtagaaaaaggaatctatcaaacttctaactttag. 22504
+                   ct tagactgtg   tt a   t t tca aa    a tg  c t   aatccttc  tgt gaa   gga t tat  a  ttc   cttt g 
+  KT225476.2 22456 CTATAGACTGTGGTTTTAATGATTTGTCACAACTCCACTGCTCATATGAATCCTTCGATGTTGAATCTGGAGTTTATTCAGTTTCGT-CTTTCGa 22549
+                   999*****************************9999*********999****************************99988888765.4444440 PP
+
+       china 22505 agtccaacc 22513
+                   ag   aacc
+  KT225476.2 22550 AGCAAAACC 22558
+                   444444454 PP
+
+  == domain 7  score: 198.9 bits;  conditional E-value: 6.2e-64
+       china 23687 catacccacaaattttactattagtgttaccacagaaattctaccagtgtctatgaccaagaca...tcagtagattgtacaatgtacatttgtg 23778
+                    atacc ac aatttt c  tt gtgt ac  cag a t c   cag   c a  a   aga a    c gt gattgta a  gtac tttg  
+  KT225476.2 23792 TATACCTACTAATTTTTCCTTTGGTGTGAC-TCAGGAGTACATTCAGA--CAACCATTCAGAAAgttACTGTTGATTGTAAACAGTACGTTTGCA 23883
+                   589************************997.58888877776666653..222222222333321114789**********************99 PP
+
+       china 23779 gtgattcaactgaa.tg.cagcaatcttttgttgcaatatggcagtttttgtacacaattaaaccgtgctttaactggaatagctgttgaacaag 23871
+                    tg tt   c gaa tg  agcaat    tg    a tatggc   ttttgt c  aa taaacc  gct t   tgg      t t        
+  KT225476.2 23884 ATGGTTTC-CAGAAgTGtGAGCAATT-ACTGCGCGAGTATGGCCAGTTTTGTGCCAAAATAAACCAGGCTCTCCATGGTGCCAATTT-------- 23968
+                   99887743.22332132137888864.4455555689******99999**********************99988887432222222........ PP
+
+       china 23872 acaaaaacacccaagaagtttttgcac...............aagtcaaacaaatttacaaaacaccaccaattaa...agattttggtggt... 23945
+                             cca ga g tt tg ac                 gt aa   aa  t   aa ca c cc at a    ag ttttgg ggt   
+  KT225476.2 23969 -------ACGCCAGGATGATTCTGTACgtaatttgtttgcgaGCGTGAA---AAGCTCTCAATCATCTCCTATCATaccAGGTTTTGGAGGTgac 24053
+                   .......222344444444444444431111100000000003344443...4444555567899999999887752236999999887765444 PP
+
+       china 23946 tttaatttttcacaaatattaccagatccatcaaaaccaagca...agaggtcat......ttattgaagatctacttttcaacaaagtgacact 24031
+                   tttaattt  cac   ta  acc g t c   a    c  gca     ag  ca        tattga gat t ct tt  acaaagt ac  t
+  KT225476.2 24054 TTTAATTTGACACTTCTAGAACCTGTTTCTATATCTACTGGCAgtcGTAGTGCACgtagtgCTATTGAGGATTTGCTATTTGACAAAGTCACTAT 24148
+                   9************999999999999876543333222333333111112222221112222589******************************* PP
+
+       china 24032 tgcagatgctggcttcatcaaacaatatggtgattgcct......tggtgatattgctgctagagacctcatttgtgcacaaaagtttaacggcc 24120
+                    gc gat ctgg t  at  aa   ta g tgattgc t       ggt       c gct g ga ct atttgtgc caa a  t    gg  
+  KT225476.2 24149 AGCTGATCCTGGTTATATGCAAGGTTACGATGATTGCATgcagcaAGGTCCAGCATCAGCTCGTGATCTTATTTGTGCTCAATATGTGGCTGGTT 24243
+                   ************************************966222222455555555568899************************99999999999 PP
+
+       china 24121 ttactgttttgccacctttgctcacagatgaaatgattgctcaatacacttctgcactgttagcgggtacaatcacttctggttggacctttggt 24215
+                    ta  gt tt cc cct t  t    g t a atg   gc    tacacttc  c  tg t g   g a a     t  tgg tggac   tgg 
+  KT225476.2 24244 ATAAAGTATTACCTCCTCTTATGGATGTTAATATGGAAGCCGCGTACACTTCATCTTTGCTTGGCAGCATAGCAGGTGTTGGCTGGACTGCTGGC 24338
+                   **********999999976666555566667888999999999*********99999999887777777777777788899999**998888875 PP
+
+       china 24216 gcaggtgctgcattaca..aataccatttgctatgcaaatggcttataggtttaatggtattggagttacacagaatgttctctatgagaaccaa 24308
+                     a  t ct c tt c    at ccatttgc   g   at   ttataggtt aa ggt ttgg  ttac ca  a gttct t  gagaaccaa
+  KT225476.2 24339 TTA--TCCTCCTTTGCTgcTATTCCATTTGCACAGAGTATTTTTTATAGGTTAAACGGTGTTGGCATTACTCAACAGGTTCTTTCAGAGAACCAA 24431
+                   444..4444444444431146789*******99999999******************************************************** PP
+
+       china 24309 aaattgattgccaaccaatttaatagtgctattggcaaaattcaagactcactttcttccacagcaagtg...cacttggaaaacttcaagatgt 24400
+                   aa  t attgccaa  a tttaat   gct t gg    at caa ac   ctt    c aca c a tg   c  tt g aa  ttca gatg 
+  KT225476.2 24432 AAGCTTATTGCCAATAAGTTTAATCAGGCTCTGGGAGCTATGCAA-ACAGGCTT--CACTACAACTAATGaagCTTTTCGGAAGGTTCAGGATGC 24523
+                   ******************************999998888888776.23222222..2345677777766511166788899999*********** PP
+
+       china 24401 ggtcaaccaaaatgcacaagctttaaacacgcttgttaaacaacttagct.ccaattttggtgcaatttcaagtgttttaaatgatatcctttca 24494
+                    gt aac a aatgcaca gct ta  ca   t g ta   a ct a ct   a ttttggtgc atttc      t t    ga atc t   a
+  KT225476.2 24524 TGTGAACAACAATGCACAGGCTCTATCCAAATTAGCTAGCGAGCT-ATCTaATACTTTTGGTGCTATTTCCGCCTCTATTGGAGACATCATACAA 24617
+                   ***********************9988887777777665444443.33331345689***********99765555555556699********** PP
+
+       china 24495 cgtcttgacaaagttgaggctgaagtgcaaattgataggttgatcacaggcagacttcaaagtttgcagacatatgtgactcaacaattaattag 24589
+                   cgtcttga     t ga    ga g  caaat ga ag  t at a  ggc g  t   aa   t  a  c t tgt  c ca ca  t  tt g
+  KT225476.2 24618 CGTCTTGATGTTCTCGAACAGGACGCCCAAATAGACAGACTTATTAATGGCCGTTTGACAACACTAAATGCTTTTGTTGCACAGCAGCTTGTTCG 24712
+                   ********9888888999889999**************************99877666666666666777889999999*******999999998 PP
+
+       china 24590 agctgcagaaatcaga.gc...ttctgctaatcttgctgctactaaaatgtca..gagtgtgtacttggacaatcaaaaagagttgatttttgtg 24678
+                     c g    aatcag  gc   ttc gct a  t gct     taaa  gtca  gagtgtgt    g acaatc aa  g   tg  ttttg g
+  KT225476.2 24713 TTCCG----AATCAGCtGCtctTTCCGCTCAATTGGCTAAAGATAAA--GTCAatGAGTGTGTCAAGGCACAATCCAAGCGTTCTGGATTTTGCG 24801
+                   77765....56777631221124666777777777777655555555..55554499******9999*********9999999999999****** PP
+
+       china 24679 gaaagggctatcatcttatgtccttccctcagtcagcacctcatggtgtagtcttcttgcatgtgacttatgtccctgcacaagaaaagaacttc 24773
+                   g  a ggc   cat t  tgtcctt   t      gc cct atgg  t   ctt  tgcatgt   ttat  ccct    a  a a   a  t 
+  KT225476.2 24802 GTCAAGGCACACATATAGTGTCCTTTGTTGTAAATGCCCCTAATGGCCTTTACTTTATGCATGTTGGTTATTACCCTAGCAACCACATTGAGGTT 24896
+                   *************************99887777779***********************************999988422122222222222222 PP
+
+       china 24774 acaactgctcctgccatttgtcatgatggaaaagcacacttt..........cctcgtgaaggtgtctttgtttcaaatggcacacact.ggttt 24857
+                       ctgct  tg   tttg  atg  g  aa  c  act            cct  t a gg   cttt tt  aa t     acact gg tt
+  KT225476.2 24897 GTTTCTGCTTATGGTCTTTGCGATGCAGCTAA-CCCTACTAAttgtatagccCCTGTTAATGGCTACTTTATTAAAACTA-ATAACACTaGGATT 24989
+                   33446666666666666666666654433322.22223321111112222213344444555555666666554443332.22234443122222 PP
+
+       china 24858 ...........gtaacacaaagg....aatttttatgaaccacaaatcattactacagacaacacatttgtgtctggtaactgtgatgttgtaat 24937
+                              gt a a a  gg       tt tatg acc  a   cat ac  c    aa ac t  gt t t g a c   g tg   ta  
+  KT225476.2 24990 gttgatgagtgGTCATATACTGGctcgTCCTTCTATGCACCTGAGCCCATCACCTCTCTTAATAC-TAAGTATGTTGCACCACAGGTGACATACC 25083
+                   00001111111233333333333111123466677777777777777777666666555555554.23334444444444443333433333333 PP
+
+       china 24938 aggaattgtcaacaacacagtttatgatcct.....ttgca.....acctgaattagactcattcaaggaggagttagataaatattttaagaat 25022
+                   a  a  t tc ac a  c      t  tcct       gca     acc g att gac   ttc a ga gagtt gat a t ttt aa aat
+  KT225476.2 25084 AAAACATTTCTACTAACCT--CCCTCCTCCTcttctCGGCAattccACCGGGATT-GAC---TTCCAAGATGAGTTGGATGAGTTTTTCAAAAAT 25172
+                   3333333333333322111..1111222222111112344311111567777765.666...5778889*************************9 PP
+
+       china 25023 catacatcaccagat..gttgatttaggtgacatctctggc....attaatgcttcagttgtaaacatt..caaaaagaaattgaccgcctcaat 25109
+                     ta   caccag      t attt ggt    tctct  c    attaat ct ca t  t  a  tt  c a  aga  ttg c  c tcaa 
+  KT225476.2 25173 GTTA--GCACCAGTAtaCCTAATTTTGGT----TCTCTAACacagATTAATACTACATTACTCGATCTTacCTACGAGATGTTGTC-TCTTCAAC 25260
+                   9885..67788774211347788999988....56666655222279*********998877766666522455667777788865.68888887 PP
+
+       china 25110 gaggttgccaagaatttaaatgaatctctcatcgatctccaagaacttggaaagtatgagcagtatataaaatggccatggtacatttggctagg 25204
+                    a gttg  aa     t aatga tct  cat ga ct  aaga cttgg aa tat    a ta a  aaatggcc tggtacatttggct gg
+  KT225476.2 25261 AA-GTTGTTAAAGCCCTTAATGAGTCTTACATAGACCTTAAAGAGCTTGGCAATTATACTTATTACAACAAATGGCCGTGGTACATTTGGCTTGG 25354
+                   66.67888887777888899*************************************************************************** PP
+
+       china 25205 ttttatagctggcttgattgccatag...taatggtgacaattatgctttgctgtatgaccagttg.........ctgtagttgt.......ctc 25280
+                   ttt at gctgg  t  ttgcc tag   ta   gt     t at ct tgctg a   c  gttg         ctgta    t       ct 
+  KT225476.2 25355 TTTCATTGCTGGGCTTGTTGCCTTAGctcTATGCGTCTTCTTCATACTGTGCTGCA---CTGGTTGtggcacaaaCTGTA----TgggaaaaCTT 25442
+                   **********99888889*******9433333345555566789999999999976...444444422222222234444....02223333899 PP
+
+       china 25281 aagggctgttgttcttgtggatcctgctgcaaatttgatgaagacgactctgagccagtgctcaaaggagtcaaattacattacacataaacgaa 25375
+                   aag g   t gtt ttgtg           a at  ga gaa acgac   gagcc      ca a g  tca  tt     ac  at aacgaa
+  KT225476.2 25443 AAGTGTAATCGTTGTTGTGA---------TAGATACGAGGAATACGACCTCGAGCC-----GCATAAGGTTCATGTT----CACTAATTAACGAA 25519
+                   99999999999999999873.........4778999******************97.....3555555556665543....34445778888888 PP
+
+       china 25376 ct 25377
+                   ct
+  KT225476.2 25520 CT 25521
+                   75 PP
+
+  == domain 8  score: 28.0 bits;  conditional E-value: 1.8e-12
+       china 26219 gagtacgaacttatgtactcattcgtttcggaagagacaggtacgttaatagttaatagcgtacttctttttc.ttgctttcgtggtattcttgc 26312
+                   ga  acgaact atgt   c tt gt    gaa   a agg   gtt atagt aa       c   tttttc tt  t  cgt gtat   tgc
+  KT225476.2 27573 GAAAACGAACT-ATGTTACCCTTTGTCCAAGAACGAATAGGGTTGTTCATAGTAAA-------C---TTTTTCaTTTTTACCGTAGTATG--TGC 27654
+                   45568888885.77777777888899988888888899999999999999888776.......3...34444413333556788888873..666 PP
+
+       china 26313 tagttacac............tagccatccttactgcgcttcgattgtgtgcgtact.........gctgcaata..ttgttaa.........cg 26375
+                   ta t acac            t gc  tccttac gc   t gatt tgtg g a t         gct caata   tgtta          c 
+  KT225476.2 27655 TA-TAACACtcttggtgtgtaTGGCTTTCCTTACGGCTACTAGATTATGTGTGCAATgtatgacagGCTTCAATAccCTGTTAGttcagcccgCA 27748
+                   66.5566652222222222224699999********999999***99999999888733333333358999999844366665322223332255 PP
+
+       china 26376 tgagtcttgtaaaaccttctttttacgtttactctcgtgttaaaaatctgaat......tcttctagagttcctgatcttctggtctaaacgaac 26464
+                   t a  cttgta aa       t  acgtt a tct  tgt aaa   c g at       c  ct  a   cctga     tgg  t aacgaac
+  KT225476.2 27749 TTATACTTGTATAATA----CTGGACGTTCAGTCTA-TGTAAAATTCCAGGATagtaaaCCCCCTCTACCACCTGACG-AGTGGGTTTAACGAAC 27837
+                   6677789999888743....2456888888888874.66655554444444331111113444555566778999855.4566666778999999 PP
+
+       china 26465 taaatattatattagtttttctgtttggaactttaattttagccatggcagattccaacggtactattaccgttgaagagcttaaaaagctcctt 26559
+                   t   t   ata t   t  t tg   g aact   a  t ag c   gcagatt           att cc tt                   tt
+  KT225476.2 27838 TCCTT--CATAATGTCTAATATGA-CGCAACTC--AC-TGAGGC---GCAGATT-----------ATTGCCATTA------------------TT 27894
+                   86433..23332221122222221.23344432..22.233333...6777764...........5555555442..................34 PP
+
+       china 26560 gaacaatggaacctagtaataggtttcctattccttacatggatttgtc...ttctacaatttgcctatgccaacaggaataggtttttgtatat 26651
+                    aa a tggaac t g a    g t cct  tc tt   t  att  t    t ctaca t tg  ta  c   c g a ta g  t t tat t
+  KT225476.2 27895 AAAGACTGGAACTTTGCA---TGGTCCCTGATCTTTCTCTTAATTACTAtcgTACTACAGTATGGATACCCATCCCGTAGTATGACTGTCTATGT 27986
+                   445566777777777754...3445555555555544444444443332111569999*9*9998888777777889999999999999999999 PP
+
+       china 26652 aattaagttaattttcctctggctgttatggccagtaactttagcttgttttgtgcttgctgctgtttacagaataaatt.g........gatca 26737
+                     ttaa  t  tt t  t tggct  tatggcca    c  t gc    t   t  tt   gc  ttta   aat  at           gat a
+  KT225476.2 27987 CTTTAAAATGTTTGTTTTATGGCTCCTATGGCCATCTTCCATGGCGCTATCAATATTTAGCGCCATTTATCCAATTGATCtAgcttcccaGATAA 28081
+                   999999999999999999***************98776666666655555555556666667788888877777665553111222222256666 PP
+
+       china 26738 ccggtggaattgctatcgcaatggcttgtcttgtaggcttgatgtggctcagctacttcattgcttctttcagactgtttgcgcgtacgcgttcc 26832
+                    c  tgg attg     gca   gc   t tt  ag   tgatgtgg t   ctactt  t      t tc g ctgttt  g g ac  g tc 
+  KT225476.2 28082 TCTCTGGCATTGT---AGCA---GC---TGTTTCAGCTATGATGTGGATTTCCTACTTTGTGCAGAGTATCCGGCTGTTTATGAGAACTGGATCA 28167
+                   6666777777763...3333...33...34556788889*****************99876655667889999*********************9 PP
+
+       china 26833 atgtggtcattcaatccagaaactaacattcttctcaacgtgccactccatggcactattctgaccagaccgcttctagaaagtgaactc..... 26922
+                     gtggtcattcaatcc ga actaa    ctt t aacgt cca t   tgg ac a t t     g cc ct  taga    g actc     
+  KT225476.2 28168 TGGTGGTCATTCAATCCTGAGACTAATTGCCTTTTGAACGTTCCAATTGGTGGTACAACTGTCGTACGTCCACTCGTAGA----GGACTCtacca 28258
+                   99*******************************************************99888777778999999988876....66777655555 PP
+
+       china 26923 ..gtaatcggagctgtgatccttcgtggacatcttcgtattgctggacaccatctaggacgctgtgacatcaaggacctgcctaaagaaatcact 27015
+                     gtaa  g  g tgt a c     tgg ca ct    at gctgg    cat t gg    tgtgac  c a    ct cctaa gaa tcac 
+  KT225476.2 28259 gtGTAACTGCTGTTGTAACCA---ATGGTCACCTCAAAATGGCTGGCATGCATTTCGGTGCTTGTGACTACGACAGACTTCCTAATGAAGTCACC 28350
+                   558999999889999988775...57889*****************999*********9999******999887777899*************** PP
+
+       china 27016 gttgctacatca 27027
+                   gt gc a a c 
+  KT225476.2 28351 GTGGCCAAACCC 28362
+                   ****99877653 PP
+
+  == domain 9  score: 211.5 bits;  conditional E-value: 9.9e-68
+       china 28372 aacaacgtcggccccaaggtttacccaataatactgcgtcttggttcaccgctctcactcaacatggcaaggaagaccttaaattccctcgagga 28466
+                   aac         c c ag t  acc aataa actg  tcttggt cac g  ct ac caaca gg aa g     ctta  tt cc c  gg 
+  KT225476.2 28654 AAC---------CACGAGCTGCACCAAATAACACTGTCTCTTGGTACACTGGGCTTACCCAACACGGGAAAGTCCCTCTTACCTTTCCACCTGGG 28739
+                   443.........44557888999********************************************998888778899**************** PP
+
+       china 28467 caaggcgttccaattaacaccaatagcagtccagatgaccaaattggctactaccgaagagctaccagacgaattcgtggtggtgacggtaaaat 28561
+                   ca gg gt cc  ttaa  ccaat  ca  cc g   a  a   tgg ta t  cg aga     caga  aatt  t   gg  a gg   aat
+  KT225476.2 28740 CAGGGTGTACCTCTTAATGCCAATTCCACCCCTGCGCAAAATGCTGGGTATTGGCGGAGACAGGACAGAAAAATTAATACCGGGAATGG---AAT 28831
+                   ****************************99997654443344458999***********999999**********99999999888887...567 PP
+
+       china 28562 gaaagatctcagtccaagatggtatttctactacctaggaactgggccagaagctggacttccctatggtgctaacaaagacggcatcatatggg 28656
+                    aa  a ct   tcc ag tggta ttctactac   ggaactgg cc gaagc g act cc t   g gct   aa ga ggcatc t tggg
+  KT225476.2 28832 TAAGCAACTGGCTCCCAGGTGGTACTTCTACTACACTGGAACTGGACCCGAAGCAGCACTCCCATTCCGGGCTGTTAAGGATGGCATCGTTTGGG 28926
+                   777788899999*********************************************************************************** PP
+
+       china 28657 ttgcaactgagggagccttgaatacaccaaaagatcacattggcacccgcaatcctgctaacaatgctgcaatcgtgctacaacttcctcaagga 28751
+                   t       ga gg gcc    at c cc   a  t    ttgg ac cg aa cct   aa  at c gc at gt   acaa t  c c  gg 
+  KT225476.2 28927 TCCATGAAGATGGCGCCACTGATGCTCCTTCAACT---TTTGGGACGCGGAACCCTAACAATGATTCAGCTATTGTTACACAATTCGCGCCCGGT 29018
+                   97655566888999999888888888886544333...589************987655555566677899************************ PP
+
+       china 28752 acaacattgccaaaaggcttctacgcagaagggagcagaggcggcagtcaagcctcttctcgttcctcatcacgtagtc.gcaac.......... 28835
+                   ac a   t cc aaa  cttc ac   ga ggga   gaggc   agtcaa c tcttc  g  cctc t  cgta  c g aac          
+  KT225476.2 29019 ACTAAGCTTCCTAAAAACTTCCACATTGAGGGGACTGGAGGCAATAGTCAATCATCTTCAAGAGCCTC-TAGCGTAAGCaGAAACtcttccagat 29112
+                   ***999999*********************************************************99.55677764441455543333333333 PP
+
+       china 28836 ..agttcaagaaattcaactccaggcagcagta...ggggaacttctcctg......ctagaatggctggcaatggcggtgatgctgctcttgct 28919
+                     agttca  a  ttcaa   cagg a c  ta   g gg acttctcc g      ct gaat g  g     gg ggtgat ct ct  t c 
+  KT225476.2 29113 ctAGTTCACAAGGTTCAAGATCAGGAAACTCTAcccGCGGCACTTCTCCAGgtccatCTGGAATCGGAGCAGTAGGAGGTGAT-CTACTT-TACC 29205
+                   3367777777888999999999999999987775558899******9988744444477899998876555556899999998.777774.5566 PP
+
+       china 28920 ttgctgctgcttgacagattgaaccagcttgagagcaaaatgtctggtaaaggccaacaacaacaaggccaaa..ctgtcactaagaaatctgct 29012
+                   ttg t ct ct  acaga t  a    cttga         gtctgg aaag   a caa   ca  gccaaa     tcactaagaaa  tgct
+  KT225476.2 29206 TTGAT-CTTCTGAACAGACTACAAGCCCTTGA---------GTCTGGCAAAGTAAAGCAATCGCA--GCCAAAagTAATCACTAAGAAAGATGCT 29288
+                   66765.7778889*****99544444467776.........59********99888888876665..666665223469**************** PP
+
+       china 29013 gctgaggcttctaagaagcctcggcaaaaacgtactgccactaaagcatacaatgtaacacaagctttcggcagacgtggtccagaacaaaccca 29107
+                   gctg  gct   aa aag   cg ca aa cg act ccac aaa   t caa  t    caagcttt gg    cg gg ccag a a   cca
+  KT225476.2 29289 GCTGCTGCTAAAAATAAGATGCGCCACAAGCGCACTTCCACCAAAAGTTTCAACATGGTGCAAGCTTTTGGTCTTCGCGGACCAGGAGACCTCCA 29383
+                   ********9999999******************************999*****999999************************************ PP
+
+       china 29108 aggaaattttggggaccaggaactaatcagacaaggaactgattacaaacattggccgcaaattgcacaatttgcccccagcgcttcagcgttct 29202
+                    ggaaa tttgg ga c   aa t a  a ac  gg actga  ac  ac ttggcc caaattgc  a  ttgc cc a  gc    gc tt  
+  KT225476.2 29384 GGGAAACTTTGGTGATCTTCAATTGAATAAACTCGGCACTGAGGACCCACGTTGGCCCCAAATTGCTGAGCTTGCTCCTACAGCCAGTGCTTTTA 29478
+                   *****************************************************************************999999887778888889 PP
+
+       china 29203 tcggaatgtcgcgcattggcatggaagtcacaccttcgggaacgtggttgacc..........................tacacaggtgccatca 29271
+                   t gg atgtcgc   tt       aa t ac c  tc  gaac   g tga c                          taca  gg gccat a
+  KT225476.2 29479 TGGGTATGTCGCAATTT------AAACTTACCC-ATC-AGAACAATGATGATCatggcaaccctgtgtacttccttcggTACAGTGGAGCCATTA 29565
+                   99********9864444......2344444322.222.223333333333222111111111222222222333333336889999********* PP
+
+       china 29272 aattggatgacaaagatccaaatttcaaagatcaagtcatt.....ttgctgaataagcatattgacgcatacaaaacattccc.....accaac 29356
+                   aa t ga    aa  atcc aa t caa     aagt  tt     tt  tga  aa  atattga gc tacaaaac ttccc     a  aa 
+  KT225476.2 29566 AACTTGACCCAAAGAATCCCAACTACAA----TAAGTGGTTggagcTTCTTGAGCAA-AATATTGATGCCTACAAAACCTTCCCtaagaAGGAAA 29655
+                   ****999876666668999999999987....4677765543222234444544443.589*********************9733333334555 PP
+
+       china 29357 agagcctaaaaaggacaaaaagaagaa 29383
+                   aga  c aaaa g ac aaaagaagaa
+  KT225476.2 29656 AGAAAC-AAAAGGCACCAAAAGAAGAA 29681
+                   565554.45556668888888888876 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (29863 nodes)
+Target sequences:                          1  (29809 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 16.87u 1.92s 00:00:18.79 Elapsed: 00:00:18.78
+# Mc/sec: 47.38
+//
+[ok]
